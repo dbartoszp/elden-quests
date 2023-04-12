@@ -1,0 +1,82 @@
+$color-dark-green: #466748;
+$color-gold: #f2d16d;
+$color-light-brown: #b07943;
+$color-dark-green: #131b1b;
+$color-beige: #d9d2b0;
+$color-light-olive: #bcbe8c;
+$color-dark-olive: #677356;
+$color-dark-blue: #25302e;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Noto Serif", "Arial", serif;
+  font-size: 1.2rem;
+  color: $color-gold;
+  text-rendering: optimizeLegibility;
+  background-color: $color-dark-green;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url("/vendors/img/elden-ring-background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+// -----------------REUSABLE COMPONENTS-------------------
+@mixin center {
+  margin: auto;
+  margin-top: 4rem;
+  width: 75%;
+  display: block;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+// -------------------------------------------------------
+
+h1 {
+  font-weight: 400;
+}
+
+.header-text-box {
+  @include center;
+  margin-top: 7%;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-align: center;
+  padding: 3rem 1rem 3rem 1rem;
+  border: 0.1rem solid rgba($color-gold, 0.6);
+  background-color: $color-dark-blue;
+}
+
+.header-text-search {
+  @include center();
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 5rem;
+}
+
+input::placeholder {
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgba($color: $color-gold, $alpha: 0.6);
+}
+
+.header-searchbar {
+  @include center;
+  width: 30rem;
+  padding: 1rem;
+  border: 0.1rem solid rgba($color-gold, 0.6);
+
+  color: $color-gold;
+  margin-top: 1rem;
+  background-color: $color-dark-blue;
+}

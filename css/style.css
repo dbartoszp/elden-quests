@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Noto Serif", "Arial", serif;
+  font-size: 1.2rem;
+  color: #f2d16d;
+  text-rendering: optimizeLegibility;
+  background-color: #131b1b;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("/vendors/img/elden-ring-background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.header-text-box {
+  margin: auto;
+  margin-top: 4rem;
+  width: 75%;
+  display: block;
+  margin-top: 7%;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-align: center;
+  padding: 3rem 1rem 3rem 1rem;
+  border: 0.1rem solid rgba(242, 209, 109, 0.6);
+  background-color: #25302e;
+}
+
+.header-text-search {
+  margin: auto;
+  margin-top: 4rem;
+  width: 75%;
+  display: block;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 5rem;
+}
+
+input::placeholder {
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgba(242, 209, 109, 0.6);
+}
+
+.header-searchbar {
+  margin: auto;
+  margin-top: 4rem;
+  width: 75%;
+  display: block;
+  width: 30rem;
+  padding: 1rem;
+  border: 0.1rem solid rgba(242, 209, 109, 0.6);
+  color: #f2d16d;
+  margin-top: 1rem;
+  background-color: #25302e;
+}/*# sourceMappingURL=style.css.map */
