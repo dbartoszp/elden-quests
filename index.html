@@ -12,6 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script defer type="module" src="/src/index.js"></script>
 
     <title>EldenQuests</title>
@@ -21,7 +25,8 @@
       <section class="section-header">
         <div class="header-text-box">
           <h1>
-            Welcome to EldenQuests.<br />
+            <span class="header-welcome-text">Welcome to EldenQuests.</span
+            ><br />
             <br />
             Here, you can browse and search for solutions on how to complete
             quests in Elden Ring.
@@ -31,7 +36,10 @@
         <div class="header-text-search">
           <h2>Enter an NPC's name, or scroll down below to browse them.</h2>
         </div>
-        <input class="header-searchbar" "type="text" placeholder="Search..." />
+        <form class="header-searchbar-form">
+          <input class="header-searchbar" "type="text" placeholder="Search..."
+          />
+        </form>
       </section>
     </header>
   </body>

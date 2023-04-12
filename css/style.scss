@@ -1,11 +1,12 @@
 $color-dark-green: #466748;
 $color-gold: #f2d16d;
 $color-light-brown: #b07943;
+$color-dark-brown: #3d2a17;
 $color-dark-green: #131b1b;
-$color-beige: #d9d2b0;
+$color-beige: #e9e1bb;
 $color-light-olive: #bcbe8c;
 $color-dark-olive: #677356;
-$color-dark-blue: #25302e;
+$color-dark-blue: #181f1d;
 
 * {
   margin: 0;
@@ -17,11 +18,11 @@ html,
 body {
   font-family: "Noto Serif", "Arial", serif;
   font-size: 1.2rem;
-  color: $color-gold;
+  color: $color-beige;
   text-rendering: optimizeLegibility;
   background-color: $color-dark-green;
   height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
     url("/vendors/img/elden-ring-background.png");
   background-size: cover;
   background-attachment: fixed;
@@ -40,22 +41,45 @@ h2 {
   font-size: 1.2rem;
   font-weight: 400;
 }
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 // -------------------------------------------------------
+
+// -----------------HEADER-------------------
 
 h1 {
   font-weight: 400;
 }
 
+span.header-welcome-text {
+  border-bottom: 0.1rem $color-gold solid;
+  padding: 0 1rem 0.3rem 1rem;
+  animation: fade 2s linear forwards;
+}
+
 .header-text-box {
   @include center;
-  margin-top: 7%;
+  width: 40rem;
+  margin-top: 10%;
   letter-spacing: 1px;
   word-spacing: 3px;
   text-align: center;
   padding: 3rem 1rem 3rem 1rem;
   border: 0.1rem solid rgba($color-gold, 0.6);
-  background-color: $color-dark-blue;
+  border-radius: 0.4rem;
+  background-color: rgba($color-dark-blue, 0.8);
 }
+// -------------------------------------------------------
+
+// -----------------SEARCHBAR-------------------
 
 .header-text-search {
   @include center();
@@ -65,18 +89,31 @@ h1 {
 }
 
 input::placeholder {
-  text-decoration: none;
+  font-family: "Noto Serif", "Arial", serif;
   font-size: 1rem;
-  color: rgba($color: $color-gold, $alpha: 0.6);
+  text-decoration: none;
+  color: rgba($color: $color-beige, $alpha: 0.6);
 }
 
 .header-searchbar {
   @include center;
+  font-size: 1rem;
+  color: $color-gold;
   width: 30rem;
   padding: 1rem;
-  border: 0.1rem solid rgba($color-gold, 0.6);
-
-  color: $color-gold;
   margin-top: 1rem;
+  border: 0.1rem solid rgba($color-gold, 0.6);
+  border-radius: 0.4rem;
   background-color: $color-dark-blue;
+  transition: box-shadow 0.2s;
 }
+
+.header-searchbar:hover {
+  box-shadow: 0 0.3rem 1rem rgba($color: $color-light-olive, $alpha: 0.6);
+}
+
+.header-searchbar:focus {
+  outline: solid rgba($color-gold, 0.4);
+}
+
+// -------------------------------------------------------

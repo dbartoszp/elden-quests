@@ -8,11 +8,11 @@ html,
 body {
   font-family: "Noto Serif", "Arial", serif;
   font-size: 1.2rem;
-  color: #f2d16d;
+  color: #e9e1bb;
   text-rendering: optimizeLegibility;
   background-color: #131b1b;
   height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("/vendors/img/elden-ring-background.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url("/vendors/img/elden-ring-background.png");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -23,8 +23,22 @@ h2 {
   font-weight: 400;
 }
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 h1 {
   font-weight: 400;
+}
+
+span.header-welcome-text {
+  border-bottom: 0.1rem #f2d16d solid;
+  padding: 0 1rem 0.3rem 1rem;
+  animation: fade 2s linear forwards;
 }
 
 .header-text-box {
@@ -32,13 +46,15 @@ h1 {
   margin-top: 4rem;
   width: 75%;
   display: block;
-  margin-top: 7%;
+  width: 40rem;
+  margin-top: 10%;
   letter-spacing: 1px;
   word-spacing: 3px;
   text-align: center;
   padding: 3rem 1rem 3rem 1rem;
   border: 0.1rem solid rgba(242, 209, 109, 0.6);
-  background-color: #25302e;
+  border-radius: 0.4rem;
+  background-color: rgba(24, 31, 29, 0.8);
 }
 
 .header-text-search {
@@ -52,9 +68,10 @@ h1 {
 }
 
 input::placeholder {
-  text-decoration: none;
+  font-family: "Noto Serif", "Arial", serif;
   font-size: 1rem;
-  color: rgba(242, 209, 109, 0.6);
+  text-decoration: none;
+  color: rgba(233, 225, 187, 0.6);
 }
 
 .header-searchbar {
@@ -62,10 +79,21 @@ input::placeholder {
   margin-top: 4rem;
   width: 75%;
   display: block;
+  font-size: 1rem;
+  color: #f2d16d;
   width: 30rem;
   padding: 1rem;
-  border: 0.1rem solid rgba(242, 209, 109, 0.6);
-  color: #f2d16d;
   margin-top: 1rem;
-  background-color: #25302e;
+  border: 0.1rem solid rgba(242, 209, 109, 0.6);
+  border-radius: 0.4rem;
+  background-color: #181f1d;
+  transition: box-shadow 0.2s;
+}
+
+.header-searchbar:hover {
+  box-shadow: 0 0.3rem 1rem rgba(188, 190, 140, 0.6);
+}
+
+.header-searchbar:focus {
+  outline: solid rgba(242, 209, 109, 0.4);
 }/*# sourceMappingURL=style.css.map */
