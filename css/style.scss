@@ -32,9 +32,14 @@ body {
 // -----------------REUSABLE COMPONENTS-------------------
 @mixin center {
   margin: auto;
-  margin-top: 4rem;
   width: 75%;
   display: block;
+}
+
+@mixin container-style {
+  border: 0.1rem solid rgba($color-gold, 0.6);
+  border-radius: 0.4rem;
+  background-color: rgba($color-dark-blue, 0.8);
 }
 
 h2 {
@@ -51,7 +56,9 @@ h2 {
   }
 }
 
-// -------------------------------------------------------
+section {
+  padding: 5.3rem;
+}
 
 // -----------------HEADER-------------------
 
@@ -67,24 +74,20 @@ span.header-welcome-text {
 
 .header-text-box {
   @include center;
+  @include container-style;
   width: 40rem;
-  margin-top: 10%;
   letter-spacing: 1px;
   word-spacing: 3px;
   text-align: center;
   padding: 3rem 1rem 3rem 1rem;
-  border: 0.1rem solid rgba($color-gold, 0.6);
-  border-radius: 0.4rem;
-  background-color: rgba($color-dark-blue, 0.8);
 }
-// -------------------------------------------------------
 
 // -----------------SEARCHBAR-------------------
 
 .header-text-search {
   @include center();
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   margin-top: 5rem;
 }
 
@@ -97,14 +100,12 @@ input::placeholder {
 
 .header-searchbar {
   @include center;
+  @include container-style;
   font-size: 1rem;
   color: $color-gold;
   width: 30rem;
   padding: 1rem;
   margin-top: 1rem;
-  border: 0.1rem solid rgba($color-gold, 0.6);
-  border-radius: 0.4rem;
-  background-color: $color-dark-blue;
   transition: box-shadow 0.2s;
 }
 
@@ -116,4 +117,40 @@ input::placeholder {
   outline: solid rgba($color-gold, 0.4);
 }
 
-// -------------------------------------------------------
+// -----------------NPC-TABLE-------------------
+.npcs-table-container {
+  @include container-style();
+  padding: 2rem;
+}
+
+.npc-container {
+  // border: solid $color-gold;
+  height: 20rem;
+  margin: 1rem;
+  position: relative;
+}
+.npc-container img {
+  @include center();
+  width: 70%;
+  padding: 1rem;
+  border-radius: 1.6rem;
+}
+
+.npc-container a {
+  border-bottom: 0.1rem $color-gold solid;
+  padding: 0 1rem 0.3rem 1rem;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.column-1-of-3 {
+  float: left;
+  width: 33.3%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
