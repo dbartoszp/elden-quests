@@ -1,0 +1,22 @@
+{
+  "name": "elden-quests",
+  "version": "1.0.0",
+  "description": "A webproject helping players with quests in Elden Ring.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbartoszp/elden-quests.git"
+  },
+  "author": "Bartosz Pomierny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbartoszp/elden-quests/issues"
+  },
+  "homepage": "https://github.com/dbartoszp/elden-quests#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
