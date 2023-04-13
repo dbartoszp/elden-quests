@@ -83,7 +83,7 @@ input::placeholder {
   border-radius: 0.4rem;
   background-color: rgba(24, 31, 29, 0.8);
   font-size: 1rem;
-  color: #f2d16d;
+  color: #bcbe8c;
   width: 30rem;
   padding: 1rem;
   margin-top: 1rem;
@@ -108,6 +108,7 @@ input::placeholder {
 .npc-container {
   height: 20rem;
   margin: 1rem;
+  margin-bottom: 2rem;
   position: relative;
 }
 
@@ -115,18 +116,41 @@ input::placeholder {
   margin: auto;
   width: 75%;
   display: block;
-  width: 70%;
+  width: 75%;
+  height: 90%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
   padding: 1rem;
   border-radius: 1.6rem;
 }
 
 .npc-container a {
-  border-bottom: 0.1rem #f2d16d solid;
-  padding: 0 1rem 0.3rem 1rem;
+  color: #e9e1bb;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 0.7rem;
+  margin-top: 1rem;
   position: absolute;
   width: 100%;
+  bottom: 0.05rem;
+}
+
+.npc-container a:hover {
+  scale: 1.1;
+  filter: brightness(120%);
+  transition: scale 0.1s, filter 0.1s;
+}
+
+.npc-container:after {
+  content: "";
+  position: absolute;
   bottom: 0;
-  text-align: center;
+  left: 50%;
+  width: 50%;
+  transform: translateX(-50%);
+  height: 1px;
+  border-bottom: 0.1rem #f2d16d solid;
 }
 
 .column-1-of-3 {

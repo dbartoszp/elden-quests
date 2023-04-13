@@ -102,7 +102,7 @@ input::placeholder {
   @include center;
   @include container-style;
   font-size: 1rem;
-  color: $color-gold;
+  color: $color-light-olive;
   width: 30rem;
   padding: 1rem;
   margin-top: 1rem;
@@ -127,22 +127,47 @@ input::placeholder {
   // border: solid $color-gold;
   height: 20rem;
   margin: 1rem;
+  margin-bottom: 2rem;
   position: relative;
 }
 .npc-container img {
   @include center();
-  width: 70%;
+  width: 75%;
+  height: 90%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
   padding: 1rem;
   border-radius: 1.6rem;
 }
 
 .npc-container a {
-  border-bottom: 0.1rem $color-gold solid;
-  padding: 0 1rem 0.3rem 1rem;
+  // border-bottom: 0.1rem $color-gold solid;
+  color: $color-beige;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 0.7rem;
+  margin-top: 1rem;
   position: absolute;
   width: 100%;
+  bottom: 0.05rem;
+}
+
+.npc-container a:hover {
+  scale: 1.1;
+  filter: brightness(120%);
+  transition: scale 0.1s, filter 0.1s;
+}
+
+.npc-container:after {
+  content: "";
+  position: absolute;
   bottom: 0;
-  text-align: center;
+  left: 50%;
+  width: 50%;
+  transform: translateX(-50%);
+  height: 1px;
+  border-bottom: 0.1rem $color-gold solid;
 }
 
 .column-1-of-3 {
