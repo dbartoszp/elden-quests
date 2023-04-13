@@ -1,3 +1,11 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -18,14 +26,6 @@ body {
   background-position: center;
 }
 
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 h2 {
   font-size: 1.4rem;
   font-weight: 400;
@@ -177,9 +177,8 @@ input::placeholder {
   background-size: cover;
   background-position: center;
   background-clip: content-box;
-  mask-image: url("/vendors/img/limgrave-background.png");
+  mask-image: none;
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/limgrave-background.png");
   border-bottom: 1px solid;
   border-top: 1px solid;
   border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
@@ -191,6 +190,18 @@ input::placeholder {
   text-align: center;
   text-transform: uppercase;
   padding: 1.2rem;
+}
+
+#region-limgrave {
+  mask-image: url("/vendors/img/limgrave-background.png");
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/limgrave-background.png");
+}
+
+#region-roundtable-hold {
+  mask-image: url("/vendors/img/roundtable-hold-background.png");
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/roundtable-hold-background.png");
 }
 
 .npc-container {
