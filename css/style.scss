@@ -66,6 +66,16 @@ section {
   color: $color-beige;
 }
 
+.column-1-of-3 {
+  float: left;
+  width: 33.3%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 // -----------------HEADER-------------------
 
 h1 {
@@ -223,15 +233,21 @@ input::placeholder {
 
 .npc-container {
   height: 20rem;
-  margin: 1rem;
   margin-bottom: 2rem;
   position: relative;
+  // border: solid 1px $color-beige; //testing purposes
 }
+
+// @mixin center {
+//   margin: auto;
+//   width: 75%;
+//   display: block;
+// }
+
 .npc-container img {
   @include center();
   padding: 1rem;
-  width: 75%;
-  height: 90%;
+  height: 85%;
   aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: 1.6rem;
@@ -266,16 +282,6 @@ input::placeholder {
   border-bottom: 0.1rem $color-gold solid;
 }
 
-.column-1-of-3 {
-  float: left;
-  width: 33.3%;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 // -----------------FOOTER-------------------
 .section-footer {
   color: $color-dark-olive;
@@ -285,4 +291,10 @@ input::placeholder {
   padding-bottom: 3rem;
   background: linear-gradient($color-dark-blue, $color-dark-green);
   border-top: solid 1px rgba($color-gold, 0.6);
+
+  .text-link {
+    color: $color-dark-olive;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
 }
