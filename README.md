@@ -1,5 +1,4 @@
-# elden-quests
-hobby project for Elden Ring quests
+# Elden-Quests
 
 Passion project for Elden Ring, mostly done for fun but also in order to learn some more web development.
 
