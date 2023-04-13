@@ -44,6 +44,7 @@ section {
 .column-1-of-3 {
   float: left;
   width: 33.3%;
+  flex-basis: 33.3%;
 }
 
 .row:after {
@@ -251,4 +252,47 @@ input::placeholder {
   color: #677356;
   font-size: 1.2rem;
   text-decoration: none;
+}
+
+@media all and (max-width: 770px) {
+  * {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  .column-1-of-3 {
+    width: auto;
+    float: none;
+  }
+  span.header-welcome-text {
+    display: flex;
+    justify-content: center;
+  }
+  .btn-sidebar {
+    display: none;
+  }
+  .npcs-table-container {
+    max-width: 100%;
+    width: 100%;
+  }
+  section {
+    padding: 2rem;
+  }
+  .npc-container a:hover {
+    scale: 1;
+  }
+  .npcs-table-region-name h2 {
+    font-size: 1.8rem;
+  }
+  .npcs-table-region-name {
+    width: 90%;
+  }
+}
+@media all and (max-width: 1025px) {
+  * {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 }/*# sourceMappingURL=style.css.map */
