@@ -118,13 +118,60 @@ input::placeholder {
 }
 
 // -----------------NPC-TABLE-------------------
+
 .npcs-table-container {
   @include container-style();
   padding: 2rem;
 }
 
+.npcs-table-region-name {
+  @include center();
+  width: 50%;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-clip: content-box;
+
+  mask-image: url("/vendors/img/limgrave-background.png");
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  background-image: linear-gradient(
+      to left,
+      rgba($color-dark-blue, 0.8),
+      rgba($color-dark-blue, 0.6),
+      rgba($color-dark-blue, 0.8)
+    ),
+    url("/vendors/img/limgrave-background.png");
+
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba($color: $color-gold, $alpha: 0.7) 25%,
+      rgba($color: $color-gold, $alpha: 0.7) 50%,
+      rgba(0, 0, 0, 0) 100%
+    )
+    30;
+}
+
+.npcs-table-region-name h2 {
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
 .npc-container {
-  // border: solid $color-gold;
   height: 20rem;
   margin: 1rem;
   margin-bottom: 2rem;
@@ -132,16 +179,16 @@ input::placeholder {
 }
 .npc-container img {
   @include center();
+  padding: 1rem;
   width: 75%;
   height: 90%;
   aspect-ratio: 1/1;
   object-fit: cover;
-  padding: 1rem;
   border-radius: 1.6rem;
+  filter: brightness(90%);
 }
 
-.npc-container a {
-  // border-bottom: 0.1rem $color-gold solid;
+.npc-container .text-link {
   color: $color-beige;
   text-align: center;
   text-decoration: none;
@@ -155,7 +202,7 @@ input::placeholder {
 
 .npc-container a:hover {
   scale: 1.1;
-  filter: brightness(120%);
+  filter: brightness(115%);
   transition: scale 0.1s, filter 0.1s;
 }
 
