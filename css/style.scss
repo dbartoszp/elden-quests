@@ -226,3 +226,13 @@ input::placeholder {
   display: table;
   clear: both;
 }
+
+// -----------------FOOTER-------------------
+.section-footer {
+  color: $color-dark-olive;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 2rem;
+  background: linear-gradient($color-dark-blue, $color-dark-green);
+  border-top: solid 1px rgba($color-gold, 0.6);
+}
