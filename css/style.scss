@@ -1,46 +1,5 @@
-$color-dark-green: #466748;
-$color-gold: #f2d16d;
-$color-light-brown: #b07943;
-$color-dark-brown: #3d2a17;
-$color-dark-green: #131b1b;
-$color-beige: #e9e1bb;
-$color-light-olive: #bcbe8c;
-$color-dark-olive: #677356;
-$color-dark-blue: #181f1d;
-
-$url-elden-ring: "/vendors/img/elden-ring-background.png";
-$url-limgrave: "/vendors/img/limgrave-background.png";
-$url-roundtable-hold: "/vendors/img/roundtable-hold-background.png";
-
-@mixin center {
-  margin: auto;
-  width: 75%;
-  display: block;
-}
-
-@mixin container-style {
-  border: 0.1rem solid rgba($color-gold, 0.6);
-  border-radius: 0.4rem;
-  background-color: rgba($color-dark-blue, 0.8);
-}
-
-@mixin name-background($url) {
-  mask-image: url($url);
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    black 10%,
-    black 90%,
-    transparent 100%
-  );
-  background-image: linear-gradient(
-      to left,
-      rgba($color-dark-blue, 0.8),
-      rgba($color-dark-blue, 0.6),
-      rgba($color-dark-blue, 0.8)
-    ),
-    url($url);
-}
+@import "utils/variables.scss";
+@import "utils/mixins.scss";
 
 @keyframes fade-in {
   0% {
@@ -247,12 +206,44 @@ input::placeholder {
   padding: 1.2rem;
 }
 
+#region-atlus-plateau {
+  @include name-background($url-atlus-plateau);
+}
+#region-caelid {
+  @include name-background($url-caelid);
+}
+#region-consecrated-snowfield {
+  @include name-background($url-consecrated-snowfield);
+}
+#region-farum-azula {
+  @include name-background($url-farum-azula);
+}
+#region-forbidden-lands {
+  @include name-background($url-forbidden-lands);
+}
+#region-leyndell {
+  @include name-background($url-leyndell);
+}
 #region-limgrave {
   @include name-background($url-limgrave);
 }
-
+#region-liurnia {
+  @include name-background($url-liurnia);
+}
+#region-mountaintop {
+  @include name-background($url-mountaintop);
+}
+#region-mt-gelmir {
+  @include name-background($url-mt-gelmir);
+}
 #region-roundtable-hold {
   @include name-background($url-roundtable-hold);
+}
+#region-underground {
+  @include name-background($url-underground);
+}
+#region-weeping-peninsula {
+  @include name-background($url-weeping-peninsula);
 }
 
 .npc-container {
