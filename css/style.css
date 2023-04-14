@@ -20,10 +20,11 @@ body {
   text-rendering: optimizeLegibility;
   background-color: #131b1b;
   height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url("/vendors/img/elden-ring-background.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url("/vendors/img/bgs/elden-ring-background.png");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  scroll-behavior: smooth;
 }
 
 h2 {
@@ -170,7 +171,7 @@ input::placeholder {
   margin: auto;
   width: 75%;
   display: block;
-  width: 90%;
+  width: 95%;
   margin-bottom: 3rem;
   margin-top: 1rem;
   background-repeat: no-repeat;
@@ -193,81 +194,81 @@ input::placeholder {
 }
 
 #region-atlus-plateau {
-  mask-image: url("/vendors/img/atlus-plateau-background.png");
+  mask-image: url("/vendors/img/bgs/atlus-plateau-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/atlus-plateau-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/atlus-plateau-background.png");
 }
 
 #region-caelid {
-  mask-image: url("/vendors/img/caelid-background.png");
+  mask-image: url("/vendors/img/bgs/caelid-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/caelid-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/caelid-background.png");
 }
 
 #region-consecrated-snowfield {
-  mask-image: url("/vendors/img/consecrated-snowfield-background.png");
+  mask-image: url("/vendors/img/bgs/consecrated-snowfield-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/consecrated-snowfield-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/consecrated-snowfield-background.png");
 }
 
 #region-farum-azula {
-  mask-image: url("/vendors/img/farum-azula-background.png");
+  mask-image: url("/vendors/img/bgs/farum-azula-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/farum-azula-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/farum-azula-background.png");
 }
 
 #region-forbidden-lands {
-  mask-image: url("/vendors/img/forbidden-lands-background.png");
+  mask-image: url("/vendors/img/bgs/forbidden-lands-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/forbidden-lands-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/forbidden-lands-background.png");
 }
 
 #region-leyndell {
-  mask-image: url("/vendors/img/leyndell-background.png");
+  mask-image: url("/vendors/img/bgs/leyndell-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/leyndell-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/leyndell-background.png");
 }
 
 #region-limgrave {
-  mask-image: url("/vendors/img/limgrave-background.png");
+  mask-image: url("/vendors/img/bgs/limgrave-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/limgrave-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/limgrave-background.png");
 }
 
 #region-liurnia {
-  mask-image: url("/vendors/img/liurnia-background.png");
+  mask-image: url("/vendors/img/bgs/liurnia-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/liurnia-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/liurnia-background.png");
 }
 
 #region-mountaintop {
-  mask-image: url("/vendors/img/mountaintop-of-the-giants-background.png");
+  mask-image: url("/vendors/img/bgs/mountaintop-of-the-giants-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/mountaintop-of-the-giants-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/mountaintop-of-the-giants-background.png");
 }
 
 #region-mt-gelmir {
-  mask-image: url("/vendors/img/mt-gelmir-background.png");
+  mask-image: url("/vendors/img/bgs/mt-gelmir-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/mt-gelmir-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/mt-gelmir-background.png");
 }
 
 #region-roundtable-hold {
-  mask-image: url("/vendors/img/roundtable-hold-background.png");
+  mask-image: url("/vendors/img/bgs/roundtable-hold-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/roundtable-hold-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/roundtable-hold-background.png");
 }
 
 #region-underground {
-  mask-image: url("/vendors/img/underground-background.png");
+  mask-image: url("/vendors/img/bgs/underground-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/underground-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/underground-background.png");
 }
 
 #region-weeping-peninsula {
-  mask-image: url("/vendors/img/weeping-peninsula-background.png");
+  mask-image: url("/vendors/img/bgs/weeping-peninsula-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/weeping-peninsula-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/weeping-peninsula-background.png");
 }
 
 .npc-container {
