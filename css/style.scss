@@ -258,6 +258,7 @@ input::placeholder {
   height: 85%;
   aspect-ratio: 1/1;
   object-fit: cover;
+  object-position: top;
   border-radius: 1.6rem;
   filter: brightness(90%);
 }
@@ -274,9 +275,8 @@ input::placeholder {
 }
 
 .npc-container a:hover {
-  scale: 1.1;
   filter: brightness(115%);
-  transition: scale 0.1s, filter 0.1s;
+  transition: filter 0.1s;
 }
 
 .npc-container:after {

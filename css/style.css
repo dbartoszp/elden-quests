@@ -247,9 +247,9 @@ input::placeholder {
 }
 
 #region-mt-gelmir {
-  mask-image: url("/vendors/img/mt-gelmi-background.png");
+  mask-image: url("/vendors/img/mt-gelmir-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/mt-gelmi-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/mt-gelmir-background.png");
 }
 
 #region-roundtable-hold {
@@ -284,6 +284,7 @@ input::placeholder {
   height: 85%;
   aspect-ratio: 1/1;
   object-fit: cover;
+  object-position: top;
   border-radius: 1.6rem;
   filter: brightness(90%);
 }
@@ -300,9 +301,8 @@ input::placeholder {
 }
 
 .npc-container a:hover {
-  scale: 1.1;
   filter: brightness(115%);
-  transition: scale 0.1s, filter 0.1s;
+  transition: filter 0.1s;
 }
 
 .npc-container:after {
