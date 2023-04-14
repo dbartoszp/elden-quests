@@ -169,7 +169,7 @@ input::placeholder {
 
 .npcs-table-region-name {
   @include center();
-  width: 50%;
+  width: 90%;
   margin-bottom: 3rem;
   margin-top: 1rem;
 
@@ -185,7 +185,6 @@ input::placeholder {
     black 90%,
     transparent 100%
   );
-
   border-bottom: 1px solid;
   border-top: 1px solid;
   border-image: linear-gradient(
