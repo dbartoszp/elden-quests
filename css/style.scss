@@ -43,6 +43,16 @@ section {
   padding: 5.3rem;
 }
 
+img {
+  @include center();
+  padding: 1rem;
+  height: 85%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 1.6rem;
+}
+
 .text-link {
   font-size: 1.3rem;
   text-decoration: none;
@@ -53,6 +63,12 @@ section {
   float: left;
   width: 33.3%;
   flex-basis: 33.3%;
+}
+
+.column-1-of-2 {
+  float: left;
+  width: 47%;
+  flex-basis: 47%;
 }
 
 .row:after {
@@ -170,6 +186,8 @@ input::placeholder {
 
 .npcs-table-region-name {
   @include center();
+  @include border-top-bottom;
+
   width: 95%;
   margin-bottom: 3rem;
   margin-top: 1rem;
@@ -186,16 +204,6 @@ input::placeholder {
     black 90%,
     transparent 100%
   );
-  border-bottom: 1px solid;
-  border-top: 1px solid;
-  border-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0),
-      rgba($color: $color-gold, $alpha: 0.7) 25%,
-      rgba($color: $color-gold, $alpha: 0.7) 50%,
-      rgba(0, 0, 0, 0) 100%
-    )
-    30;
 }
 
 .npcs-table-region-name h2 {
@@ -252,14 +260,8 @@ input::placeholder {
   position: relative;
 }
 
-.npc-container img {
-  @include center();
-  padding: 1rem;
-  height: 85%;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 1.6rem;
+.npc-container img,
+.npc-info-img {
   filter: brightness(90%);
 }
 
@@ -304,6 +306,71 @@ input::placeholder {
     color: $color-dark-olive;
     font-size: 1.2rem;
     text-decoration: none;
+  }
+}
+// -----------------NPC-PAGE-------------------
+
+// -----------------NPC-INFO-------------------
+.npc-info-container {
+  @include center;
+  @include container-style;
+  width: 95%;
+  padding: 5rem;
+  h2 {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  h3 {
+    color: rgba($color: $color-beige, $alpha: 0.7);
+    font-weight: 400;
+    text-align: center;
+  }
+  .column-1-of-2 {
+    @include container-style;
+    margin-top: 3rem;
+    padding: 1rem;
+    &:first-child {
+      float: left;
+    }
+    &:last-child {
+      float: right;
+    }
+  }
+}
+
+.npc-info-name {
+  text-align: center;
+  padding: 1.5rem;
+  @include border-top-bottom;
+}
+
+.table-of-contents {
+  padding: 0.2rem;
+  line-height: 2.3rem;
+
+  h2 {
+    text-transform: uppercase;
+  }
+}
+
+.npc-info-general {
+  text-align: center;
+  line-height: 2.3rem;
+}
+
+.npc-info-main {
+  margin-top: 5rem;
+  @include border-top-bottom;
+  h2 {
+    padding: 1rem;
+    text-transform: uppercase;
+  }
+  h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  img {
+    height: 35rem;
   }
 }
 
