@@ -136,6 +136,31 @@ input::placeholder {
   outline: solid rgba(242, 209, 109, 0.4);
 }
 
+.npc-search-results-container {
+  border: 0.1rem solid rgba(242, 209, 109, 0.6);
+  border-radius: 0.4rem;
+  background-color: rgba(24, 31, 29, 0.8);
+  margin: auto;
+  width: 75%;
+  display: block;
+  width: 35rem;
+}
+.npc-search-results-container ul {
+  cursor: pointer;
+}
+.npc-search-results-container ul li {
+  list-style: none;
+  padding-left: 1rem;
+  padding: 0.7rem;
+}
+.npc-search-results-container ul li a {
+  color: #e9e1bb;
+  text-decoration: none;
+}
+.npc-search-results-container ul li:hover {
+  background-color: rgba(91, 117, 110, 0.3);
+}
+
 .region-sidebar {
   position: fixed;
   top: 0;

@@ -134,6 +134,31 @@ input::placeholder {
   outline: solid rgba($color-gold, 0.4);
 }
 
+.npc-search-results-container {
+  @include container-style;
+  @include center;
+  width: 35rem;
+  ul {
+    cursor: pointer;
+
+    li {
+      a {
+        color: $color-beige;
+        text-decoration: none;
+      }
+      list-style: none;
+      padding-left: 1rem;
+      padding: 0.7rem;
+      &:hover {
+        background-color: lighten(
+          $color: rgba($color-dark-blue, 0.3),
+          $amount: 30%
+        );
+      }
+    }
+  }
+}
+
 // -----------------REGION-SIDEBAR-------------------
 
 .region-sidebar {
