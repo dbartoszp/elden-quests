@@ -18,21 +18,3 @@ close.onclick = () => {
 	close.style.display = 'none';
 	open.style.display = 'block';
 };
-
-const fetchCorhyn = async () => {
-	try {
-		const response = await fetch('npc-data.json');
-		const data = await response.json();
-		markup = `<h1>hello :)</h1>`;
-		data.questline2.forEach((e, i) => {
-			markup += `<h3>${i + 1}. ${e.step}\n${e.description}</h3>`;
-			console.log(`${i + 1}. ${e.step}\n${e.description}`);
-		});
-		console.log(markup);
-		searchInput.insertAdjacentHTML('beforebegin', markup);
-	} catch (err) {
-		console.log(err);
-	}
-};
-
-fetchCorhyn();
