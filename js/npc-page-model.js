@@ -16,7 +16,7 @@ const fetchNPC = async (name) => {
 	try {
 		const response = await fetch('npc-data.json');
 		const npc = await response.json();
-		return npc.find((el) => el.id === name);
+		return npc.find((el) => el.id === name); //TODO: not found the npc
 	} catch (err) {
 		console.log(err);
 	}
@@ -40,7 +40,9 @@ const generateMarkup = (npc, where) => {
 			{
 				markup = `<h2>Table of contents</h2>`;
 				npc.questline.forEach((el, i) => {
-					markup += `${i + 1}. ${el.step}</br>`;
+					markup += `<a href="#${el.step}">${i + 1}. ${
+						el.step
+					}</a></br>`;
 				});
 				// <!-- <h2>Table of contents</h2> -->
 				// 			<!-- 1. steps to complete quest<br />
@@ -51,9 +53,9 @@ const generateMarkup = (npc, where) => {
 			break;
 		case 'general':
 			{
-				markup = `<img class="npc-info-img" src="${npc.mainImage}"/>${
-					npc.mainName
-				}</br>First encounter: ${
+				markup = `<img class="npc-info-img" src="${
+					npc.mainImage
+				}"/><span>${npc.mainName}</span></br>First encounter: ${
 					npc.firstAppearance
 				}</br>Found later in: ${npc.questLocations.join(', ')}`;
 				// <!-- <img
@@ -68,7 +70,15 @@ const generateMarkup = (npc, where) => {
 			let tmp;
 			markup = `<h2>${npc.mainName}'s questline step by step</h2>`;
 			npc.questline.forEach((el, i) => {
-				markup += `<h3>${i + 1}. ${el.description}</h3>`;
+				markup += `<h3 id="${el.step}"><span>${i + 1}. ${
+					el.step
+				}</span></br> ${el.description}
+                ${
+					el.mapLink
+						? `</br><a href="${el.mapLink}" target="_blank" rel="noopener noreferrer">[Fextralife map link]</a></h3>`
+						: ``
+				}
+                    `;
 			});
 			// <h2>npcs questline step by step</h2>
 			// 		<h3>
@@ -98,7 +108,7 @@ const generateMarkup = (npc, where) => {
 };
 
 const npcFetched = await fetchNPC(npcName);
-console.log(npcName);
+
 const titleMarkup = generateMarkup(npcFetched, 'title');
 const tableMarkup = generateMarkup(npcFetched, 'table');
 const generalMarkup = generateMarkup(npcFetched, 'general');

@@ -62,7 +62,8 @@
 			{
 				"step": "First encounter at Atlus Plateau",
 				"description": "As soon as you reach Atlus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Atlus Plateau after resting.",
-				"images": []
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
 			},
 			{
 				"step": "Finding the Goldmask",
@@ -72,12 +73,14 @@
 			{
 				"step": "The riddle",
 				"description": "In order to progress this questline, you need to obtain at least two Great Runes and have access to Leyndell. Both Goldmask and Corhyn will move to Leyndell, and can be found on a cliff up west of the colosseum. You need to exhaust Corhyn's dialogue. IMPORTANT: You need to solve this riddle before burning the Erdtree at Forge of the Giants - otherwise, Corhyn will vanish and leave behind his bell bearing, and Goldmask will not be present. The solution is as follows: First, you need to travel west of the Erdtree Sanctuary site of grace, down an elevator and a set of stairs. A white message on the ground facing the statue mentions 'Regression'. You must stand on the message, facing the statue, and cast the Law of Regression incantation to solve the riddle. Touch the new message that appears, and report the secret to Goldmask and then exhaust Corhyn's dialogue. ",
-				"images": []
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
 			},
 			{
 				"step": "Stargazer's Ruins",
 				"description": "After leaving Goldmask and Brother Corhyn (reloading the area will not work), they will move to the bridge south of Stargazer's Ruins right above the Ancient Snow Valley Ruins site of grace. You might give Corhyn Tonic of Forgetfulness, but he will refuse the potion. It will change the final outcome of the questline.",
-				"images": []
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6136&lat=-70.273101&lng=156.515579&zoom=8&code=mapA"
 			},
 			{
 				"step": "Post Farum-Azula - Goldmask ending",
@@ -87,7 +90,8 @@
 			{
 				"step": "Post Farum-Azula - Corhyn ending",
 				"description": "Corhyn can be found in on of the possible two locations: First location - he should be at the base of the giant spiral spear. After you exhaust his dialogue and reload the area, you can find a Flail, Corhyn's Bell Bearing and his robe where he was sitting. Second possible location: if you offered him the Tonic of Forgetfulness, he will remain at the bridge south of the Stargazers' Ruins where you last saw him. Talk to him; he'll be unaware of Goldmask's absence. Reload the area and then collect all three of the above items where he was. If you don't complete the questline, you can find his bell bearing and robe ona cliff west of the colosseum in the Ashen Capital.",
-				"images": []
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=7716&lat=-104&lng=116&zoom=8&code=mapC"
 			}
 		]
 	}

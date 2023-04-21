@@ -44,6 +44,10 @@ section {
   padding: 5.3rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   margin: auto;
   width: 75%;
@@ -401,7 +405,7 @@ input::placeholder {
   border: 0.1rem solid rgba(242, 209, 109, 0.6);
   border-radius: 0.4rem;
   background-color: rgba(24, 31, 29, 0.8);
-  width: 95%;
+  width: 75%;
   padding: 5rem;
 }
 .npc-info-container h2 {
@@ -426,9 +430,17 @@ input::placeholder {
 .npc-info-container .column-1-of-2:last-child {
   float: right;
 }
+.npc-info-container a {
+  color: rgba(242, 209, 109, 0.7);
+}
+.npc-info-container a:hover {
+  filter: brightness(170%);
+}
 
 .npc-info-name {
+  letter-spacing: 0.3rem;
   text-align: center;
+  background: linear-gradient(to right, rgba(24, 31, 29, 0.1), #181f1d, rgba(24, 31, 29, 0.1));
   padding: 1.5rem;
   border-bottom: 1px solid;
   border-top: 1px solid;
@@ -440,35 +452,51 @@ input::placeholder {
 }
 
 .table-of-contents {
-  padding: 0.2rem;
   line-height: 2.3rem;
 }
 .table-of-contents h2 {
+  padding-top: 0;
   text-transform: uppercase;
 }
 
 .npc-info-general {
   text-align: center;
   line-height: 2.3rem;
+  color: rgba(233, 225, 187, 0.8);
+}
+.npc-info-general span {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #e9e1bb;
 }
 
 .npc-info-main {
-  margin-top: 5rem;
   border-bottom: 1px solid;
   border-top: 1px solid;
   -o-border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
      border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
+  margin: 5rem;
 }
 .npc-info-main h2 {
+  letter-spacing: 0.1rem;
   padding: 1rem;
   text-transform: uppercase;
 }
 .npc-info-main h3 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  border-top: none;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 1rem;
+}
+.npc-info-main h3:nth-child(odd) {
+  color: rgba(233, 225, 187, 0.9);
 }
 .npc-info-main img {
   height: 35rem;
+}
+.npc-info-main span {
+  text-transform: uppercase;
+  font-size: 1.2rem;
 }
 
 @media all and (max-width: 770px) {
@@ -479,7 +507,8 @@ input::placeholder {
   h1 {
     font-size: 1.2rem;
   }
-  .column-1-of-3 {
+  .column-1-of-3,
+.column-1-of-2 {
     width: auto;
     float: none;
   }
@@ -506,6 +535,15 @@ input::placeholder {
   .npcs-table-region-name {
     width: 90%;
   }
+  .table-of-contents {
+    width: 60rem;
+  }
+  .npc-info-main {
+    margin: auto;
+    width: 75%;
+    display: block;
+    width: 60rem;
+  }
 }
 @media all and (max-width: 1025px) {
   * {
@@ -516,6 +554,15 @@ input::placeholder {
     font-size: 1.8rem;
   }
   .npcs-table-region-name {
+    width: 90%;
+  }
+  .npc-info-container {
+    width: 95%;
+  }
+  .npc-info-main {
+    margin: auto;
+    width: 75%;
+    display: block;
     width: 90%;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -42,7 +42,9 @@ h2 {
 section {
 	padding: 5.3rem;
 }
-
+a {
+	text-decoration: none;
+}
 img {
 	@include center();
 	padding: 1rem;
@@ -76,6 +78,7 @@ img {
 	display: table;
 	clear: both;
 }
+
 // -----------------HEADER-------------------
 
 h1 {
@@ -336,12 +339,12 @@ input::placeholder {
 // -----------------NPC-PAGE-------------------
 
 // -----------------NPC-INFO-------------------
+
 .npc-info-container {
 	@include center;
 	@include container-style;
-	width: 95%;
+	width: 75%;
 	padding: 5rem;
-
 	h2 {
 		padding-top: 1rem;
 		text-align: center;
@@ -362,10 +365,24 @@ input::placeholder {
 			float: right;
 		}
 	}
+	a {
+		color: rgba($color-gold, 0.7);
+	}
+	a:hover {
+		filter: brightness(170%);
+	}
 }
 
 .npc-info-name {
+	letter-spacing: 0.3rem;
+
 	text-align: center;
+	background: linear-gradient(
+		to right,
+		rgba($color-dark-blue, 0.1),
+		rgba($color-dark-blue, 1),
+		rgba($color-dark-blue, 0.1)
+	);
 	padding: 1.5rem;
 	@include border-top-bottom;
 	h1 {
@@ -374,10 +391,9 @@ input::placeholder {
 }
 
 .table-of-contents {
-	padding: 0.2rem;
 	line-height: 2.3rem;
-
 	h2 {
+		padding-top: 0;
 		text-transform: uppercase;
 	}
 }
@@ -385,21 +401,38 @@ input::placeholder {
 .npc-info-general {
 	text-align: center;
 	line-height: 2.3rem;
+	color: rgba($color: $color-beige, $alpha: 0.8);
+	span {
+		font-size: 1.3rem;
+		text-transform: uppercase;
+		color: $color-beige;
+	}
 }
 
 .npc-info-main {
-	margin-top: 5rem;
 	@include border-top-bottom;
+	margin: 5rem;
+
 	h2 {
+		letter-spacing: 0.1rem;
 		padding: 1rem;
 		text-transform: uppercase;
 	}
 	h3 {
-		margin-top: 1rem;
-		margin-bottom: 1rem;
+		border-top: none;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+		padding-bottom: 1rem;
+		&:nth-child(odd) {
+			color: rgba($color: $color-beige, $alpha: 0.9);
+		}
 	}
 	img {
 		height: 35rem;
+	}
+	span {
+		text-transform: uppercase;
+		font-size: 1.2rem;
 	}
 }
 
@@ -415,7 +448,8 @@ input::placeholder {
 		font-size: 1.2rem;
 	}
 
-	.column-1-of-3 {
+	.column-1-of-3,
+	.column-1-of-2 {
 		width: auto;
 		float: none;
 	}
@@ -447,6 +481,13 @@ input::placeholder {
 	.npcs-table-region-name {
 		width: 90%;
 	}
+	.table-of-contents {
+		width: 60rem;
+	}
+	.npc-info-main {
+		@include center;
+		width: 60rem;
+	}
 }
 //for small screens
 @media all and (max-width: 1025px) {
@@ -458,6 +499,13 @@ input::placeholder {
 		font-size: 1.8rem;
 	}
 	.npcs-table-region-name {
+		width: 90%;
+	}
+	.npc-info-container {
+		width: 95%;
+	}
+	.npc-info-main {
+		@include center;
 		width: 90%;
 	}
 }
