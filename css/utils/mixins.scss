@@ -1,42 +1,53 @@
 @mixin center {
-  margin: auto;
-  width: 75%;
-  display: block;
+	margin: auto;
+	width: 75%;
+	display: block;
 }
 
 @mixin container-style {
-  border: 0.1rem solid rgba($color-gold, 0.6);
-  border-radius: 0.4rem;
-  background-color: rgba($color-dark-blue, 0.8);
+	border: 0.1rem solid rgba($color-gold, 0.6);
+	border-radius: 0.4rem;
+	background-color: rgba($color-dark-blue, 0.8);
+}
+
+@mixin clearfix {
+	&:before,
+	&:after {
+		content: '';
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
 }
 
 @mixin name-background($url) {
-  mask-image: url($url);
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent 0%,
-    black 10%,
-    black 90%,
-    transparent 100%
-  );
-  background-image: linear-gradient(
-      to left,
-      rgba($color-dark-blue, 0.8),
-      rgba($color-dark-blue, 0.6),
-      rgba($color-dark-blue, 0.8)
-    ),
-    url($url);
+	mask-image: url($url);
+	-webkit-mask-image: linear-gradient(
+		to right,
+		transparent 0%,
+		black 10%,
+		black 90%,
+		transparent 100%
+	);
+	background-image: linear-gradient(
+			to left,
+			rgba($color-dark-blue, 0.8),
+			rgba($color-dark-blue, 0.6),
+			rgba($color-dark-blue, 0.8)
+		),
+		url($url);
 }
 
 @mixin border-top-bottom {
-  border-bottom: 1px solid;
-  border-top: 1px solid;
-  border-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0),
-      rgba($color: $color-gold, $alpha: 0.7) 25%,
-      rgba($color: $color-gold, $alpha: 0.7) 50%,
-      rgba(0, 0, 0, 0) 100%
-    )
-    30;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	border-image: linear-gradient(
+			to right,
+			rgba(0, 0, 0, 0),
+			rgba($color: $color-gold, $alpha: 0.7) 25%,
+			rgba($color: $color-gold, $alpha: 0.7) 50%,
+			rgba(0, 0, 0, 0) 100%
+		)
+		30;
 }

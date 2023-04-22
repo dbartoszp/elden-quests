@@ -53,6 +53,14 @@
 		"alsoInvolved": ["Goldmask"],
 		"questLocations": ["Roundtable Hold", "Atlus Plateau", "Leyndell"],
 		"mainImage": "/vendors/img/npc/roundtable-hold/brother-corhyn.png",
+		"rewards": [
+			"Mending Rune of Perfect Order",
+			"Flail",
+			"Corhyn's Robe",
+			"Goldmask's Rags",
+			"Gold Bracelets",
+			"Gold Waistwrap"
+		],
 		"questline": [
 			{
 				"step": "First encounter at Roundtable Hold",

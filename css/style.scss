@@ -55,6 +55,10 @@ img {
 	border-radius: 1.6rem;
 }
 
+.hidden {
+	display: none;
+}
+
 .text-link {
 	font-size: 1.3rem;
 	text-decoration: none;
@@ -355,7 +359,6 @@ input::placeholder {
 		text-align: center;
 	}
 	.column-1-of-2 {
-		@include container-style;
 		margin-top: 3rem;
 		padding: 1rem;
 		&:first-child {
@@ -389,17 +392,27 @@ input::placeholder {
 		text-transform: uppercase;
 	}
 }
-
-.table-of-contents {
+.table-of-contents-container {
 	line-height: 2.3rem;
 	h2 {
 		padding-top: 0;
 		text-transform: uppercase;
 	}
+	.table-of-contents {
+		@include container-style;
+		padding: 1rem;
+	}
+	.rewards {
+		@include container-style;
+		margin-top: 2rem;
+		padding: 1rem;
+	}
 }
 
 .npc-info-general {
+	@include container-style;
 	text-align: center;
+	padding: 1rem;
 	line-height: 2.3rem;
 	color: rgba($color: $color-beige, $alpha: 0.8);
 	span {
@@ -437,6 +450,19 @@ input::placeholder {
 }
 
 // -----------------MEDIA-QUERIES-------------------
+
+@media all and (max-width: 480px) {
+	.npc-info-container {
+		padding: 1rem;
+		.npc-info-general {
+			width: 100%;
+		}
+		.npc-info-main {
+			width: 100%;
+		}
+	}
+}
+
 //for mobile devices, iPads and tablets
 @media all and (max-width: 770px) {
 	* {
