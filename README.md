@@ -5,9 +5,7 @@
 ## Built with:
 ![html][HTML] ![sass][sass] ![js][JS]
 
-Project will be done using HTML, SCSS, JS and probably NestJS for backend. 
-
-![nestjs][NESTJS] ?
+Project will be done using HTML, SCSS and JS. Data for npcs is stored in a JSON file.
 
 <!-- ABOUT THE PROJECT -->
 ## About the project
