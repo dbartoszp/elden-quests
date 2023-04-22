@@ -108,6 +108,14 @@ span.header-welcome-text {
 
 // -----------------SEARCHBAR-------------------
 
+.search-result-text {
+	color: rgba($color: $color-beige, $alpha: 0.6);
+}
+
+.header-searchbar-form {
+	@include center;
+	position: relative;
+}
 .header-text-search {
 	@include center();
 	text-align: center;
@@ -142,9 +150,14 @@ input::placeholder {
 }
 
 .npc-search-results-container {
+	z-index: 999;
 	@include container-style;
 	@include center;
-	width: 35rem;
+	display: none;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 33.3rem;
 	ul {
 		cursor: pointer;
 
@@ -520,6 +533,11 @@ input::placeholder {
 	* {
 		max-width: 100%;
 		overflow-x: hidden;
+	}
+	.header-searchbar-form {
+		height: 15rem;
+		width: 90%;
+		overflow-y: visible;
 	}
 	.npcs-table-region-name h2 {
 		font-size: 1.8rem;

@@ -1,12 +1,14 @@
 'use strict';
+import * as searchbar from './searchbar.js';
 
 const open = document.getElementById('btn-sidebar-open');
 const close = document.getElementById('btn-sidebar-close');
 const sidebar = document.getElementById('region-sidebar');
 const searchInput = document.getElementById('search-input');
-const searchResult = document.querySelector('.npc-search-results-container');
-
-let markup = '';
+const results = document.getElementById('npc-results');
+const resultsContainer = document.getElementById(
+	'npc-search-results-container'
+);
 
 open.onclick = () => {
 	sidebar.style.left = 0;

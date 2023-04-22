@@ -47,15 +47,41 @@
 		<meta name="msapplication-TileColor" content="#da532c" />
 		<meta name="theme-color" content="#ffffff" />
 
-		<script defer type="module" src="/js/npc-page-model.js"></script>
+		<script defer type="module" src="/js/npc-page.js"></script>
 
 		<title>EldenQuests</title>
 	</head>
 	<body>
 		<section class="section-npc-search">
 			<form class="header-searchbar-form">
-				<input class="header-searchbar" "type="text"
-				placeholder="Search..." id="search-input"/>
+				<input
+					class="header-searchbar"
+					type="text"
+					placeholder="Search..."
+					id="search-input"
+					autocomplete="off"
+				/>
+				<div
+					class="npc-search-results-container"
+					id="npc-search-results-container"
+				>
+					<ul class="npc-results" id="npc-results">
+						<!-- <li class="npc-result">
+					<a
+						class="search-result-text"
+						href="npc-page.html?npc=brother-corhyn"
+						>brother corhyn test</a
+					>
+				</li>
+				<li class="npc-result">
+					<a
+						class="search-result-text"
+						href="npc-page.html"
+						>test2</a
+					>
+				</li> -->
+					</ul>
+				</div>
 			</form>
 		</section>
 		<section class="section-npc-info">

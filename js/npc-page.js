@@ -1,4 +1,5 @@
 'use strict';
+import * as searchbar from './searchbar.js';
 
 const params = new URLSearchParams(window.location.search);
 const npcName = params.get('npc');
@@ -30,7 +31,7 @@ const generateMarkup = (npc, where) => {
 				markup = `<div class="npc-info-name"><h1>${
 					npc.mainName
 				}'s questline</h1></div>
-                         <h2>Also involved: ${npc.alsoInvolved}</h2>
+                         <h2>Also involved: ${npc.alsoInvolved.join(', ')}</h2>
                          <h3>${npc.questLocations.join(', ')}</h3>`;
 				// <div class="npc-info-name"><h1>main npc in quest</h1></div>
 				// 		<h2>other npcs involved in quest</h2>
