@@ -1,0 +1,76 @@
+[
+  {
+    "id": "limgrave",
+    "npcs": [
+      "blaidd",
+      "yura",
+      "boc-the-seamster",
+      "enia",
+      "gatekeeper-gostoc",
+      "alexander",
+      "kenneth-haight",
+      "knight-bernahl",
+      "melina",
+      "nepheli-loux",
+      "patches",
+      "renna",
+      "roderika",
+      "sorcerer-rogier",
+      "sellen",
+      "varre"
+    ]
+  },
+  {
+    "id": "roundtable-hold",
+    "npcs": [
+      "brother-corhyn",
+      "diallos",
+      "dung-eater",
+      "d-hunter-of-the-dead",
+      "gideon-ofnir",
+      "hewg",
+      "fia"
+    ]
+  },
+  {
+    "id": "weeping-peninsula",
+    "npcs": ["edgar"]
+  },
+  {
+    "id": "liurnia",
+    "npcs": [
+      "albus",
+      "boggart",
+      "hyetta",
+      "jar-bairn",
+      "latenna",
+      "miriel",
+      "pidia",
+      "seluvis",
+      "ranni",
+      "rennala",
+      "rya",
+      "iji",
+      "thops"
+    ]
+  },
+  {
+    "id": "caelid",
+    "npcs": [
+      "gowry",
+      "gurranq",
+      "master-lusat",
+      "milicent",
+      "great-jar",
+      "jerren"
+    ]
+  },
+  {
+    "id": "atlus-plateau",
+    "npcs": ["goldmask"]
+  },
+  {
+    "id": "mt-gelmir",
+    "npcs": ["primeval-sorcerer-azur", "tanith"]
+  }
+]
