@@ -1,11 +1,3 @@
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -55,10 +47,8 @@ img {
   padding: 1rem;
   height: 85%;
   aspect-ratio: 1/1;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
+  object-fit: cover;
+  object-position: top;
   border-radius: 1.6rem;
 }
 
@@ -98,8 +88,7 @@ h1 {
 span.header-welcome-text {
   border-bottom: 0.1rem #f2d16d solid;
   padding: 0 1rem 0.3rem 1rem;
-  -webkit-animation: fade-in 2s linear forwards;
-          animation: fade-in 2s linear forwards;
+  animation: fade-in 2s linear forwards;
 }
 
 .header-text-box {
@@ -134,20 +123,6 @@ span.header-welcome-text {
   text-align: center;
   margin-bottom: 10px;
   margin-top: 7rem;
-}
-
-input::-moz-placeholder {
-  font-family: "Noto Serif", "Arial", serif;
-  font-size: 1.2rem;
-  text-decoration: none;
-  color: rgba(233, 225, 187, 0.6);
-}
-
-input:-ms-input-placeholder {
-  font-family: "Noto Serif", "Arial", serif;
-  font-size: 1.2rem;
-  text-decoration: none;
-  color: rgba(233, 225, 187, 0.6);
 }
 
 input::placeholder {
@@ -221,8 +196,7 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   background-color: rgba(24, 31, 29, 0.2);
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   border-right: 1px solid rgba(242, 209, 109, 0.6);
 }
 .region-sidebar ul {
@@ -241,8 +215,12 @@ input::placeholder {
   display: block;
   position: fixed;
   cursor: pointer;
-  top: 2rem;
-  left: 3.3rem;
+  top: 1rem;
+  left: 1rem;
+}
+.btn-sidebar img {
+  height: 5rem;
+  width: 5rem;
 }
 
 .btn-sidebar-open {
@@ -266,8 +244,7 @@ input::placeholder {
   display: block;
   border-bottom: 1px solid;
   border-top: 1px solid;
-  -o-border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
-     border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
+  border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
   width: 95%;
   margin-bottom: 3rem;
   margin-top: 1rem;
@@ -418,6 +395,24 @@ input::placeholder {
   text-decoration: none;
 }
 
+.btn-home-container {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+}
+
+.btn-home {
+  border: 0.1rem solid rgba(242, 209, 109, 0.6);
+  border-radius: 0.4rem;
+  background-color: rgba(24, 31, 29, 0.8);
+  padding: 0.2rem;
+  cursor: pointer;
+}
+.btn-home img {
+  height: 5rem;
+  width: 5rem;
+}
+
 .npc-info-container {
   margin: auto;
   width: 75%;
@@ -461,8 +456,7 @@ input::placeholder {
   padding: 1.5rem;
   border-bottom: 1px solid;
   border-top: 1px solid;
-  -o-border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
-     border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
+  border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
 }
 .npc-info-name h1 {
   text-transform: uppercase;
@@ -507,8 +501,7 @@ input::placeholder {
 .npc-info-main {
   border-bottom: 1px solid;
   border-top: 1px solid;
-  -o-border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
-     border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
+  border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
   margin: 5rem;
 }
 .npc-info-main h2 {
@@ -533,6 +526,24 @@ input::placeholder {
   font-size: 1.2rem;
 }
 
+.error-not-found-container {
+  border: 0.1rem solid rgba(242, 209, 109, 0.6);
+  border-radius: 0.4rem;
+  background-color: rgba(24, 31, 29, 0.8);
+  margin: auto;
+  width: 75%;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  height: 45%;
+  width: 45%;
+  transform: translateY(-50%);
+}
+
 @media all and (max-width: 480px) {
   .npc-info-container {
     padding: 1rem;
@@ -553,7 +564,7 @@ input::placeholder {
     font-size: 1.2rem;
   }
   .column-1-of-3,
-.column-1-of-2 {
+  .column-1-of-2 {
     width: auto;
     float: none;
   }
