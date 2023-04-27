@@ -1,5 +1,18 @@
 [
   {
+    "id": "roundtable-hold",
+    "name": "Roundtable Hold",
+    "npcs": [
+      "brother-corhyn",
+      "diallos",
+      "dung-eater",
+      "d-hunter-of-the-dead",
+      "gideon-ofnir",
+      "hewg",
+      "fia"
+    ]
+  },
+  {
     "id": "limgrave",
     "name": "Limgrave",
     "npcs": [
@@ -21,19 +34,7 @@
       "varre"
     ]
   },
-  {
-    "id": "roundtable-hold",
-    "name": "Roundtable Hold",
-    "npcs": [
-      "brother-corhyn",
-      "diallos",
-      "dung-eater",
-      "d-hunter-of-the-dead",
-      "gideon-ofnir",
-      "hewg",
-      "fia"
-    ]
-  },
+
   {
     "id": "weeping-peninsula",
     "name": "Weeping Peninsula",
