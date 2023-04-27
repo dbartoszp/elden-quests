@@ -1,6 +1,7 @@
 [
   {
     "id": "limgrave",
+    "name": "Limgrave",
     "npcs": [
       "blaidd",
       "yura",
@@ -22,6 +23,7 @@
   },
   {
     "id": "roundtable-hold",
+    "name": "Roundtable Hold",
     "npcs": [
       "brother-corhyn",
       "diallos",
@@ -34,10 +36,12 @@
   },
   {
     "id": "weeping-peninsula",
+    "name": "Weeping Peninsula",
     "npcs": ["edgar"]
   },
   {
     "id": "liurnia",
+    "name": "Liurnia of the Lakes",
     "npcs": [
       "albus",
       "boggart",
@@ -56,6 +60,7 @@
   },
   {
     "id": "caelid",
+    "name": "Caelid",
     "npcs": [
       "gowry",
       "gurranq",
@@ -67,10 +72,12 @@
   },
   {
     "id": "atlus-plateau",
+    "name": "Atlus Plateau",
     "npcs": ["goldmask"]
   },
   {
     "id": "mt-gelmir",
+    "name": "Mt. Gelmir",
     "npcs": ["primeval-sorcerer-azur", "tanith"]
   }
 ]

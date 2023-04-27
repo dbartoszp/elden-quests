@@ -21,7 +21,7 @@ const fetchNPC = async (name) => {
     return (
       npc.find((el) => el.id === name) ||
       (window.location.href = "not-found.html")
-    ); //TODO: not found the npc
+    );
   } catch (err) {
     console.log(err);
   }
