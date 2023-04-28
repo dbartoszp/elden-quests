@@ -172,7 +172,7 @@ input::placeholder {
 			padding: 0.7rem;
 			&:hover {
 				background-color: lighten(
-					$color: rgba($color-dark-blue, 0.3),
+					$color: rgba($color-dark-blue, 1),
 					$amount: 30%
 				);
 			}
@@ -202,7 +202,18 @@ input::placeholder {
 		text-align: center;
 		margin-right: 0.3rem;
 		li {
-			margin-bottom: 1rem;
+			border-bottom: 0.1rem solid transparent;
+			&:nth-of-type(even) {
+				a {
+					display: inline-block;
+					color: rgba($color: $color-gold, $alpha: 1);
+				}
+			}
+			margin-bottom: 2rem;
+		}
+		li:hover {
+			border-bottom: 0.1rem $color-gold solid;
+			transition: border-bottom 0.3s;
 		}
 	}
 }
@@ -586,7 +597,7 @@ input::placeholder {
 	.header-searchbar-form {
 		height: 15rem;
 		width: 90%;
-		overflow-y: visible;
+		overflow-y: none;
 	}
 	.npcs-table-region-name h2 {
 		font-size: 1.8rem;

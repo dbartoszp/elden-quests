@@ -79,13 +79,18 @@ export const getExactNpc = (arr, npcName) => {
 	});
 };
 
-// searchInput.addEventListener('input', generateResults);
-
 //TO SHOW NPCS NOT IMPLEMENTED UNCOMMENT THIS BELOW
 // displayNpcs(fetchRegions());
 // searchInput.addEventListener("input", displayNpcs(fetchRegions()));
 //TO SHOW NPCS NOT IMPLEMENTED UNCOMMENT THIS ^
-
-// searchInput.addEventListener('focus', () => {
-// 	resultsContainer.style.display = 'block';
-// });
+export const searchHandler = () => {
+	searchInput.addEventListener('input', generateResults);
+	searchInput.addEventListener('focus', () => {
+		resultsContainer.style.display = 'block';
+	});
+	searchInput.addEventListener('blur', () => {
+		setTimeout(() => {
+			resultsContainer.style.display = 'none';
+		}, 100);
+	});
+};

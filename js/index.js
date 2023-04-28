@@ -5,6 +5,7 @@ const open = document.getElementById('btn-sidebar-open');
 const close = document.getElementById('btn-sidebar-close');
 const sidebar = document.getElementById('region-sidebar');
 const searchInput = document.getElementById('search-input');
+const searchbarText = document.getElementById('header-text-search');
 
 const npcsTableContainer = document.getElementById('npcs-table-container');
 
@@ -90,7 +91,7 @@ const displayNpcs = async (npcsParam) => {
 
 searchInput.addEventListener('focus', (e) => {
 	e.preventDefault;
-	searchInput.scrollIntoView({ behavior: 'smooth' });
+	searchbarText.scrollIntoView({ behavior: 'smooth' });
 });
 
 //TO SHOW NPCS NOT IMPLEMENTED UNCOMMENT THIS BELOW
