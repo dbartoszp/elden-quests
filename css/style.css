@@ -20,7 +20,9 @@ body {
   text-rendering: optimizeLegibility;
   background-color: #131b1b;
   height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url("/vendors/img/bgs/elden-ring-background.png");
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("/vendors/img/bgs/elden-ring-background.png");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -33,7 +35,7 @@ h2 {
 }
 
 section {
-  padding: 5.3rem;
+  padding: 5rem;
 }
 
 a {
@@ -47,8 +49,10 @@ img {
   padding: 1rem;
   height: 85%;
   aspect-ratio: 1/1;
-  object-fit: cover;
-  object-position: top;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
   border-radius: 1.6rem;
 }
 
@@ -81,7 +85,7 @@ img {
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 2.3rem;
   font-weight: 400;
 }
 
@@ -121,8 +125,14 @@ span.header-welcome-text {
   width: 75%;
   display: block;
   text-align: center;
-  margin-bottom: 10px;
-  margin-top: 7rem;
+  margin-top: 3rem;
+}
+
+input::-moz-placeholder {
+  font-family: "Noto Serif", "Arial", serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgba(233, 225, 187, 0.6);
 }
 
 input::placeholder {
@@ -196,7 +206,8 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   background-color: rgba(24, 31, 29, 0.2);
-  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
   border-right: 1px solid rgba(242, 209, 109, 0.6);
 }
 .region-sidebar ul {
@@ -231,11 +242,26 @@ input::placeholder {
   display: none;
 }
 
+.section-table-npcs {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .npcs-table-container {
   border: 0.1rem solid rgba(242, 209, 109, 0.6);
   border-radius: 0.4rem;
   background-color: rgba(24, 31, 29, 0.8);
+  margin: auto;
+  width: 75%;
+  display: block;
   padding: 2rem;
+  min-height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.npcs-table-container h2 {
+  text-align: center;
 }
 
 .npcs-table-region-name {
@@ -244,7 +270,8 @@ input::placeholder {
   display: block;
   border-bottom: 1px solid;
   border-top: 1px solid;
-  border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
+  -o-border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
+     border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
   width: 95%;
   margin-bottom: 3rem;
   margin-top: 1rem;
@@ -381,11 +408,12 @@ input::placeholder {
 }
 
 .section-footer {
+  width: 100%;
   color: #677356;
   text-align: center;
   font-size: 1rem;
   margin-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   background: linear-gradient(#181f1d, #131b1b);
   border-top: solid 1px rgba(242, 209, 109, 0.6);
 }
@@ -456,7 +484,8 @@ input::placeholder {
   padding: 1.5rem;
   border-bottom: 1px solid;
   border-top: 1px solid;
-  border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
+  -o-border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
+     border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
 }
 .npc-info-name h1 {
   text-transform: uppercase;
@@ -501,7 +530,8 @@ input::placeholder {
 .npc-info-main {
   border-bottom: 1px solid;
   border-top: 1px solid;
-  border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
+  -o-border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
+     border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(242, 209, 109, 0.7) 25%, rgba(242, 209, 109, 0.7) 50%, rgba(0, 0, 0, 0) 100%) 30;
   margin: 5rem;
 }
 .npc-info-main h2 {

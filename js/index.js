@@ -1,100 +1,97 @@
-"use strict";
-import { fetchNpcs, fetchRegions, getExactNpc } from "./searchbar.js";
+'use strict';
+import { fetchNpcs, fetchRegions, getExactNpc } from './searchbar.js';
 
-const open = document.getElementById("btn-sidebar-open");
-const close = document.getElementById("btn-sidebar-close");
-const sidebar = document.getElementById("region-sidebar");
-const searchInput = document.getElementById("search-input");
+const open = document.getElementById('btn-sidebar-open');
+const close = document.getElementById('btn-sidebar-close');
+const sidebar = document.getElementById('region-sidebar');
+const searchInput = document.getElementById('search-input');
 
-const npcsTableContainer = document.getElementById("npcs-table-container");
+const npcsTableContainer = document.getElementById('npcs-table-container');
+
+let columnCount = 0;
+let rowCount = 0;
+let npcCount = 0;
+let htmlString = ``;
+let exactNpc = ``;
+let currentNpc;
 
 let availableNpcs = await fetchNpcs();
 let allRegionNpcs = await fetchRegions();
-allRegionNpcs.forEach((e) => console.log(e.npcs));
-const availableNpcsArray = availableNpcs.map((el) => el.id);
 const allNpcsArray = allRegionNpcs.map((el) => el.npcs);
-// console.log(allNpcsArray);
-// console.log(availableNpcsArray);
 
-// const mergedArray =
-
-searchInput.addEventListener("keyup", (e) => {
-  const searchString = e.target.value.toLowerCase();
-  const filteredNpcs = availableNpcs.filter((npc) =>
-    npc.mainName.toLowerCase().includes(searchString)
-  );
-  // console.log("filtered:", filteredNpcs);
-  displayNpcs(filteredNpcs);
-  // console.log(filteredNpcs);
+searchInput.addEventListener('keyup', (e) => {
+	const searchString = e.target.value.toLowerCase();
+	const filteredNpcs = availableNpcs.filter((npc) =>
+		npc.mainName.toLowerCase().includes(searchString)
+	);
+	displayNpcs(filteredNpcs);
 });
 
 open.onclick = () => {
-  sidebar.style.left = 0;
-  open.style.display = "none";
-  close.style.display = "block";
+	sidebar.style.left = 0;
+	open.style.display = 'none';
+	close.style.display = 'block';
 };
 close.onclick = () => {
-  sidebar.style.left = "-12rem";
-  close.style.display = "none";
-  open.style.display = "block";
+	sidebar.style.left = '-12rem';
+	close.style.display = 'none';
+	open.style.display = 'block';
 };
 
 const displayNpcs = async (npcsParam) => {
-  // console.log("param:", npcsParam);
-  const regionsArr = await fetchRegions();
-  const npcsArr = await fetchNpcs();
-  // console.log(matching);
-  // console.log(npcsArr);
-  // console.log(getExactNpc(npcsArr, "fia"));
-  // console.log(regionsArr);
-  let htmlString = ``;
-  let exactNpc = ``;
-  let currentNpc;
-  const givenNpcs = npcsParam.map((npc) => npc.id);
-  // console.log("given:", givenNpcs);
-  regionsArr.forEach((region, index) => {
-    let columnCount = 0;
-    let rowCount = 0;
-    let npcCount = 0;
-    const merged = allNpcsArray[index].filter((npc) => {
-      return givenNpcs.includes(npc);
-    });
-    if (
-      region.npcs.some((el) => {
-        return merged.includes(el);
-      })
-    ) {
-      htmlString += `<div class="npcs-table-region-name" id="region-${region.id}">
+	npcsParam = npcsParam.map((npc) => npc.id);
+	htmlString = ``;
+	allRegionNpcs.forEach((region, index) => {
+		columnCount = 0;
+		rowCount = 0;
+		npcCount = 0;
+		const filtered = allNpcsArray[index].filter((npc) => {
+			return npcsParam.includes(npc);
+		});
+		if (
+			region.npcs.some((el) => {
+				return filtered.includes(el);
+			})
+		) {
+			htmlString += `<div class="npcs-table-region-name" id="region-${region.id}">
       <h2>${region.name}</h2>`;
-      if (columnCount % 3 === 0) {
-        htmlString += `<div class="row">`;
-        rowCount += 1;
-      }
-      merged.forEach((npc) => {
-        currentNpc = getExactNpc(npcsArr, merged[npcCount]);
-        htmlString += `<div class="column-1-of-3">
+			if (columnCount % 3 === 0) {
+				htmlString += `<div class="row">`;
+				rowCount += 1;
+			}
+			filtered.forEach((npc) => {
+				currentNpc = getExactNpc(availableNpcs, filtered[npcCount]);
+				htmlString += `<div class="column-1-of-3">
           <div class="npc-container">
             <a class="img-link" href="npc-page.html?npc=${
-              merged[npcCount]
-            }"><img src="${
-          getExactNpc(npcsArr, merged[npcCount]).mainImage
-        }" /></a>
-            <a class="text-link" href="npc-page.html?npc=${merged[npcCount]}">${
-          getExactNpc(npcsArr, merged[npcCount]).mainName
-        }</a>
+				filtered[npcCount]
+			}"><img src="${
+					getExactNpc(availableNpcs, filtered[npcCount]).mainImage
+				}" /></a>
+            <a class="text-link" href="npc-page.html?npc=${
+				filtered[npcCount]
+			}">${getExactNpc(availableNpcs, filtered[npcCount]).mainName}</a>
           </div>
         </div>`;
-        columnCount++;
-        npcCount++;
-      });
-    }
-    for (let i = 0; i < rowCount; i++) {
-      htmlString += `</div>`;
-    }
-  });
-  // console.log(htmlString);
-  npcsTableContainer.innerHTML = htmlString;
+				columnCount++;
+				npcCount++;
+			});
+		}
+		for (let i = 0; i < rowCount; i++) {
+			htmlString += `</div>`;
+		}
+	});
+	if (!htmlString) {
+		htmlString = `<h2>Why is it always not found? </br>
+    No matching NPCs found!</h2>`;
+	}
+	npcsTableContainer.innerHTML = htmlString;
 };
+
+searchInput.addEventListener('focus', (e) => {
+	e.preventDefault;
+	searchInput.scrollIntoView({ behavior: 'smooth' });
+});
 
 //TO SHOW NPCS NOT IMPLEMENTED UNCOMMENT THIS BELOW
 // displayNpcs(searchbar.fetchRegions());
