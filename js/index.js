@@ -15,6 +15,7 @@ let npcCount = 0;
 let htmlString = ``;
 let exactNpc = ``;
 let currentNpc;
+let href = ``;
 
 let availableNpcs = await fetchNpcs();
 let allRegionNpcs = await fetchRegions();
@@ -62,16 +63,14 @@ const displayNpcs = async (npcsParam) => {
 			}
 			filtered.forEach((npc) => {
 				currentNpc = getExactNpc(availableNpcs, filtered[npcCount]);
+				href = currentNpc.hasOwnProperty('todo')
+					? 'not-found.html'
+					: `npc-page.html?npc=${currentNpc.id}`;
 				htmlString += `<div class="column-1-of-3">
           <div class="npc-container">
-            <a class="img-link" href="npc-page.html?npc=${
-				filtered[npcCount]
-			}"><img src="${
-					getExactNpc(availableNpcs, filtered[npcCount]).mainImage
-				}" /></a>
-            <a class="text-link" href="npc-page.html?npc=${
-				filtered[npcCount]
-			}">${getExactNpc(availableNpcs, filtered[npcCount]).mainName}</a>
+            <a class="img-link" href="
+            ${href}"><img src="${currentNpc.mainImage}" /></a>
+            <a class="text-link" href="=${href}">${currentNpc.mainName}</a>
           </div>
         </div>`;
 				columnCount++;
@@ -95,6 +94,6 @@ searchInput.addEventListener('focus', (e) => {
 });
 
 //TO SHOW NPCS NOT IMPLEMENTED UNCOMMENT THIS BELOW
-// displayNpcs(searchbar.fetchRegions());
-// searchInput.addEventListener("input", displayNpcs(searchbar.fetchRegions()));
+displayNpcs(availableNpcs);
+// searchInput.addEventListener('input', displayNpcs(fetchRegions()));
 //TO SHOW NPCS NOT IMPLEMENTED UNCOMMENT THIS ^
