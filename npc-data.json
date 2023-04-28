@@ -1,313 +1,375 @@
 [
-  {
-    "id": "d-hunter-of-the-dead",
-    "mainName": "D, Hunter of the Dead",
-    "firstAppearance": "Limgrave",
-    "laterAppearances": ["Roundtable Hold", "Nokron"],
-    "alsoInvolved": [
-      "Gurranq",
-      "Sorcerer Rogier",
-      "Fia",
-      "D, Beholder of Death"
-    ],
-    "questLocations": ["Limgrave", "Roundtable Hold", "Nokron"],
-    "mainImage": "/vendors/img/npc/roundtable-hold/d-hunter-of-the-dead.png",
-    "rewards": ["Twinned Set", "Inseparable Sword"],
-    "questline": [
-      {
-        "step": "First encounter at in Stormhill, Limgrave",
-        "description": "The first time the player can encounter D is east of Stormhill Shack in Limgrave. You can also find him in Roundtable Hold.",
-        "images": []
-      },
-      {
-        "step": "After defeating the Tibia Mariner",
-        "description": "After defeating the Tibia Mariner in Summonwater Village, return to D at the Roundtable Hold or rest at site of grace and find him by the southwestern entrance in the water of Summonwater Village. He will give you directions to Bestial Sanctum in Caelid, however you can get there by going to the 'Sending Gate' in East Limgrave. After talking with Gurranq and selecting 'yes' while talking to D, he will become a merchant and sell you incantations.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6112&lat=-175.796&lng=117.133&zoom=8&code=mapA"
-      },
-      {
-        "step": "Hints of D's brother",
-        "description": "During Rogier's questline, a letter left to you by Rogier mentions that D has a younger brother, and hints at his location. ",
-        "images": []
-      },
-      {
-        "step": "Owner of the Weathered Dagger",
-        "description": "During Fia's and Rogier's questline, you will be asked to find the owner of a particular Weathered Dagger. D is the owner. Give him the dagger and reload the area. Then, in a newly opened room in the back of the Roundtable Hold, you will find D's Bell Bearing and the Twinned Set.",
-        "images": []
-      },
-      {
-        "step": "D's twin brother",
-        "description": "You can find D's twin brother, 'D, Beholder of Death' in Nokron. Upon interacting with him, you will receive the Inner Order gesture. Unaltered D's armor can be given to his brother, and after reloading the area you will be able to summon him for the fight with Valiant Gargoyles. You can also kill D, Hunter of the Dead at his first location and then give his armor to his brother, but this will cause the brother to be aggressive and fight you.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=1593&lat=-173.328125&lng=132.316801&zoom=8"
-      }
-    ]
-  },
-  {
-    "id": "fia",
-    "mainName": "TEST-NPC",
-    "firstAppearance": "Limgrave",
-    "laterAppearances": ["Roundtable Hold", "Nokron"],
-    "alsoInvolved": [
-      "Gurranq",
-      "Sorcerer Rogier",
-      "Fia",
-      "D, Beholder of Death"
-    ],
-    "questLocations": ["Limgrave", "Roundtable Hold", "Nokron"],
-    "mainImage": "/vendors/img/npc/roundtable-hold/d-hunter-of-the-dead.png",
-    "rewards": ["Twinned Set", "Inseparable Sword"],
-    "questline": [
-      {
-        "step": "First encounter at in Stormhill, Limgrave",
-        "description": "The first time the player can encounter D is east of Stormhill Shack in Limgrave. You can also find him in Roundtable Hold.",
-        "images": []
-      },
-      {
-        "step": "After defeating the Tibia Mariner",
-        "description": "After defeating the Tibia Mariner in Summonwater Village, return to D at the Roundtable Hold or rest at site of grace and find him by the southwestern entrance in the water of Summonwater Village. He will give you directions to Bestial Sanctum in Caelid, however you can get there by going to the 'Sending Gate' in East Limgrave. After talking with Gurranq and selecting 'yes' while talking to D, he will become a merchant and sell you incantations.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6112&lat=-175.796&lng=117.133&zoom=8&code=mapA"
-      },
-      {
-        "step": "Hints of D's brother",
-        "description": "During Rogier's questline, a letter left to you by Rogier mentions that D has a younger brother, and hints at his location. ",
-        "images": []
-      },
-      {
-        "step": "Owner of the Weathered Dagger",
-        "description": "During Fia's and Rogier's questline, you will be asked to find the owner of a particular Weathered Dagger. D is the owner. Give him the dagger and reload the area. Then, in a newly opened room in the back of the Roundtable Hold, you will find D's Bell Bearing and the Twinned Set.",
-        "images": []
-      },
-      {
-        "step": "D's twin brother",
-        "description": "You can find D's twin brother, 'D, Beholder of Death' in Nokron. Upon interacting with him, you will receive the Inner Order gesture. Unaltered D's armor can be given to his brother, and after reloading the area you will be able to summon him for the fight with Valiant Gargoyles. You can also kill D, Hunter of the Dead at his first location and then give his armor to his brother, but this will cause the brother to be aggressive and fight you.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=1593&lat=-173.328125&lng=132.316801&zoom=8"
-      }
-    ]
-  },
-  {
-    "id": "diallos",
-    "mainName": "Diallos",
-    "firstAppearance": "Roundtable Hold",
-    "laterAppearances": ["Liurnia of the Lakes", "Mt. Gelmir"],
-    "alsoInvolved": ["Jar Bairn", "Iron Fist Alexander"],
-    "questLocations": ["Roundtable Hold", "Mt. Gelmir", "Liurnia of the Lakes"],
-    "mainImage": "/vendors/img/npc/roundtable-hold/diallos.png",
-    "rewards": ["Diallos's Mask", "Hoslow's Petal Whip", "Numen's Rune"],
-    "questline": [
-      {
-        "step": "First encounter at Roundtable Hold",
-        "description": "The first time the player can encounter Diallos is at Roundtable Hold. You need to exhaust his dialogue.",
-        "images": []
-      },
-      {
-        "step": "First encounter in Liurnia",
-        "description": "After talking with him at the Roundtable Hold, he will move to Liurnia and can be found atop a sunken roof West of the Academy Gate Town Site of Grace. IMPORTANT: completing the Volcano Manor legacy dungeon before this step prevents him from spawning there.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6128&lat=-143.0156&lng=68.55965&zoom=8&code=mapA"
-      },
-      {
-        "step": "Back at the Roundtable Hold",
-        "description": "Exhaust his dialogue at the Roundtable Hold.",
-        "images": []
-      },
-      {
-        "step": "Joining the Volcano Manor",
-        "description": "You will find him in the drawing room at the Volcano Manor. For each step of the Volcano Manor assassination sidequests, he gets new dialogue. After accepting the second letter from VOlcano Manor, he will relocate to Jarburg.",
-        "images": []
-      },
-      {
-        "step": "Jar-Bairn",
-        "description": "After progressing Jar-Bairn's questline, Diallos will appear in a shack tending to Jar-Bairn. You need to repeatedly talk to Jar-Bairn and rest at the Site of Grace in Jarburg until Jar-Bairn talks about poachers.  If you've gotten this questline to advance, Jar-Bairn will talk about a new Potentiate who's just arrived. Then, you need to let some time pass. Once enough time has passed, you need to exhaust Diallos' and Jar-Bairn's dialogue.",
-        "images": []
-      },
-      {
-        "step": "After defeating Radahn",
-        "description": "After defeating Radahn, exhaust Alexander's dialogue. He will be gathering corpses at the arena nearby the site of grace. Then, return to Jarburg. Find wounded Diallos and exhaust his and Jar-Bairn's dialogue. The choice of dialogue with Diallos does not matter. After reloading the area, you can find Jar-Bairn near Diallos. Exhaust his dialogue and reload the area. In the place of Diallos's body you will find Diallos's Mask.",
-        "images": []
-      },
-      {
-        "step": "After completing Alexander's questline",
-        "description": "Complete Alexander's questline and return to Jarburg. Give Jar-Bairn Alexander's Innards and reload the area. In place of Jar-Bairn you will find Companion Jar Talisman. You can also find Hoslow's Petal Whip and Numen's Rune in the middle of the town.",
-        "images": []
-      }
-    ]
-  },
-  {
-    "id": "brother-corhyn",
-    "mainName": "Brother Corhyn",
-    "firstAppearance": "Roundtable Hold",
-    "laterAppearances": ["Atlus Plateau", "Leyndell"],
-    "alsoInvolved": ["Goldmask"],
-    "questLocations": ["Roundtable Hold", "Atlus Plateau", "Leyndell"],
-    "mainImage": "/vendors/img/npc/roundtable-hold/brother-corhyn.png",
-    "rewards": [
-      "Mending Rune of Perfect Order",
-      "Flail",
-      "Corhyn's Robe",
-      "Goldmask's Rags",
-      "Gold Bracelets",
-      "Gold Waistwrap"
-    ],
-    "questline": [
-      {
-        "step": "First encounter at Roundtable Hold",
-        "description": "The first time the player can encounter Brother Corhyn is at Roundtable Hold.",
-        "images": []
-      },
-      {
-        "step": "First encounter at Atlus Plateau",
-        "description": "As soon as you reach Atlus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Atlus Plateau after resting.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
-      },
-      {
-        "step": "Finding the Goldmask",
-        "description": "After talking with Brother Corhyn nearby the Atlus Highway Junction site of Grace, you have to find Goldmask. He is standing on the north section of the Forest-Spanning Great Bridge, south of East Windmill Pasture. After you interact with Goldmask, you can go back to Corhyn and tell him Goldmask's whereabouts. After resting, he will move to where you found Goldmask.",
-        "images": []
-      },
-      {
-        "step": "The riddle",
-        "description": "In order to progress this questline, you need to obtain at least two Great Runes and have access to Leyndell. Both Goldmask and Corhyn will move to Leyndell, and can be found on a cliff up west of the colosseum. You need to exhaust Corhyn's dialogue. IMPORTANT: You need to solve this riddle before burning the Erdtree at Forge of the Giants - otherwise, Corhyn will vanish and leave behind his bell bearing, and Goldmask will not be present. The solution is as follows: First, you need to travel west of the Erdtree Sanctuary site of grace, down an elevator and a set of stairs. A white message on the ground facing the statue mentions 'Regression'. You must stand on the message, facing the statue, and cast the Law of Regression incantation to solve the riddle. Touch the new message that appears, and report the secret to Goldmask and then exhaust Corhyn's dialogue. ",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
-      },
-      {
-        "step": "Stargazer's Ruins",
-        "description": "After leaving Goldmask and Brother Corhyn (reloading the area will not work), they will move to the bridge south of Stargazer's Ruins right above the Ancient Snow Valley Ruins site of grace. You might give Corhyn Tonic of Forgetfulness, but he will refuse the potion. It will change the final outcome of the questline.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6136&lat=-70.273101&lng=156.515579&zoom=8&code=mapA"
-      },
-      {
-        "step": "Post Farum-Azula - Goldmask ending",
-        "description": "After completing Farum Azula (defeating Maliketh), you can find Goldmask in Leyndell, Ashen Capital. He moves to the bottom of the colosseum cliffs facing the west side of the Erdtree Sanctuary site of grace. He will give you the Mending Rune of Perfect Order. Reload the area to loot Goldmask's Set.",
-        "images": []
-      },
-      {
-        "step": "Post Farum-Azula - Corhyn ending",
-        "description": "Corhyn can be found in on of the possible two locations: First location - he should be at the base of the giant spiral spear. After you exhaust his dialogue and reload the area, you can find a Flail, Corhyn's Bell Bearing and his robe where he was sitting. Second possible location: if you offered him the Tonic of Forgetfulness, he will remain at the bridge south of the Stargazers' Ruins where you last saw him. Talk to him; he'll be unaware of Goldmask's absence. Reload the area and then collect all three of the above items where he was. If you don't complete the questline, you can find his bell bearing and robe ona cliff west of the colosseum in the Ashen Capital.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=7716&lat=-104&lng=116&zoom=8&code=mapC"
-      }
-    ]
-  },
-  {
-    "id": "iji",
-    "mainName": "TEST-NPC2",
-    "firstAppearance": "Liurnia",
-    "laterAppearances": ["Atlus Plateau", "Leyndell"],
-    "alsoInvolved": ["Goldmask"],
-    "questLocations": ["Roundtable Hold", "Atlus Plateau", "Leyndell"],
-    "mainImage": "/vendors/img/npc/roundtable-hold/brother-corhyn.png",
-    "rewards": [
-      "Mending Rune of Perfect Order",
-      "Flail",
-      "Corhyn's Robe",
-      "Goldmask's Rags",
-      "Gold Bracelets",
-      "Gold Waistwrap"
-    ],
-    "questline": [
-      {
-        "step": "First encounter at Roundtable Hold",
-        "description": "The first time the player can encounter Brother Corhyn is at Roundtable Hold.",
-        "images": []
-      },
-      {
-        "step": "First encounter at Atlus Plateau",
-        "description": "As soon as you reach Atlus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Atlus Plateau after resting.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
-      },
-      {
-        "step": "Finding the Goldmask",
-        "description": "After talking with Brother Corhyn nearby the Atlus Highway Junction site of Grace, you have to find Goldmask. He is standing on the north section of the Forest-Spanning Great Bridge, south of East Windmill Pasture. After you interact with Goldmask, you can go back to Corhyn and tell him Goldmask's whereabouts. After resting, he will move to where you found Goldmask.",
-        "images": []
-      },
-      {
-        "step": "The riddle",
-        "description": "In order to progress this questline, you need to obtain at least two Great Runes and have access to Leyndell. Both Goldmask and Corhyn will move to Leyndell, and can be found on a cliff up west of the colosseum. You need to exhaust Corhyn's dialogue. IMPORTANT: You need to solve this riddle before burning the Erdtree at Forge of the Giants - otherwise, Corhyn will vanish and leave behind his bell bearing, and Goldmask will not be present. The solution is as follows: First, you need to travel west of the Erdtree Sanctuary site of grace, down an elevator and a set of stairs. A white message on the ground facing the statue mentions 'Regression'. You must stand on the message, facing the statue, and cast the Law of Regression incantation to solve the riddle. Touch the new message that appears, and report the secret to Goldmask and then exhaust Corhyn's dialogue. ",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
-      },
-      {
-        "step": "Stargazer's Ruins",
-        "description": "After leaving Goldmask and Brother Corhyn (reloading the area will not work), they will move to the bridge south of Stargazer's Ruins right above the Ancient Snow Valley Ruins site of grace. You might give Corhyn Tonic of Forgetfulness, but he will refuse the potion. It will change the final outcome of the questline.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6136&lat=-70.273101&lng=156.515579&zoom=8&code=mapA"
-      },
-      {
-        "step": "Post Farum-Azula - Goldmask ending",
-        "description": "After completing Farum Azula (defeating Maliketh), you can find Goldmask in Leyndell, Ashen Capital. He moves to the bottom of the colosseum cliffs facing the west side of the Erdtree Sanctuary site of grace. He will give you the Mending Rune of Perfect Order. Reload the area to loot Goldmask's Set.",
-        "images": []
-      },
-      {
-        "step": "Post Farum-Azula - Corhyn ending",
-        "description": "Corhyn can be found in on of the possible two locations: First location - he should be at the base of the giant spiral spear. After you exhaust his dialogue and reload the area, you can find a Flail, Corhyn's Bell Bearing and his robe where he was sitting. Second possible location: if you offered him the Tonic of Forgetfulness, he will remain at the bridge south of the Stargazers' Ruins where you last saw him. Talk to him; he'll be unaware of Goldmask's absence. Reload the area and then collect all three of the above items where he was. If you don't complete the questline, you can find his bell bearing and robe ona cliff west of the colosseum in the Ashen Capital.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=7716&lat=-104&lng=116&zoom=8&code=mapC"
-      }
-    ]
-  },
+	{
+		"id": "d-hunter-of-the-dead",
+		"mainName": "D, Hunter of the Dead",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["Roundtable Hold", "Nokron"],
+		"alsoInvolved": [
+			"Gurranq",
+			"Sorcerer Rogier",
+			"Fia",
+			"D, Beholder of Death"
+		],
+		"questLocations": ["Limgrave", "Roundtable Hold", "Nokron"],
+		"mainImage": "/vendors/img/npc/roundtable-hold/d-hunter-of-the-dead.png",
+		"rewards": ["Twinned Set", "Inseparable Sword"],
+		"questline": [
+			{
+				"step": "First encounter at in Stormhill, Limgrave",
+				"description": "The first time the player can encounter D is east of Stormhill Shack in Limgrave. You can also find him in Roundtable Hold.",
+				"images": []
+			},
+			{
+				"step": "After defeating the Tibia Mariner",
+				"description": "After defeating the Tibia Mariner in Summonwater Village, return to D at the Roundtable Hold or rest at site of grace and find him by the southwestern entrance in the water of Summonwater Village. He will give you directions to Bestial Sanctum in Caelid, however you can get there by going to the 'Sending Gate' in East Limgrave. After talking with Gurranq and selecting 'yes' while talking to D, he will become a merchant and sell you incantations.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6112&lat=-175.796&lng=117.133&zoom=8&code=mapA"
+			},
+			{
+				"step": "Hints of D's brother",
+				"description": "During Rogier's questline, a letter left to you by Rogier mentions that D has a younger brother, and hints at his location. ",
+				"images": []
+			},
+			{
+				"step": "Owner of the Weathered Dagger",
+				"description": "During Fia's and Rogier's questline, you will be asked to find the owner of a particular Weathered Dagger. D is the owner. Give him the dagger and reload the area. Then, in a newly opened room in the back of the Roundtable Hold, you will find D's Bell Bearing and the Twinned Set.",
+				"images": []
+			},
+			{
+				"step": "D's twin brother",
+				"description": "You can find D's twin brother, 'D, Beholder of Death' in Nokron. Upon interacting with him, you will receive the Inner Order gesture. Unaltered D's armor can be given to his brother, and after reloading the area you will be able to summon him for the fight with Valiant Gargoyles. You can also kill D, Hunter of the Dead at his first location and then give his armor to his brother, but this will cause the brother to be aggressive and fight you.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=1593&lat=-173.328125&lng=132.316801&zoom=8"
+			}
+		]
+	},
+	{
+		"id": "fia",
+		"mainName": "TEST-NPC",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["Roundtable Hold", "Nokron"],
+		"alsoInvolved": [
+			"Gurranq",
+			"Sorcerer Rogier",
+			"Fia",
+			"D, Beholder of Death"
+		],
+		"questLocations": ["Limgrave", "Roundtable Hold", "Nokron"],
+		"mainImage": "/vendors/img/npc/roundtable-hold/d-hunter-of-the-dead.png",
+		"rewards": ["Twinned Set", "Inseparable Sword"],
+		"questline": [
+			{
+				"step": "First encounter at in Stormhill, Limgrave",
+				"description": "The first time the player can encounter D is east of Stormhill Shack in Limgrave. You can also find him in Roundtable Hold.",
+				"images": []
+			},
+			{
+				"step": "After defeating the Tibia Mariner",
+				"description": "After defeating the Tibia Mariner in Summonwater Village, return to D at the Roundtable Hold or rest at site of grace and find him by the southwestern entrance in the water of Summonwater Village. He will give you directions to Bestial Sanctum in Caelid, however you can get there by going to the 'Sending Gate' in East Limgrave. After talking with Gurranq and selecting 'yes' while talking to D, he will become a merchant and sell you incantations.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6112&lat=-175.796&lng=117.133&zoom=8&code=mapA"
+			},
+			{
+				"step": "Hints of D's brother",
+				"description": "During Rogier's questline, a letter left to you by Rogier mentions that D has a younger brother, and hints at his location. ",
+				"images": []
+			},
+			{
+				"step": "Owner of the Weathered Dagger",
+				"description": "During Fia's and Rogier's questline, you will be asked to find the owner of a particular Weathered Dagger. D is the owner. Give him the dagger and reload the area. Then, in a newly opened room in the back of the Roundtable Hold, you will find D's Bell Bearing and the Twinned Set.",
+				"images": []
+			},
+			{
+				"step": "D's twin brother",
+				"description": "You can find D's twin brother, 'D, Beholder of Death' in Nokron. Upon interacting with him, you will receive the Inner Order gesture. Unaltered D's armor can be given to his brother, and after reloading the area you will be able to summon him for the fight with Valiant Gargoyles. You can also kill D, Hunter of the Dead at his first location and then give his armor to his brother, but this will cause the brother to be aggressive and fight you.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=1593&lat=-173.328125&lng=132.316801&zoom=8"
+			}
+		]
+	},
+	{
+		"id": "diallos",
+		"mainName": "Diallos",
+		"firstAppearance": "Roundtable Hold",
+		"laterAppearances": ["Liurnia of the Lakes", "Mt. Gelmir"],
+		"alsoInvolved": ["Jar Bairn", "Iron Fist Alexander"],
+		"questLocations": [
+			"Roundtable Hold",
+			"Mt. Gelmir",
+			"Liurnia of the Lakes"
+		],
+		"mainImage": "/vendors/img/npc/roundtable-hold/diallos.png",
+		"rewards": ["Diallos's Mask", "Hoslow's Petal Whip", "Numen's Rune"],
+		"questline": [
+			{
+				"step": "First encounter at Roundtable Hold",
+				"description": "The first time the player can encounter Diallos is at Roundtable Hold. You need to exhaust his dialogue.",
+				"images": []
+			},
+			{
+				"step": "First encounter in Liurnia",
+				"description": "After talking with him at the Roundtable Hold, he will move to Liurnia and can be found atop a sunken roof West of the Academy Gate Town Site of Grace. IMPORTANT: completing the Volcano Manor legacy dungeon before this step prevents him from spawning there.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6128&lat=-143.0156&lng=68.55965&zoom=8&code=mapA"
+			},
+			{
+				"step": "Back at the Roundtable Hold",
+				"description": "Exhaust his dialogue at the Roundtable Hold.",
+				"images": []
+			},
+			{
+				"step": "Joining the Volcano Manor",
+				"description": "You will find him in the drawing room at the Volcano Manor. For each step of the Volcano Manor assassination sidequests, he gets new dialogue. After accepting the second letter from VOlcano Manor, he will relocate to Jarburg.",
+				"images": []
+			},
+			{
+				"step": "Jar-Bairn",
+				"description": "After progressing Jar-Bairn's questline, Diallos will appear in a shack tending to Jar-Bairn. You need to repeatedly talk to Jar-Bairn and rest at the Site of Grace in Jarburg until Jar-Bairn talks about poachers.  If you've gotten this questline to advance, Jar-Bairn will talk about a new Potentiate who's just arrived. Then, you need to let some time pass. Once enough time has passed, you need to exhaust Diallos' and Jar-Bairn's dialogue.",
+				"images": []
+			},
+			{
+				"step": "After defeating Radahn",
+				"description": "After defeating Radahn, exhaust Alexander's dialogue. He will be gathering corpses at the arena nearby the site of grace. Then, return to Jarburg. Find wounded Diallos and exhaust his and Jar-Bairn's dialogue. The choice of dialogue with Diallos does not matter. After reloading the area, you can find Jar-Bairn near Diallos. Exhaust his dialogue and reload the area. In the place of Diallos's body you will find Diallos's Mask.",
+				"images": []
+			},
+			{
+				"step": "After completing Alexander's questline",
+				"description": "Complete Alexander's questline and return to Jarburg. Give Jar-Bairn Alexander's Innards and reload the area. In place of Jar-Bairn you will find Companion Jar Talisman. You can also find Hoslow's Petal Whip and Numen's Rune in the middle of the town.",
+				"images": []
+			}
+		]
+	},
+	{
+		"id": "brother-corhyn",
+		"mainName": "Brother Corhyn",
+		"firstAppearance": "Roundtable Hold",
+		"laterAppearances": ["Atlus Plateau", "Leyndell"],
+		"alsoInvolved": ["Goldmask"],
+		"questLocations": ["Roundtable Hold", "Atlus Plateau", "Leyndell"],
+		"mainImage": "/vendors/img/npc/roundtable-hold/brother-corhyn.png",
+		"rewards": [
+			"Mending Rune of Perfect Order",
+			"Flail",
+			"Corhyn's Robe",
+			"Goldmask's Rags",
+			"Gold Bracelets",
+			"Gold Waistwrap"
+		],
+		"questline": [
+			{
+				"step": "First encounter at Roundtable Hold",
+				"description": "The first time the player can encounter Brother Corhyn is at Roundtable Hold.",
+				"images": []
+			},
+			{
+				"step": "First encounter at Atlus Plateau",
+				"description": "As soon as you reach Atlus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Atlus Plateau after resting.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
+			},
+			{
+				"step": "Finding the Goldmask",
+				"description": "After talking with Brother Corhyn nearby the Atlus Highway Junction site of Grace, you have to find Goldmask. He is standing on the north section of the Forest-Spanning Great Bridge, south of East Windmill Pasture. After you interact with Goldmask, you can go back to Corhyn and tell him Goldmask's whereabouts. After resting, he will move to where you found Goldmask.",
+				"images": []
+			},
+			{
+				"step": "The riddle",
+				"description": "In order to progress this questline, you need to obtain at least two Great Runes and have access to Leyndell. Both Goldmask and Corhyn will move to Leyndell, and can be found on a cliff up west of the colosseum. You need to exhaust Corhyn's dialogue. IMPORTANT: You need to solve this riddle before burning the Erdtree at Forge of the Giants - otherwise, Corhyn will vanish and leave behind his bell bearing, and Goldmask will not be present. The solution is as follows: First, you need to travel west of the Erdtree Sanctuary site of grace, down an elevator and a set of stairs. A white message on the ground facing the statue mentions 'Regression'. You must stand on the message, facing the statue, and cast the Law of Regression incantation to solve the riddle. Touch the new message that appears, and report the secret to Goldmask and then exhaust Corhyn's dialogue. ",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
+			},
+			{
+				"step": "Stargazer's Ruins",
+				"description": "After leaving Goldmask and Brother Corhyn (reloading the area will not work), they will move to the bridge south of Stargazer's Ruins right above the Ancient Snow Valley Ruins site of grace. You might give Corhyn Tonic of Forgetfulness, but he will refuse the potion. It will change the final outcome of the questline.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6136&lat=-70.273101&lng=156.515579&zoom=8&code=mapA"
+			},
+			{
+				"step": "Post Farum-Azula - Goldmask ending",
+				"description": "After completing Farum Azula (defeating Maliketh), you can find Goldmask in Leyndell, Ashen Capital. He moves to the bottom of the colosseum cliffs facing the west side of the Erdtree Sanctuary site of grace. He will give you the Mending Rune of Perfect Order. Reload the area to loot Goldmask's Set.",
+				"images": []
+			},
+			{
+				"step": "Post Farum-Azula - Corhyn ending",
+				"description": "Corhyn can be found in on of the possible two locations: First location - he should be at the base of the giant spiral spear. After you exhaust his dialogue and reload the area, you can find a Flail, Corhyn's Bell Bearing and his robe where he was sitting. Second possible location: if you offered him the Tonic of Forgetfulness, he will remain at the bridge south of the Stargazers' Ruins where you last saw him. Talk to him; he'll be unaware of Goldmask's absence. Reload the area and then collect all three of the above items where he was. If you don't complete the questline, you can find his bell bearing and robe ona cliff west of the colosseum in the Ashen Capital.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=7716&lat=-104&lng=116&zoom=8&code=mapC"
+			}
+		]
+	},
+	{
+		"id": "iji",
+		"mainName": "TEST-NPC2",
+		"firstAppearance": "Liurnia",
+		"laterAppearances": ["Atlus Plateau", "Leyndell"],
+		"alsoInvolved": ["Goldmask"],
+		"questLocations": ["Roundtable Hold", "Atlus Plateau", "Leyndell"],
+		"mainImage": "/vendors/img/npc/roundtable-hold/brother-corhyn.png",
+		"rewards": [
+			"Mending Rune of Perfect Order",
+			"Flail",
+			"Corhyn's Robe",
+			"Goldmask's Rags",
+			"Gold Bracelets",
+			"Gold Waistwrap"
+		],
+		"questline": [
+			{
+				"step": "First encounter at Roundtable Hold",
+				"description": "The first time the player can encounter Brother Corhyn is at Roundtable Hold.",
+				"images": []
+			},
+			{
+				"step": "First encounter at Atlus Plateau",
+				"description": "As soon as you reach Atlus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Atlus Plateau after resting.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
+			},
+			{
+				"step": "Finding the Goldmask",
+				"description": "After talking with Brother Corhyn nearby the Atlus Highway Junction site of Grace, you have to find Goldmask. He is standing on the north section of the Forest-Spanning Great Bridge, south of East Windmill Pasture. After you interact with Goldmask, you can go back to Corhyn and tell him Goldmask's whereabouts. After resting, he will move to where you found Goldmask.",
+				"images": []
+			},
+			{
+				"step": "The riddle",
+				"description": "In order to progress this questline, you need to obtain at least two Great Runes and have access to Leyndell. Both Goldmask and Corhyn will move to Leyndell, and can be found on a cliff up west of the colosseum. You need to exhaust Corhyn's dialogue. IMPORTANT: You need to solve this riddle before burning the Erdtree at Forge of the Giants - otherwise, Corhyn will vanish and leave behind his bell bearing, and Goldmask will not be present. The solution is as follows: First, you need to travel west of the Erdtree Sanctuary site of grace, down an elevator and a set of stairs. A white message on the ground facing the statue mentions 'Regression'. You must stand on the message, facing the statue, and cast the Law of Regression incantation to solve the riddle. Touch the new message that appears, and report the secret to Goldmask and then exhaust Corhyn's dialogue. ",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
+			},
+			{
+				"step": "Stargazer's Ruins",
+				"description": "After leaving Goldmask and Brother Corhyn (reloading the area will not work), they will move to the bridge south of Stargazer's Ruins right above the Ancient Snow Valley Ruins site of grace. You might give Corhyn Tonic of Forgetfulness, but he will refuse the potion. It will change the final outcome of the questline.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6136&lat=-70.273101&lng=156.515579&zoom=8&code=mapA"
+			},
+			{
+				"step": "Post Farum-Azula - Goldmask ending",
+				"description": "After completing Farum Azula (defeating Maliketh), you can find Goldmask in Leyndell, Ashen Capital. He moves to the bottom of the colosseum cliffs facing the west side of the Erdtree Sanctuary site of grace. He will give you the Mending Rune of Perfect Order. Reload the area to loot Goldmask's Set.",
+				"images": []
+			},
+			{
+				"step": "Post Farum-Azula - Corhyn ending",
+				"description": "Corhyn can be found in on of the possible two locations: First location - he should be at the base of the giant spiral spear. After you exhaust his dialogue and reload the area, you can find a Flail, Corhyn's Bell Bearing and his robe where he was sitting. Second possible location: if you offered him the Tonic of Forgetfulness, he will remain at the bridge south of the Stargazers' Ruins where you last saw him. Talk to him; he'll be unaware of Goldmask's absence. Reload the area and then collect all three of the above items where he was. If you don't complete the questline, you can find his bell bearing and robe ona cliff west of the colosseum in the Ashen Capital.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=7716&lat=-104&lng=116&zoom=8&code=mapC"
+			}
+		]
+	},
 
-  {
-    "id": "rennala",
-    "mainName": "TEST-NPC3",
-    "firstAppearance": "Liurnia",
-    "laterAppearances": ["Atlus Plateau", "Leyndell"],
-    "alsoInvolved": ["Goldmask"],
-    "questLocations": ["Roundtable Hold", "Atlus Plateau", "Leyndell"],
-    "mainImage": "/vendors/img/npc/roundtable-hold/brother-corhyn.png",
-    "rewards": [
-      "Mending Rune of Perfect Order",
-      "Flail",
-      "Corhyn's Robe",
-      "Goldmask's Rags",
-      "Gold Bracelets",
-      "Gold Waistwrap"
-    ],
-    "questline": [
-      {
-        "step": "First encounter at Roundtable Hold",
-        "description": "The first time the player can encounter Brother Corhyn is at Roundtable Hold.",
-        "images": []
-      },
-      {
-        "step": "First encounter at Atlus Plateau",
-        "description": "As soon as you reach Atlus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Atlus Plateau after resting.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
-      },
-      {
-        "step": "Finding the Goldmask",
-        "description": "After talking with Brother Corhyn nearby the Atlus Highway Junction site of Grace, you have to find Goldmask. He is standing on the north section of the Forest-Spanning Great Bridge, south of East Windmill Pasture. After you interact with Goldmask, you can go back to Corhyn and tell him Goldmask's whereabouts. After resting, he will move to where you found Goldmask.",
-        "images": []
-      },
-      {
-        "step": "The riddle",
-        "description": "In order to progress this questline, you need to obtain at least two Great Runes and have access to Leyndell. Both Goldmask and Corhyn will move to Leyndell, and can be found on a cliff up west of the colosseum. You need to exhaust Corhyn's dialogue. IMPORTANT: You need to solve this riddle before burning the Erdtree at Forge of the Giants - otherwise, Corhyn will vanish and leave behind his bell bearing, and Goldmask will not be present. The solution is as follows: First, you need to travel west of the Erdtree Sanctuary site of grace, down an elevator and a set of stairs. A white message on the ground facing the statue mentions 'Regression'. You must stand on the message, facing the statue, and cast the Law of Regression incantation to solve the riddle. Touch the new message that appears, and report the secret to Goldmask and then exhaust Corhyn's dialogue. ",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
-      },
-      {
-        "step": "Stargazer's Ruins",
-        "description": "After leaving Goldmask and Brother Corhyn (reloading the area will not work), they will move to the bridge south of Stargazer's Ruins right above the Ancient Snow Valley Ruins site of grace. You might give Corhyn Tonic of Forgetfulness, but he will refuse the potion. It will change the final outcome of the questline.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6136&lat=-70.273101&lng=156.515579&zoom=8&code=mapA"
-      },
-      {
-        "step": "Post Farum-Azula - Goldmask ending",
-        "description": "After completing Farum Azula (defeating Maliketh), you can find Goldmask in Leyndell, Ashen Capital. He moves to the bottom of the colosseum cliffs facing the west side of the Erdtree Sanctuary site of grace. He will give you the Mending Rune of Perfect Order. Reload the area to loot Goldmask's Set.",
-        "images": []
-      },
-      {
-        "step": "Post Farum-Azula - Corhyn ending",
-        "description": "Corhyn can be found in on of the possible two locations: First location - he should be at the base of the giant spiral spear. After you exhaust his dialogue and reload the area, you can find a Flail, Corhyn's Bell Bearing and his robe where he was sitting. Second possible location: if you offered him the Tonic of Forgetfulness, he will remain at the bridge south of the Stargazers' Ruins where you last saw him. Talk to him; he'll be unaware of Goldmask's absence. Reload the area and then collect all three of the above items where he was. If you don't complete the questline, you can find his bell bearing and robe ona cliff west of the colosseum in the Ashen Capital.",
-        "images": [],
-        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=7716&lat=-104&lng=116&zoom=8&code=mapC"
-      }
-    ]
-  }
+	{
+		"id": "rennala",
+		"mainName": "TEST-NPC3",
+		"firstAppearance": "Liurnia",
+		"laterAppearances": ["Atlus Plateau", "Leyndell"],
+		"alsoInvolved": ["Goldmask"],
+		"questLocations": ["Roundtable Hold", "Atlus Plateau", "Leyndell"],
+		"mainImage": "/vendors/img/npc/roundtable-hold/brother-corhyn.png",
+		"rewards": [
+			"Mending Rune of Perfect Order",
+			"Flail",
+			"Corhyn's Robe",
+			"Goldmask's Rags",
+			"Gold Bracelets",
+			"Gold Waistwrap"
+		],
+		"questline": [
+			{
+				"step": "First encounter at Roundtable Hold",
+				"description": "The first time the player can encounter Brother Corhyn is at Roundtable Hold.",
+				"images": []
+			},
+			{
+				"step": "First encounter at Atlus Plateau",
+				"description": "As soon as you reach Atlus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Atlus Plateau after resting.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
+			},
+			{
+				"step": "Finding the Goldmask",
+				"description": "After talking with Brother Corhyn nearby the Atlus Highway Junction site of Grace, you have to find Goldmask. He is standing on the north section of the Forest-Spanning Great Bridge, south of East Windmill Pasture. After you interact with Goldmask, you can go back to Corhyn and tell him Goldmask's whereabouts. After resting, he will move to where you found Goldmask.",
+				"images": []
+			},
+			{
+				"step": "The riddle",
+				"description": "In order to progress this questline, you need to obtain at least two Great Runes and have access to Leyndell. Both Goldmask and Corhyn will move to Leyndell, and can be found on a cliff up west of the colosseum. You need to exhaust Corhyn's dialogue. IMPORTANT: You need to solve this riddle before burning the Erdtree at Forge of the Giants - otherwise, Corhyn will vanish and leave behind his bell bearing, and Goldmask will not be present. The solution is as follows: First, you need to travel west of the Erdtree Sanctuary site of grace, down an elevator and a set of stairs. A white message on the ground facing the statue mentions 'Regression'. You must stand on the message, facing the statue, and cast the Law of Regression incantation to solve the riddle. Touch the new message that appears, and report the secret to Goldmask and then exhaust Corhyn's dialogue. ",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
+			},
+			{
+				"step": "Stargazer's Ruins",
+				"description": "After leaving Goldmask and Brother Corhyn (reloading the area will not work), they will move to the bridge south of Stargazer's Ruins right above the Ancient Snow Valley Ruins site of grace. You might give Corhyn Tonic of Forgetfulness, but he will refuse the potion. It will change the final outcome of the questline.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6136&lat=-70.273101&lng=156.515579&zoom=8&code=mapA"
+			},
+			{
+				"step": "Post Farum-Azula - Goldmask ending",
+				"description": "After completing Farum Azula (defeating Maliketh), you can find Goldmask in Leyndell, Ashen Capital. He moves to the bottom of the colosseum cliffs facing the west side of the Erdtree Sanctuary site of grace. He will give you the Mending Rune of Perfect Order. Reload the area to loot Goldmask's Set.",
+				"images": []
+			},
+			{
+				"step": "Post Farum-Azula - Corhyn ending",
+				"description": "Corhyn can be found in on of the possible two locations: First location - he should be at the base of the giant spiral spear. After you exhaust his dialogue and reload the area, you can find a Flail, Corhyn's Bell Bearing and his robe where he was sitting. Second possible location: if you offered him the Tonic of Forgetfulness, he will remain at the bridge south of the Stargazers' Ruins where you last saw him. Talk to him; he'll be unaware of Goldmask's absence. Reload the area and then collect all three of the above items where he was. If you don't complete the questline, you can find his bell bearing and robe ona cliff west of the colosseum in the Ashen Capital.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=7716&lat=-104&lng=116&zoom=8&code=mapC"
+			}
+		]
+	},
+	{
+		"id": "ranni",
+		"mainName": "TEST-NPC3",
+		"firstAppearance": "Liurnia",
+		"laterAppearances": ["Atlus Plateau", "Leyndell"],
+		"alsoInvolved": ["Goldmask"],
+		"questLocations": ["Roundtable Hold", "Atlus Plateau", "Leyndell"],
+		"mainImage": "/vendors/img/npc/roundtable-hold/brother-corhyn.png",
+		"rewards": [
+			"Mending Rune of Perfect Order",
+			"Flail",
+			"Corhyn's Robe",
+			"Goldmask's Rags",
+			"Gold Bracelets",
+			"Gold Waistwrap"
+		],
+		"questline": [
+			{
+				"step": "First encounter at Roundtable Hold",
+				"description": "The first time the player can encounter Brother Corhyn is at Roundtable Hold.",
+				"images": []
+			},
+			{
+				"step": "First encounter at Atlus Plateau",
+				"description": "As soon as you reach Atlus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Atlus Plateau after resting.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
+			},
+			{
+				"step": "Finding the Goldmask",
+				"description": "After talking with Brother Corhyn nearby the Atlus Highway Junction site of Grace, you have to find Goldmask. He is standing on the north section of the Forest-Spanning Great Bridge, south of East Windmill Pasture. After you interact with Goldmask, you can go back to Corhyn and tell him Goldmask's whereabouts. After resting, he will move to where you found Goldmask.",
+				"images": []
+			},
+			{
+				"step": "The riddle",
+				"description": "In order to progress this questline, you need to obtain at least two Great Runes and have access to Leyndell. Both Goldmask and Corhyn will move to Leyndell, and can be found on a cliff up west of the colosseum. You need to exhaust Corhyn's dialogue. IMPORTANT: You need to solve this riddle before burning the Erdtree at Forge of the Giants - otherwise, Corhyn will vanish and leave behind his bell bearing, and Goldmask will not be present. The solution is as follows: First, you need to travel west of the Erdtree Sanctuary site of grace, down an elevator and a set of stairs. A white message on the ground facing the statue mentions 'Regression'. You must stand on the message, facing the statue, and cast the Law of Regression incantation to solve the riddle. Touch the new message that appears, and report the secret to Goldmask and then exhaust Corhyn's dialogue. ",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
+			},
+			{
+				"step": "Stargazer's Ruins",
+				"description": "After leaving Goldmask and Brother Corhyn (reloading the area will not work), they will move to the bridge south of Stargazer's Ruins right above the Ancient Snow Valley Ruins site of grace. You might give Corhyn Tonic of Forgetfulness, but he will refuse the potion. It will change the final outcome of the questline.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6136&lat=-70.273101&lng=156.515579&zoom=8&code=mapA"
+			},
+			{
+				"step": "Post Farum-Azula - Goldmask ending",
+				"description": "After completing Farum Azula (defeating Maliketh), you can find Goldmask in Leyndell, Ashen Capital. He moves to the bottom of the colosseum cliffs facing the west side of the Erdtree Sanctuary site of grace. He will give you the Mending Rune of Perfect Order. Reload the area to loot Goldmask's Set.",
+				"images": []
+			},
+			{
+				"step": "Post Farum-Azula - Corhyn ending",
+				"description": "Corhyn can be found in on of the possible two locations: First location - he should be at the base of the giant spiral spear. After you exhaust his dialogue and reload the area, you can find a Flail, Corhyn's Bell Bearing and his robe where he was sitting. Second possible location: if you offered him the Tonic of Forgetfulness, he will remain at the bridge south of the Stargazers' Ruins where you last saw him. Talk to him; he'll be unaware of Goldmask's absence. Reload the area and then collect all three of the above items where he was. If you don't complete the questline, you can find his bell bearing and robe ona cliff west of the colosseum in the Ashen Capital.",
+				"images": [],
+				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=7716&lat=-104&lng=116&zoom=8&code=mapC"
+			}
+		]
+	}
 ]
