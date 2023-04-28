@@ -163,6 +163,7 @@ input::placeholder {
 		cursor: pointer;
 
 		li {
+			background-color: rgba($color-dark-blue, 1);
 			a {
 				color: $color-beige;
 				text-decoration: none;

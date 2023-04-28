@@ -183,6 +183,7 @@ input::placeholder {
   cursor: pointer;
 }
 .npc-search-results-container ul li {
+  background-color: #181f1d;
   list-style: none;
   padding-left: 1rem;
   padding: 0.7rem;

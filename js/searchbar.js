@@ -7,6 +7,7 @@ const resultsContainer = document.getElementById(
 );
 let markup = '';
 let inputVal;
+let resultsList;
 
 export const fetchRegions = async () => {
 	try {
@@ -63,7 +64,6 @@ export const generateResults = async () => {
 };
 
 export const showResults = (npcList) => {
-	let resultsList;
 	if (!npcList.length) {
 		resultsList = '';
 	} else {
