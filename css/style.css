@@ -587,11 +587,7 @@ input::placeholder {
 @media all and (max-width: 480px) {
   .npc-info-container {
     padding: 1rem;
-  }
-  .npc-info-container .npc-info-general {
-    width: 100%;
-  }
-  .npc-info-container .npc-info-main {
+    max-width: 100%;
     width: 100%;
   }
 }
@@ -629,7 +625,7 @@ input::placeholder {
     font-size: 1.8rem;
   }
   .npcs-table-region-name {
-    width: 90%;
+    width: 100%;
   }
   .table-of-contents {
     width: 60rem;
@@ -639,6 +635,12 @@ input::placeholder {
     width: 75%;
     display: block;
     width: 60rem;
+  }
+  .btn-home-npc-page {
+    display: none;
+  }
+  .btn-home-not-found {
+    display: none;
   }
 }
 @media all and (max-width: 1025px) {

@@ -528,12 +528,8 @@ input::placeholder {
 @media all and (max-width: 480px) {
 	.npc-info-container {
 		padding: 1rem;
-		.npc-info-general {
-			width: 100%;
-		}
-		.npc-info-main {
-			width: 100%;
-		}
+		max-width: 100%;
+		width: 100%;
 	}
 }
 
@@ -579,7 +575,7 @@ input::placeholder {
 		font-size: 1.8rem;
 	}
 	.npcs-table-region-name {
-		width: 90%;
+		width: 100%;
 	}
 	.table-of-contents {
 		width: 60rem;
@@ -587,6 +583,12 @@ input::placeholder {
 	.npc-info-main {
 		@include center;
 		width: 60rem;
+	}
+	.btn-home-npc-page {
+		display: none;
+	}
+	.btn-home-not-found {
+		display: none;
 	}
 }
 //for small screens

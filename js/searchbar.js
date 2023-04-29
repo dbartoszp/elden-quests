@@ -53,6 +53,12 @@ export const showResults = (npcList) => {
 //TO SHOW NPCS NOT IMPLEMENTED UNCOMMENT THIS ^
 export const searchHandler = () => {
 	searchInput.addEventListener('input', generateResults);
+	searchInput.addEventListener('submit', (e) => {
+		e.preventDefault();
+	});
+	searchInput.addEventListener('keydown', (e) => {
+		if (e.key === 'Enter') e.preventDefault();
+	});
 	searchInput.addEventListener('focus', () => {
 		resultsContainer.style.display = 'block';
 	});

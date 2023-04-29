@@ -139,14 +139,14 @@ const insertMarkup = (markup, where) => {
 
 const npcFetched = await fetchNPCID(npcName);
 
-const titleMarkup = generateMarkup(npcFetched, 'title');
-const tableMarkup = generateMarkup(npcFetched, 'table');
-const generalMarkup = generateMarkup(npcFetched, 'general');
-const mainMarkup = generateMarkup(npcFetched, 'main');
-const rewardsMarkup = generateMarkup(npcFetched, 'rewards');
-
 const generatePage = () => {
 	if (npcFetched) {
+		const titleMarkup = generateMarkup(npcFetched, 'title');
+		const tableMarkup = generateMarkup(npcFetched, 'table');
+		const generalMarkup = generateMarkup(npcFetched, 'general');
+		const mainMarkup = generateMarkup(npcFetched, 'main');
+		const rewardsMarkup = generateMarkup(npcFetched, 'rewards');
+
 		insertMarkup(titleMarkup, npcContainer);
 		insertMarkup(tableMarkup, table);
 		insertMarkup(generalMarkup, generalInfo);
