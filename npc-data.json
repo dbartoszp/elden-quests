@@ -175,7 +175,7 @@
 	{
 		"todo": "true",
 		"id": "rennala",
-		"mainName": "TEST-NPC3",
+		"mainName": "Rennala",
 		"firstAppearance": "Liurnia",
 		"laterAppearances": ["Atlus Plateau", "Leyndell"],
 		"alsoInvolved": ["Goldmask"],

@@ -1,4 +1,5 @@
 'use strict';
+import { fetchNpcs } from './utils.js';
 
 const searchInput = document.getElementById('search-input');
 const results = document.getElementById('npc-results');
@@ -8,35 +9,6 @@ const resultsContainer = document.getElementById(
 let markup = '';
 let inputVal;
 let resultsList;
-
-export const fetchRegions = async () => {
-	try {
-		const res = await fetch('region-data.json');
-		const data = await res.json();
-		// console.log(data);
-		return data;
-	} catch (err) {
-		console.log(err);
-	}
-};
-
-export const fetchNpcs = async () => {
-	try {
-		const res = await fetch('npc-data.json');
-		const data = await res.json();
-		// console.log(data);
-		return data;
-	} catch (err) {
-		console.log(err);
-	}
-};
-
-export const matchArrays = async (regionsArray, npcsArray) => {
-	return regionsArray
-		.map((regionsArray) => regionsArray.npcs)
-		.flat()
-		.filter((id) => npcsArray.some((npc) => npc.id === id));
-};
 
 export const generateResults = async () => {
 	try {
@@ -70,13 +42,6 @@ export const showResults = (npcList) => {
 		resultsList = npcList.join('');
 	}
 	results.innerHTML = resultsList;
-};
-
-export const getExactNpc = (arr, npcName) => {
-	return arr.find((el) => {
-		// console.log(npcName);
-		if (el.id == npcName) return el;
-	});
 };
 
 //TO SHOW NPCS NOT IMPLEMENTED UNCOMMENT THIS BELOW

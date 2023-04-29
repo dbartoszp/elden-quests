@@ -4,8 +4,6 @@ import * as searchbar from './searchbar.js';
 const params = new URLSearchParams(window.location.search);
 const npcName = params.get('npc');
 
-const searchInput = document.getElementById('search-input');
-const searchResult = document.querySelector('.npc-search-results-container');
 const npcContainer = document.getElementById('npc-info-container');
 const table = document.getElementById('table-of-contents');
 const generalInfo = document.getElementById('npc-info-general');
@@ -14,12 +12,16 @@ const rewards = document.getElementById('rewards');
 
 let markup = '';
 
-searchbar.searchHandler();
-
-const fetchNPC = async (name) => {
+const fetchNPCID = async (name) => {
 	try {
 		const response = await fetch('npc-data.json');
 		const npc = await response.json();
+		const tmp = npc.find((el) => el.id === name);
+
+		if (tmp.hasOwnProperty('todo')) {
+			window.location.href = 'not-found.html';
+			return;
+		}
 		return (
 			npc.find((el) => el.id === name) ||
 			(window.location.href = 'not-found.html')
@@ -131,7 +133,11 @@ const generateMarkup = (npc, where) => {
 	return markup;
 };
 
-const npcFetched = await fetchNPC(npcName);
+const insertMarkup = (markup, where) => {
+	where.insertAdjacentHTML('afterbegin', markup);
+};
+
+const npcFetched = await fetchNPCID(npcName);
 
 const titleMarkup = generateMarkup(npcFetched, 'title');
 const tableMarkup = generateMarkup(npcFetched, 'table');
@@ -139,12 +145,14 @@ const generalMarkup = generateMarkup(npcFetched, 'general');
 const mainMarkup = generateMarkup(npcFetched, 'main');
 const rewardsMarkup = generateMarkup(npcFetched, 'rewards');
 
-const insertMarkup = (markup, where) => {
-	where.insertAdjacentHTML('afterbegin', markup);
+const generatePage = () => {
+	if (npcFetched) {
+		insertMarkup(titleMarkup, npcContainer);
+		insertMarkup(tableMarkup, table);
+		insertMarkup(generalMarkup, generalInfo);
+		insertMarkup(mainMarkup, mainInfo);
+		insertMarkup(rewardsMarkup, rewards);
+	}
 };
-
-insertMarkup(titleMarkup, npcContainer);
-insertMarkup(tableMarkup, table);
-insertMarkup(generalMarkup, generalInfo);
-insertMarkup(mainMarkup, mainInfo);
-insertMarkup(rewardsMarkup, rewards);
+searchbar.searchHandler();
+generatePage();

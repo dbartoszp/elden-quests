@@ -1,5 +1,5 @@
 'use strict';
-import { fetchNpcs, fetchRegions, getExactNpc } from './searchbar.js';
+import { fetchNpcs, fetchRegions, getExactNpc } from './utils.js';
 
 const open = document.getElementById('btn-sidebar-open');
 const close = document.getElementById('btn-sidebar-close');
@@ -70,7 +70,7 @@ const displayNpcs = async (npcsParam) => {
           <div class="npc-container">
             <a class="img-link" href="
             ${href}"><img src="${currentNpc.mainImage}" /></a>
-            <a class="text-link" href="=${href}">${currentNpc.mainName}</a>
+            <a class="text-link" href="${href}">${currentNpc.mainName}</a>
           </div>
         </div>`;
 				columnCount++;
