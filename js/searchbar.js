@@ -16,7 +16,10 @@ export const generateResults = async () => {
 		inputVal = searchInput.value.toLowerCase();
 		// console.log(inputVal);
 		const filteredData = npcs.filter((npc) => {
-			return npc.mainName.toLowerCase().includes(inputVal.toLowerCase());
+			return (
+				npc.mainName.toLowerCase().includes(inputVal.toLowerCase()) &&
+				inputVal.length > 0
+			);
 		});
 		// console.log(filteredData);
 		markup = filteredData.map((npc) => {

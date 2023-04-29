@@ -80,6 +80,7 @@ const displayNpcs = async (npcsParam) => {
 		for (let i = 0; i < rowCount; i++) {
 			htmlString += `</div>`;
 		}
+		htmlString += `</div>`;
 	});
 	if (!htmlString) {
 		htmlString = `<h2>Why is it always not found? </br>

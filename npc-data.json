@@ -155,6 +155,60 @@
 	},
 	{
 		"todo": "true",
+		"id": "fia",
+		"mainName": "Fia",
+		"firstAppearance": "Roundtable Hold",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/roundtable-hold/fia.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "gideon-ofnir",
+		"mainName": "Gideon Ofnir",
+		"firstAppearance": "Roundtable Hold",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/roundtable-hold/gideon-ofnir.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "hewg",
+		"mainName": "Smithing Master Hewg",
+		"firstAppearance": "Roundtable Hold",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/roundtable-hold/hewg.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
 		"id": "dung-eater",
 		"mainName": "Dung Eater",
 		"firstAppearance": "Roundtable Hold",
@@ -171,167 +225,723 @@
 			}
 		]
 	},
-
+	{
+		"todo": "true",
+		"id": "alexander",
+		"mainName": "Iron Fist Alexander",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/alexander.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "blaidd",
+		"mainName": "Blaidd",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/blaidd.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "boc-the-seamster",
+		"mainName": "Boc the Seamster",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/boc-the-seamster.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "enia",
+		"mainName": "Enia",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/enia.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "gatekeeper-gostoc",
+		"mainName": "Gatekeeper Gostoc",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/gatekeeper-gostoc.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "kenneth-haight",
+		"mainName": "Kenneth Haight",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/kenneth-haight.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "knight-bernahl",
+		"mainName": "Knight Bernahl",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/knight-bernahl.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "melina",
+		"mainName": "Melina",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/melina.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "nepheli-loux",
+		"mainName": "Nepheli Loux",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/nepheli-loux.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "patches",
+		"mainName": "Patches",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/patches.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "renna",
+		"mainName": "Renna",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/renna.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "roderika",
+		"mainName": "Roderika",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/roderika.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "sellen",
+		"mainName": "Sellen",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/sellen.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "sorcerer-rogier",
+		"mainName": "Sorcerer Rogier",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/sorcerer-rogier.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "varre",
+		"mainName": "White Mask Varre",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/varre.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "yura",
+		"mainName": "Yura",
+		"firstAppearance": "Limgrave",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/limgrave/yura.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "edgar",
+		"mainName": "Edgar",
+		"firstAppearance": "Weeping-peninsula",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/weeping-peninsula/edgar.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "albus",
+		"mainName": "Albus",
+		"firstAppearance": "Liurnia of the Lakes",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/liurnia/albus.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "boggart",
+		"mainName": "Blackguard Big Boggart",
+		"firstAppearance": "Liurnia of the Lakes",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/liurnia/boggart.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "hyetta",
+		"mainName": "Hyetta",
+		"firstAppearance": "Liurnia of the Lakes",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/liurnia/hyetta.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "iji",
+		"mainName": "Iji",
+		"firstAppearance": "Liurnia of the Lakes",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/liurnia/iji.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "jar-bairn",
+		"mainName": "Jar Bairn",
+		"firstAppearance": "Liurnia of the Lakes",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/liurnia/jar-bairn.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "latenna",
+		"mainName": "Latenna",
+		"firstAppearance": "Liurnia of the Lakes",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/liurnia/latenna.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "miriel",
+		"mainName": "miriel",
+		"firstAppearance": "Liurnia of the Lakes",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/liurnia/miriel.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "pidia",
+		"mainName": "pidia",
+		"firstAppearance": "Liurnia of the Lakes",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/liurnia/pidia.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
 	{
 		"todo": "true",
 		"id": "rennala",
-		"mainName": "Rennala",
-		"firstAppearance": "Liurnia",
-		"laterAppearances": ["Atlus Plateau", "Leyndell"],
-		"alsoInvolved": ["Goldmask"],
-		"questLocations": ["Roundtable Hold", "Atlus Plateau", "Leyndell"],
-		"mainImage": "/vendors/img/npc/roundtable-hold/brother-corhyn.png",
-		"rewards": [
-			"Mending Rune of Perfect Order",
-			"Flail",
-			"Corhyn's Robe",
-			"Goldmask's Rags",
-			"Gold Bracelets",
-			"Gold Waistwrap"
-		],
+		"mainName": "rennala",
+		"firstAppearance": "Liurnia of the Lakes",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/liurnia/rennala.png",
+		"rewards": ["PLACEHOLDER"],
 		"questline": [
 			{
-				"step": "First encounter at Roundtable Hold",
-				"description": "The first time the player can encounter Brother Corhyn is at Roundtable Hold.",
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
 				"images": []
-			},
-			{
-				"step": "First encounter at Atlus Plateau",
-				"description": "As soon as you reach Atlus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Atlus Plateau after resting.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
-			},
-			{
-				"step": "Finding the Goldmask",
-				"description": "After talking with Brother Corhyn nearby the Atlus Highway Junction site of Grace, you have to find Goldmask. He is standing on the north section of the Forest-Spanning Great Bridge, south of East Windmill Pasture. After you interact with Goldmask, you can go back to Corhyn and tell him Goldmask's whereabouts. After resting, he will move to where you found Goldmask.",
-				"images": []
-			},
-			{
-				"step": "The riddle",
-				"description": "In order to progress this questline, you need to obtain at least two Great Runes and have access to Leyndell. Both Goldmask and Corhyn will move to Leyndell, and can be found on a cliff up west of the colosseum. You need to exhaust Corhyn's dialogue. IMPORTANT: You need to solve this riddle before burning the Erdtree at Forge of the Giants - otherwise, Corhyn will vanish and leave behind his bell bearing, and Goldmask will not be present. The solution is as follows: First, you need to travel west of the Erdtree Sanctuary site of grace, down an elevator and a set of stairs. A white message on the ground facing the statue mentions 'Regression'. You must stand on the message, facing the statue, and cast the Law of Regression incantation to solve the riddle. Touch the new message that appears, and report the secret to Goldmask and then exhaust Corhyn's dialogue. ",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
-			},
-			{
-				"step": "Stargazer's Ruins",
-				"description": "After leaving Goldmask and Brother Corhyn (reloading the area will not work), they will move to the bridge south of Stargazer's Ruins right above the Ancient Snow Valley Ruins site of grace. You might give Corhyn Tonic of Forgetfulness, but he will refuse the potion. It will change the final outcome of the questline.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6136&lat=-70.273101&lng=156.515579&zoom=8&code=mapA"
-			},
-			{
-				"step": "Post Farum-Azula - Goldmask ending",
-				"description": "After completing Farum Azula (defeating Maliketh), you can find Goldmask in Leyndell, Ashen Capital. He moves to the bottom of the colosseum cliffs facing the west side of the Erdtree Sanctuary site of grace. He will give you the Mending Rune of Perfect Order. Reload the area to loot Goldmask's Set.",
-				"images": []
-			},
-			{
-				"step": "Post Farum-Azula - Corhyn ending",
-				"description": "Corhyn can be found in on of the possible two locations: First location - he should be at the base of the giant spiral spear. After you exhaust his dialogue and reload the area, you can find a Flail, Corhyn's Bell Bearing and his robe where he was sitting. Second possible location: if you offered him the Tonic of Forgetfulness, he will remain at the bridge south of the Stargazers' Ruins where you last saw him. Talk to him; he'll be unaware of Goldmask's absence. Reload the area and then collect all three of the above items where he was. If you don't complete the questline, you can find his bell bearing and robe ona cliff west of the colosseum in the Ashen Capital.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=7716&lat=-104&lng=116&zoom=8&code=mapC"
 			}
 		]
 	},
 	{
 		"todo": "true",
-		"id": "ranni",
-		"mainName": "TEST-NPC3",
-		"firstAppearance": "Liurnia",
-		"laterAppearances": ["Atlus Plateau", "Leyndell"],
-		"alsoInvolved": ["Goldmask"],
-		"questLocations": ["Roundtable Hold", "Atlus Plateau", "Leyndell"],
-		"mainImage": "/vendors/img/npc/roundtable-hold/brother-corhyn.png",
-		"rewards": [
-			"Mending Rune of Perfect Order",
-			"Flail",
-			"Corhyn's Robe",
-			"Goldmask's Rags",
-			"Gold Bracelets",
-			"Gold Waistwrap"
-		],
+		"id": "rya",
+		"mainName": "Rya",
+		"firstAppearance": "Liurnia of the Lakes",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/liurnia/rya.png",
+		"rewards": ["PLACEHOLDER"],
 		"questline": [
 			{
-				"step": "First encounter at Roundtable Hold",
-				"description": "The first time the player can encounter Brother Corhyn is at Roundtable Hold.",
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
 				"images": []
-			},
-			{
-				"step": "First encounter at Atlus Plateau",
-				"description": "As soon as you reach Atlus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Atlus Plateau after resting.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
-			},
-			{
-				"step": "Finding the Goldmask",
-				"description": "After talking with Brother Corhyn nearby the Atlus Highway Junction site of Grace, you have to find Goldmask. He is standing on the north section of the Forest-Spanning Great Bridge, south of East Windmill Pasture. After you interact with Goldmask, you can go back to Corhyn and tell him Goldmask's whereabouts. After resting, he will move to where you found Goldmask.",
-				"images": []
-			},
-			{
-				"step": "The riddle",
-				"description": "In order to progress this questline, you need to obtain at least two Great Runes and have access to Leyndell. Both Goldmask and Corhyn will move to Leyndell, and can be found on a cliff up west of the colosseum. You need to exhaust Corhyn's dialogue. IMPORTANT: You need to solve this riddle before burning the Erdtree at Forge of the Giants - otherwise, Corhyn will vanish and leave behind his bell bearing, and Goldmask will not be present. The solution is as follows: First, you need to travel west of the Erdtree Sanctuary site of grace, down an elevator and a set of stairs. A white message on the ground facing the statue mentions 'Regression'. You must stand on the message, facing the statue, and cast the Law of Regression incantation to solve the riddle. Touch the new message that appears, and report the secret to Goldmask and then exhaust Corhyn's dialogue. ",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
-			},
-			{
-				"step": "Stargazer's Ruins",
-				"description": "After leaving Goldmask and Brother Corhyn (reloading the area will not work), they will move to the bridge south of Stargazer's Ruins right above the Ancient Snow Valley Ruins site of grace. You might give Corhyn Tonic of Forgetfulness, but he will refuse the potion. It will change the final outcome of the questline.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6136&lat=-70.273101&lng=156.515579&zoom=8&code=mapA"
-			},
-			{
-				"step": "Post Farum-Azula - Goldmask ending",
-				"description": "After completing Farum Azula (defeating Maliketh), you can find Goldmask in Leyndell, Ashen Capital. He moves to the bottom of the colosseum cliffs facing the west side of the Erdtree Sanctuary site of grace. He will give you the Mending Rune of Perfect Order. Reload the area to loot Goldmask's Set.",
-				"images": []
-			},
-			{
-				"step": "Post Farum-Azula - Corhyn ending",
-				"description": "Corhyn can be found in on of the possible two locations: First location - he should be at the base of the giant spiral spear. After you exhaust his dialogue and reload the area, you can find a Flail, Corhyn's Bell Bearing and his robe where he was sitting. Second possible location: if you offered him the Tonic of Forgetfulness, he will remain at the bridge south of the Stargazers' Ruins where you last saw him. Talk to him; he'll be unaware of Goldmask's absence. Reload the area and then collect all three of the above items where he was. If you don't complete the questline, you can find his bell bearing and robe ona cliff west of the colosseum in the Ashen Capital.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=7716&lat=-104&lng=116&zoom=8&code=mapC"
 			}
 		]
 	},
 	{
 		"todo": "true",
-		"id": "fia",
-		"mainName": "TEST-NPC",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["Roundtable Hold", "Nokron"],
-		"alsoInvolved": [
-			"Gurranq",
-			"Sorcerer Rogier",
-			"Fia",
-			"D, Beholder of Death"
-		],
-		"questLocations": ["Limgrave", "Roundtable Hold", "Nokron"],
-		"mainImage": "/vendors/img/npc/roundtable-hold/d-hunter-of-the-dead.png",
-		"rewards": ["Twinned Set", "Inseparable Sword"],
+		"id": "seluvis",
+		"mainName": "Seluvis",
+		"firstAppearance": "Liurnia of the Lakes",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/liurnia/seluvis.png",
+		"rewards": ["PLACEHOLDER"],
 		"questline": [
 			{
-				"step": "First encounter at in Stormhill, Limgrave",
-				"description": "The first time the player can encounter D is east of Stormhill Shack in Limgrave. You can also find him in Roundtable Hold.",
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
 				"images": []
-			},
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "thops",
+		"mainName": "Thops",
+		"firstAppearance": "Liurnia of the Lakes",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/liurnia/thops.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
 			{
-				"step": "After defeating the Tibia Mariner",
-				"description": "After defeating the Tibia Mariner in Summonwater Village, return to D at the Roundtable Hold or rest at site of grace and find him by the southwestern entrance in the water of Summonwater Village. He will give you directions to Bestial Sanctum in Caelid, however you can get there by going to the 'Sending Gate' in East Limgrave. After talking with Gurranq and selecting 'yes' while talking to D, he will become a merchant and sell you incantations.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6112&lat=-175.796&lng=117.133&zoom=8&code=mapA"
-			},
-			{
-				"step": "Hints of D's brother",
-				"description": "During Rogier's questline, a letter left to you by Rogier mentions that D has a younger brother, and hints at his location. ",
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
 				"images": []
-			},
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "gowry",
+		"mainName": "Gowry",
+		"firstAppearance": "Caelid",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/caelid/gowry.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
 			{
-				"step": "Owner of the Weathered Dagger",
-				"description": "During Fia's and Rogier's questline, you will be asked to find the owner of a particular Weathered Dagger. D is the owner. Give him the dagger and reload the area. Then, in a newly opened room in the back of the Roundtable Hold, you will find D's Bell Bearing and the Twinned Set.",
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
 				"images": []
-			},
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "great-jar",
+		"mainName": "Great Jar",
+		"firstAppearance": "Caelid",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/caelid/great-jar.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
 			{
-				"step": "D's twin brother",
-				"description": "You can find D's twin brother, 'D, Beholder of Death' in Nokron. Upon interacting with him, you will receive the Inner Order gesture. Unaltered D's armor can be given to his brother, and after reloading the area you will be able to summon him for the fight with Valiant Gargoyles. You can also kill D, Hunter of the Dead at his first location and then give his armor to his brother, but this will cause the brother to be aggressive and fight you.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=1593&lat=-173.328125&lng=132.316801&zoom=8"
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "gurranq",
+		"mainName": "Gurranq",
+		"firstAppearance": "Caelid",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/caelid/gurranq.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "jerren",
+		"mainName": "Jerren",
+		"firstAppearance": "Caelid",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/caelid/jerren.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "master-lusat",
+		"mainName": "master-lusat",
+		"firstAppearance": "Caelid",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/caelid/master-lusat.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "milicent",
+		"mainName": "milicent",
+		"firstAppearance": "Caelid",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/caelid/milicent.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "goldmask",
+		"mainName": "Goldmask",
+		"firstAppearance": "Atlus Plateau",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/atlus-plateau/goldmask.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "primeval-sorcerer-azur",
+		"mainName": "Primeval Sorcerer Azur",
+		"firstAppearance": "Mt. Gelmir",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/mt-gelmir/primeval-sorcerer-azur.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "tanith",
+		"mainName": "Tanith",
+		"firstAppearance": "Mt. Gelmir",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/mt-gelmir/tanith.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "d-beholder-of-death",
+		"mainName": "D, Beholder of Death",
+		"firstAppearance": "Underground",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/underground/d-beholder-of-death.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
+			}
+		]
+	},
+	{
+		"todo": "true",
+		"id": "three-fingers",
+		"mainName": "The Three Fingers",
+		"firstAppearance": "Underground",
+		"laterAppearances": ["PLACEHOLDER"],
+		"alsoInvolved": ["PLACEHOLDER"],
+		"questLocations": ["PLACEHOLDER"],
+		"mainImage": "/vendors/img/npc/underground/three-fingers.png",
+		"rewards": ["PLACEHOLDER"],
+		"questline": [
+			{
+				"step": "PLACEHOLDER",
+				"description": "PLACEHOLDER",
+				"images": []
 			}
 		]
 	}

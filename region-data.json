@@ -1,84 +1,89 @@
 [
-  {
-    "id": "roundtable-hold",
-    "name": "Roundtable Hold",
-    "npcs": [
-      "brother-corhyn",
-      "diallos",
-      "dung-eater",
-      "d-hunter-of-the-dead",
-      "gideon-ofnir",
-      "hewg",
-      "fia"
-    ]
-  },
-  {
-    "id": "limgrave",
-    "name": "Limgrave",
-    "npcs": [
-      "blaidd",
-      "yura",
-      "boc-the-seamster",
-      "enia",
-      "gatekeeper-gostoc",
-      "alexander",
-      "kenneth-haight",
-      "knight-bernahl",
-      "melina",
-      "nepheli-loux",
-      "patches",
-      "renna",
-      "roderika",
-      "sorcerer-rogier",
-      "sellen",
-      "varre"
-    ]
-  },
+	{
+		"id": "roundtable-hold",
+		"name": "Roundtable Hold",
+		"npcs": [
+			"brother-corhyn",
+			"diallos",
+			"dung-eater",
+			"d-hunter-of-the-dead",
+			"gideon-ofnir",
+			"hewg",
+			"fia"
+		]
+	},
+	{
+		"id": "limgrave",
+		"name": "Limgrave",
+		"npcs": [
+			"blaidd",
+			"yura",
+			"boc-the-seamster",
+			"enia",
+			"gatekeeper-gostoc",
+			"alexander",
+			"kenneth-haight",
+			"knight-bernahl",
+			"melina",
+			"nepheli-loux",
+			"patches",
+			"renna",
+			"roderika",
+			"sorcerer-rogier",
+			"sellen",
+			"varre"
+		]
+	},
 
-  {
-    "id": "weeping-peninsula",
-    "name": "Weeping Peninsula",
-    "npcs": ["edgar"]
-  },
-  {
-    "id": "liurnia",
-    "name": "Liurnia of the Lakes",
-    "npcs": [
-      "albus",
-      "boggart",
-      "hyetta",
-      "jar-bairn",
-      "latenna",
-      "miriel",
-      "pidia",
-      "seluvis",
-      "ranni",
-      "rennala",
-      "rya",
-      "iji",
-      "thops"
-    ]
-  },
-  {
-    "id": "caelid",
-    "name": "Caelid",
-    "npcs": [
-      "gowry",
-      "gurranq",
-      "master-lusat",
-      "milicent",
-      "great-jar",
-      "jerren"
-    ]
-  },
-  {
-    "id": "atlus-plateau",
-    "name": "Atlus Plateau",
-    "npcs": ["goldmask"]
-  },
-  {
-    "id": "mt-gelmir",
-    "name": "Mt. Gelmir",
-    "npcs": ["primeval-sorcerer-azur", "tanith"]
-  }
+	{
+		"id": "weeping-peninsula",
+		"name": "Weeping Peninsula",
+		"npcs": ["edgar"]
+	},
+	{
+		"id": "liurnia",
+		"name": "Liurnia of the Lakes",
+		"npcs": [
+			"albus",
+			"boggart",
+			"hyetta",
+			"jar-bairn",
+			"latenna",
+			"miriel",
+			"pidia",
+			"seluvis",
+			"ranni",
+			"rennala",
+			"rya",
+			"iji",
+			"thops"
+		]
+	},
+	{
+		"id": "caelid",
+		"name": "Caelid",
+		"npcs": [
+			"gowry",
+			"gurranq",
+			"master-lusat",
+			"milicent",
+			"great-jar",
+			"jerren"
+		]
+	},
+	{
+		"id": "atlus-plateau",
+		"name": "Atlus Plateau",
+		"npcs": ["goldmask"]
+	},
+	{
+		"id": "mt-gelmir",
+		"name": "Mt. Gelmir",
+		"npcs": ["primeval-sorcerer-azur", "tanith"]
+	},
+	{
+		"id": "underground",
+		"name": "Underground",
+		"npcs": ["d-beholder-of-death", "three-fingers"]
+	}
 ]
