@@ -5,7 +5,7 @@
 ## Built with:
 ![html][HTML] ![sass][sass] ![js][JS]
 
-Project will be done using HTML, SCSS and JS. Data for npcs is stored in a JSON file.
+Project is made using HTML, SCSS and plain JS. Data for NPCs is stored in a JSON file.
 
 <!-- ABOUT THE PROJECT -->
 ## About the project
@@ -13,7 +13,7 @@ Project will be done using HTML, SCSS and JS. Data for npcs is stored in a JSON 
 Passion project for Elden Ring, mostly done for fun but also in order to learn some more web development.
 
 Having struggled with questlines in Elden Ring I decided to make a webproject just for that - compiling every NPC with a questline and showing how to solve them step by step.
-You will be able to search for, or browse all NPCs, sorted alphabetically and by location (first appearance).
+You are able to search for, or browse all NPCs, sorted alphabetically and by location (first appearance).
 
 <!-- AVAILABLE NPCS -->
 ## Available NPCs
