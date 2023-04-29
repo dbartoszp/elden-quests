@@ -17,6 +17,7 @@ You will be able to search for, or browse all NPCs, sorted alphabetically and by
 
 <!-- AVAILABLE NPCS -->
 ## Available NPCs
+Currently available NPCs with complete npc pages:
 - D, Hunter of the Dead
 - Diallos
 - Brother Corhyn
