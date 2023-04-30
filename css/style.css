@@ -559,7 +559,8 @@ input::placeholder {
   color: rgba(233, 225, 187, 0.9);
 }
 .npc-info-main img {
-  height: 35rem;
+  height: 15rem;
+  width: 20rem;
 }
 .npc-info-main span {
   text-transform: uppercase;

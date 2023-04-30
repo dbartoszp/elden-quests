@@ -154,73 +154,137 @@
 		]
 	},
 	{
-		"todo": "true",
 		"id": "fia",
 		"mainName": "Fia",
 		"firstAppearance": "Roundtable Hold",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": ["Underground"],
+		"alsoInvolved": [
+			"D, Hunter of the Dead",
+			"Ranni",
+			"Sorcerer Rogier",
+			"Lionel the Lionhearted"
+		],
+		"questLocations": ["Roundtable Hold", "Underground"],
 		"mainImage": "/vendors/img/npc/roundtable-hold/fia.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": ["Fia's Set", "Mending Rune of the Death-Prince"],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "First encounter at Roundtable Hold",
+				"description": "Fia can be found at the Roundtable Hold, sitting on a bed. Allowing her to hold you rewards you with Baldachin's Blessing, which decreases your max HP by 5%, up until you consume it.",
+				"images": ["vendors/img/questlines/fia/step-1.jpg"]
+			},
+			{
+				"step": "After visiting Atlus Plateau",
+				"description": "After resting at a site of grace in Atlus Plateau, when you go back to Fia at the Roundtable Hold you will be able to be held by her for a second time, after which she will give you a Weathered Dagger. After receiving the dagger, go talk to D, Hunter of the Dead at the Roundtable Hold and give it to him.",
+				"images": ["vendors/img/questlines/fia/step-2.png"]
+			},
+			{
+				"step": "Black Knifeprint Location",
+				"description": "Speak with Rogier about the black knives. After you also speak to Fia, she will give you Knifeprint Clue, revealing location of a Black Knifeprint. After you reload the area you'll find Fia in a newly opened room near Hewg, and after this encounter she will disappear.",
+				"images": []
+			},
+			{
+				"step": "Deeproot Depths",
+				"description": "In Deeproot Depths, head to the Across the Roots site of grace and enter the boss arena to the north. There, you will fight Fia's Champions. Upon talking to her, tell her that you want to be hugged. She then will ask you to bring her the Cursemark of Death, which is found duriing Ranni's quest. If Fia is not there, and she has already killed D, you might have to follow a few extra steps. First, kill the Valiant Gargoyles and rest in the coffin in the arena. This will take you to Deeproot Depths, after which Fia might appear. Another possible route is by revealing 2 illusory walls after the encounter with the Three Fingers.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169059"
+			},
+			{
+				"step": "Cursemark of Death",
+				"description": "After you give the Cursemark of Death to Fia, she will give you Radiant Baldachin's Blessing. Exhaust her dialogue and reload the area. Interact with sleeping Fia and fight Lichdragon Fortissax.",
 				"images": []
 			}
 		]
 	},
 	{
-		"todo": "true",
 		"id": "gideon-ofnir",
 		"mainName": "Gideon Ofnir",
 		"firstAppearance": "Roundtable Hold",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": ["Leyndell"],
+		"alsoInvolved": ["Nepheli Loux", "Perceptor Seluvis"],
+		"questLocations": ["Roundtable Hold", "Leyndell"],
 		"mainImage": "/vendors/img/npc/roundtable-hold/gideon-ofnir.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": [
+			"All-Knowing Set",
+			"Scepter of the All-Knowing",
+			"Fevor's Cookbook[3]",
+			"Law of Causality",
+			"Black Flame's Protection",
+			"Lord's Divine Fortification"
+		],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "First and second encounter at the Roundtable Hold",
+				"description": "You can find him at the Roundtable Hold the first time you get there. Once you leave the Hold and return once more, he will have relocated to his room guarded by Ensha. Gideon will instruct you to kill Godrick the Grafted.",
+				"images": []
+			},
+			{
+				"step": "Defeating Godrick",
+				"description": "After defeating Godrick you'll have to speak to Enia at the Roundtable Hold in order for Gideon to reopen doors to his room.",
+				"images": []
+			},
+			{
+				"step": "Defeating another Shardbearer",
+				"description": "After defating a second Shardbearer, come back to Gideon. You'll be able to talk with him about Nepheli Loux. Around this time, while progressing Preceptor Seluvis' questline, you might give Seluvis' Potion to Gideon. This simply prevents you from giving the potion to other NPCs, which would end up ending that NPC's questline.",
+				"images": []
+			},
+			{
+				"step": "Defeating Morgott",
+				"description": "After defeating Morgott, return to Gideon. He will disclose locations of other Shardbearers and provide you with rewards after killing each one: reaching Mohgwyn Dynasty Mausoleum - [Fevor's Cookbook[3]], Defeating Mohg, Lord of Blood - [Law of Causality], reaching Miquella's Haligtree - [Black Flame's Protection], defeating Malenia, Blade of Miquella - [Lord's Divine Fortification]",
+				"images": []
+			},
+			{
+				"step": "Final encounter at the Ashen capital",
+				"description": "After defeating Maliketh and returning to Leyndell, head towards the Erdtree Sanctuary. There, you will find Gideon monologuing and attacking you. After the fight, you will obtain his armor set as well as his scepter, ending his questline.",
 				"images": []
 			}
 		]
 	},
 	{
-		"todo": "true",
-		"id": "hewg",
-		"mainName": "Smithing Master Hewg",
-		"firstAppearance": "Roundtable Hold",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/roundtable-hold/hewg.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
 		"id": "dung-eater",
 		"mainName": "Dung Eater",
 		"firstAppearance": "Roundtable Hold",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": ["Underground", "Atlus Plateau"],
+		"alsoInvolved": ["Big Blackguard Boggart"],
+		"questLocations": ["Roundtable Hold", "Underground", "Atlus Plateau"],
 		"mainImage": "/vendors/img/npc/roundtable-hold/dung-eater.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": ["Omen Set", "Sword of Milos"],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "NOTE",
+				"description": "During Ranni's questline, if you give Ranni the Fingerslayer Blade you will not be able to give Dung Eater Seluvis's Potion.",
+				"images": []
+			},
+			{
+				"step": "First encounter at Roundtable Hold",
+				"description": "The first time you can meet the Dung Eater is after gaining access to the Atlus Plateau. He can be found in a room past the twin maidens.",
+				"images": []
+			},
+			{
+				"step": "First Seedbed Curse",
+				"description": "After giving him at least one Seedbed Curse, he will give you the Sewer-Gaol Key, used to open his cell in the Subterranean Shunning-Grounds, which you can access by descending down a well in Leyndell.",
+				"images": ["vendors/img/questlines/dung-eater/step-3.jpg"],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=175943"
+			},
+			{
+				"step": "Freeing the Dung Eater",
+				"description": "He can be found in his cell in the sewers. Tell him he's been freed and return to Roundtable Hold. </br>To find his cell, follow these steps: </br>1. Spawn at the Underground Roadside grace. </br>2. Leave the room and take a left. </br>3. Head down the corridor and jump down the open gate. </br>4. Run northwest and go past the giant poison plants and climb the ladder. </br>5. Past the giant hand is the Sewer Gaol room with Dung Eater inside.",
+				"images": []
+			},
+			{
+				"step": "Message from the Dung Eater",
+				"description": "After returning to Roundtable Hold, you will not find Dung Eater, but his message for you to fight him at the 'outer moat'. If you're progressing Blackguard Big Boggart's questline, make sure to complete it before doing this step, or else he will not drop a Seedbed Curse.",
+				"images": ["vendors/img/questlines/dung-eater/step-5.jpg"],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169012"
+			},
+			{
+				"step": "Another encounter at the Roundtable Hold",
+				"description": "Upon defeat, he will return to the Roundtable Hold. From now on, you can give him Seluvis's Potion to end Dung Eater's questline, or Seedbed Curses to progress it.",
+				"images": []
+			},
+			{
+				"step": "5 Seedbed Curses",
+				"description": "After giving him 5th and final Seedbed Curse, his questline will be complete and you will be rewarded with the Mending Rune of the Fell Curse. You can also reload the area to find the Omen Set in his place.",
 				"images": []
 			}
 		]
@@ -352,20 +416,63 @@
 		]
 	},
 	{
-		"todo": "true",
 		"id": "melina",
 		"mainName": "Melina",
 		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": ["Weeping Peninsula", "Leyndell"],
+		"alsoInvolved": ["None directly"],
+		"questLocations": ["Limgrave", "Weeping Peninsula", "Leyndell"],
 		"mainImage": "/vendors/img/npc/limgrave/melina.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": ["None directly"],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "NOTE",
+				"description": "Melina is directly connected to the main quest. This page is more of a list of interactions with her throughout the main quest.",
 				"images": []
+			},
+			{
+				"step": "First encounter in Limgrave",
+				"description": "After resting at a site of grace oustide of the Church of Elleh, Melina will appear and begin a conversation. This interaction will allow you to level up, as well as reward you with the ability to summon Torrent.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163934"
+			},
+			{
+				"step": "Conversations with Melina",
+				"description": "At the next site of grace you rest at before entering Stormveil Castle, you will be able to talk to her again. She will tell you about a Shardbearer in the Stormveil Castle, as well as about golden lines guiding you through the game. At the next site of grace, you will be able to talk with her about her puprose.",
+				"images": []
+			},
+			{
+				"step": "Conversation at the Third Church of Marika",
+				"description": "At the Third Church of Marika, upon talking with her she will describe echoes of Queen Marika the Eternal.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164015"
+			},
+			{
+				"step": "Conversation at the Church of Pilgrimage",
+				"description": "Upon talking to Melina, she gives you the option to elucidate on the echoes.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163995"
+			},
+			{
+				"step": "Fight against Morgott",
+				"description": "You can summon her for the fight against Morgott, just outside the boss arena.",
+				"images": []
+			},
+			{
+				"step": "Trying to enter the Erdtree",
+				"description": "After failing to enter the Erdtree upon Morgott's defeat, rest at the Elden Throne site of Grace. She will then guide you to the Mountaintop of the Giants.",
+				"images": []
+			},
+			{
+				"step": "Extra encounters",
+				"description": "At some sites of grace, Melina will have additional dialogue reminding you of the goal at the Mountaintops.",
+				"images": []
+			},
+			{
+				"step": "Last encounter with Melina",
+				"description": "After defeating the Fire Giant and reaching the Forge of the Giants, talk with Melina at the grace. If you haven't inherited the Frenzied Flame, this will be the last time you see her. If you have, she will later appear after the ending of the game.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166544"
 			}
 		]
 	},
@@ -676,23 +783,96 @@
 		]
 	},
 	{
-		"todo": "true",
-		"id": "rennala",
-		"mainName": "rennala",
+		"id": "ranni",
+		"mainName": "Ranni the Witch/Renna",
 		"firstAppearance": "Liurnia of the Lakes",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/liurnia/rennala.png",
-		"rewards": ["PLACEHOLDER"],
+		"laterAppearances": ["Underground", "Leyndell"],
+		"alsoInvolved": [
+			"Blaid",
+			"Iji",
+			"Preceptor Seluvis",
+			"Sorcerer Rogier",
+			"Sorceress Sellen"
+		],
+		"questLocations": ["Liurnia of the Lakes", "Underground", "Leyndell"],
+		"mainImage": "/vendors/img/npc/liurnia/ranni.png",
+		"rewards": ["Snow Witch set", "Dark Moon Ring", "Dark Moon Greatsword"],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "Renna",
+				"description": "Ranni is first encountered going by the name Renna, when the player teleports to the Church of Elleh, after meeting Melina and acquiring Torrent. Upon talking with Renna she gives the player the Spirit Calling Bell and the Lone Wolf Ashes. Not meeting Renna does not prevent the quest from being completed.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167799"
+			},
+			{
+				"step": "First meeting in Liurnia",
+				"description": "The first time the player encounters Ranni the Witch is at the top of Ranni's Rise, which requires Royal Knight Loretta to be defeated at the Caria Manor. If the Radahn Festival is happening, you will have to first defeat Radahn in order to find Ranni at Ranni's Rise.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165879"
+			},
+			{
+				"step": "Ranni's Rise",
+				"description": "At the top of Ranni's Rise she tasks the player with finding the hidden treasure of Nokron and asks you to speak with Iji, Blaidd and Preceptor Seluvis, who appear as ghostly projections in the tower. You have to talk with all three of them to leave the tower area. After talking with all three projections, talk to Ranni again and you'll be able to fast travel as normal. If you haven't found Ranni formerly known as Renna, you will have to talk to Rogier at the Roundtable Hold and speak with him to continue Ranni's questline as normal.",
+				"images": []
+			},
+			{
+				"step": "Encounter with Blaidd in Siofra River",
+				"description": "Blaidd will be waiting for you in Siofra River. He will instruct you to talk with Seluvis (who can be found in his tower near Ranni's Rise), who then tells you to find Sorceress Sellen.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167764"
+			},
+			{
+				"step": "Finding Sellen",
+				"description": "You'll find Sellen at the Waypoint Ruins. She will tell you that in order to reach Nokron you need to defeat Starscourge Radahn.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164001"
+			},
+			{
+				"step": "After Radahn's Defeat",
+				"description": "Defeating Radahn forces a star to struck Limgrave, south of Mistwood. You can talk to Iji about the fallen star. The impact has created a new entrance into Nokron, through which you'll be able to access the underground area.",
+				"images": []
+			},
+			{
+				"step": "The Fingerslayer Blade",
+				"description": "Once you reach Nokron Ancestral Woods site of grace, you need to jump across nearby ledge and reach the city. As you continue onward you will eventually find a chest containing the Fingerslayer Blade - the treasure Ranni seeks.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167496"
+			},
+			{
+				"step": "NOTE",
+				"description": "Giving Ranni the Fingerslayer Blade will make Preceptor Seluvis a lifeless puppet, which stops his questline.",
+				"images": []
+			},
+			{
+				"step": "Giving Ranni the blade",
+				"description": "Once you return to Ranni and give her the Fingerslayer Blade, she will reward you with the Carian Inverted Statue, which can be used at a pedestal at the entrance to the Carian Study Hall. Upon arriving at the top of the Divine Tower of Liurnia, you will be able to find the Cursemark of Death.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164410"
+			},
+			{
+				"step": "Renna's Rise and the miniature Ranni doll",
+				"description": "Upon giving Ranni the blade, you will gain acess to Renna's Rise. There, you can find the Snow Witch Set as well as a waygate able to transport you to Ainsel River Main, where you can find the miniature Ranni doll. Rest at the Ainsel River Main site of grace and talk to miniature Ranni three times. She will task you wi th defeating a Baleful Shadow found further into the area. Defeating the shadow rewards you with the Discarded Palace Key.",
+				"images": []
+			},
+			{
+				"step": "Dark Moon Ring and the Naturalborn of the Void",
+				"description": "Use the Discarded Key to access the chest found in the Raya Lucaria Grand Library next to Rennala, which contains the Dark Moon Ring. Go back to Lake of Rot and reach the Grand Cloister. There, you can interact with a stone coffin and prepare to fight Astel, Naturalborn of the void. Upon it's defeat, with the Ring you'll be able to pass a magic seal, which blocks the path to the Moonlight Altar.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167484"
+			},
+			{
+				"step": "Dark Moon Greatsword",
+				"description": "Collect 11 Starlight Shards scattered in the Cathedral of Manus Celes. Then, drop down the hole near the site of grace and continue through the tunnel. Interact with Ranni's doll body and place the Dark Moon Ring on ranni's Finger. She then confirms you as her consort nad drop the Dark Moon Greatsword.",
+				"images": []
+			},
+			{
+				"step": "The Age of Stars",
+				"description": "After defeating the Elden Beast, interact with a blue summon sign near Marika's broken remains to acquire the 'Age of Stars' ending.",
 				"images": []
 			}
 		]
 	},
+
 	{
 		"todo": "true",
 		"id": "rya",

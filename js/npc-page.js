@@ -88,6 +88,10 @@ const generateMarkup = (npc, where) => {
 						? `</br><a href="${el.mapLink}" target="_blank" rel="noopener noreferrer">[Fextralife map link]</a></h3>`
 						: ``
 				}
+				${
+					// <img src="/vendors/img/bgs/caelid-background.png" />
+					el.images.length > 0 ? `<img src="${el.images[0]}"/>` : ``
+				}
                     `;
 				});
 				// <h2>npcs questline step by step</h2>
