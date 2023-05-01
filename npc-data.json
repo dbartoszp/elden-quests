@@ -731,24 +731,7 @@
 			}
 		]
 	},
-	{
-		"todo": "true",
-		"id": "renna",
-		"mainName": "Renna",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/limgrave/renna.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
+
 	{
 		"todo": "true",
 		"id": "roderika",
@@ -968,7 +951,7 @@
 	{
 		"todo": "true",
 		"id": "miriel",
-		"mainName": "miriel",
+		"mainName": "Miriel",
 		"firstAppearance": "Liurnia of the Lakes",
 		"laterAppearances": ["PLACEHOLDER"],
 		"alsoInvolved": ["PLACEHOLDER"],
@@ -1220,7 +1203,7 @@
 	},
 	{
 		"todo": "true",
-		"id": "master-lusat",
+		"id": "Master-lusat",
 		"mainName": "master-lusat",
 		"firstAppearance": "Caelid",
 		"laterAppearances": ["PLACEHOLDER"],
@@ -1238,7 +1221,7 @@
 	},
 	{
 		"todo": "true",
-		"id": "milicent",
+		"id": "Milicent",
 		"mainName": "milicent",
 		"firstAppearance": "Caelid",
 		"laterAppearances": ["PLACEHOLDER"],
@@ -1327,19 +1310,38 @@
 		]
 	},
 	{
-		"todo": "true",
 		"id": "three-fingers",
 		"mainName": "The Three Fingers",
 		"firstAppearance": "Underground",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": ["None"],
+		"alsoInvolved": ["Hyetta"],
+		"questLocations": ["Underground"],
 		"mainImage": "/vendors/img/npc/underground/three-fingers.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": ["Flame of Frenzy"],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "NOTE",
+				"description": "Meeting with the Three Fingers will lock you out of other ending choices, unless you use Miquella's Needle at Dragonlord Placidusax's arena. This permanently removes the Frenzied Flame.",
+				"images": []
+			},
+			{
+				"step": "The Subterranean Shunning-Grounds",
+				"description": "In order to access the Three Fingers, you will need to first reach the Subterranean Shunning-Grounds, accessed by descending down a well in Leyndell.",
+				"images": []
+			},
+			{
+				"step": "The Cathedral of the Forsaken",
+				"description": "Most of this step is well explained in this video: <a href='https://www.youtube.com/watch?v=BDS2vFgFhGw'>[LINK]</a> The entrance to the Cathedral will be guarded by Mohg, the Omen. Once you defeat him, attack the wall behind him to reveal an illusory wall.",
+				"images": []
+			},
+			{
+				"step": "The Descent",
+				"description": "Most of this step is well explained in this video: <a href='https://www.youtube.com/watch?v=fEf8azXCShY'>[LINK]</a> Now, you need to descend down the Cathedral of the Forsaken. Once you reach the bottom you will come across huge, stone gate. Unequip your armor to interact with it and a cutscene will play, with you inheriting the Frenzied Frame from the Three Fingers and unlocking the Lord of the Frenzied Flame ending.",
+				"images": []
+			},
+			{
+				"step": "Hyetta's Reward",
+				"description": "Once you inherit the Frenzied Flame and obtain the Flame of Frenzy, you can talk with Hyetta after completing her questline to be rewarded with the Frenzied Flame Seal.",
 				"images": []
 			}
 		]

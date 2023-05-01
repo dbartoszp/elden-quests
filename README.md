@@ -40,7 +40,7 @@ Currently available NPCs with complete npc pages:
 -   Kenneth Haight
 -   Knight Bernahl
 -   Nepheli Loux
-
+-   Three Fingers
 <!-- HOMEPAGE -->
 
 ## Screenshots - homepage
