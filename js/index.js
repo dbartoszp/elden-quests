@@ -26,7 +26,12 @@ searchInput.addEventListener('keyup', (e) => {
 	const filteredNpcs = availableNpcs.filter((npc) =>
 		npc.mainName.toLowerCase().includes(searchString)
 	);
-	displayNpcs(filteredNpcs);
+	if (filteredNpcs.length > 0) {
+		displayNpcs(filteredNpcs);
+	} else {
+		npcsTableContainer.innerHTML = `<h2>Why is it always not found? </br>
+		No matching NPCs found!</h2>`;
+	}
 });
 
 open.onclick = () => {

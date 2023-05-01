@@ -415,55 +415,88 @@
 		]
 	},
 	{
-		"todo": "true",
 		"id": "boc-the-seamster",
 		"mainName": "Boc the Seamster",
 		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": [
+			"Liurnia of the Lakes",
+			"Atlus Plateau",
+			"Leyndell"
+		],
+		"alsoInvolved": ["Rennala"],
+		"questLocations": [
+			"Limgrave",
+			"Liurnia of the Lakes",
+			"Atlus Plateau",
+			"Leyndell"
+		],
 		"mainImage": "/vendors/img/npc/limgrave/boc-the-seamster.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": ["Mushrooms (10)"],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "First encounter in Limgrave",
+				"description": "Boc can initially be found disguised as a tree calling for help. In order to see him, you have to attack the tree and he will return to his original form. He will tell you on how he was expelled from his caved and had everything he owned taken. He also says that he might sneak back into the cave to retrieve some of his belongings and bring them to you.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164089"
+			},
+			{
+				"step": "Coastal Cave encounter",
+				"description": "The next time you can meet Boc is at the Coastal Cave. He is lying on the floor near the entrance. You need to clear out the cave to help him. Defeating the boss rewards you with Tailoring Tools and Sewing Needle, which you need to give back to Boc.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165130"
+			},
+			{
+				"step": "Third encounter and altering garments",
+				"description": "Later you can find Boc at the Lake-Facing Cliffs site of grace in Liurnia. He will then offer to make adjustments to your garments for free. Now, you need to meet those three conditions:</br>1. Retrieve the Gold Sewing Needle from the Church of Vows in Liurnia</br>2. Buy at least one oiece of demigod armor from Finger Reader Enia at the Roundtable Hold.</br>3. Speak with Melina about Boc at the East Raya Lucaria Gate site of grace.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165682"
+			},
+			{
+				"step": "Optional encounters",
+				"description": "You can find him in the East Raya Lucaria Gate site of grace and then to Atlus Highway Junction site of grace and finally next to the East Capital Ramparts site of grace. Those encounters are optional.",
+				"images": []
+			},
+			{
+				"step": "Giving Boc the Gold Sewing Needle and the choice",
+				"description": "After giving him the Gold Sewing Needle, you will have a choice between two options:</br>1. Give him a Larval Tear, after which he will move next to Rennala. He will be reborn and not respond, and after reloading the area, he will die.</br>2. Perform the 'You're Beautiful' Prattling Pate in from of him, then discuss it.</br>Either choice ends his questline.",
 				"images": []
 			}
 		]
 	},
 	{
-		"todo": "true",
-		"id": "enia",
-		"mainName": "Enia",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/limgrave/enia.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
 		"id": "gatekeeper-gostoc",
 		"mainName": "Gatekeeper Gostoc",
 		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": ["None"],
+		"alsoInvolved": ["None directly"],
+		"questLocations": ["Limgrave"],
 		"mainImage": "/vendors/img/npc/limgrave/gatekeeper-gostoc.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": ["Grace Mimic"],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "First encounter before entering the Stormveil Castle",
+				"description": "You will find Gostoc just before entering the Stormveil castle. He will advise you to enter the castle through the other way. You can accept or reject his suggestion:</br>If you accept, he will wish you luck and send you on your way further.</br>If you reject the offer, he will open the gate for you.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=179323"
+			},
+			{
+				"step": "Notes about Gostoc",
+				"description": "Once you have obatined the Rusty Key or Defeated Godrick, or caught him at one of the 3 location stalking you, he will provide merchant services.</br>He will stel 30% of your runes every time you die in the castle, regardless of your choice in the first step. Killing Gostoc does not lock you out of Nepheli Loux and Kenneth Haight's questline, however you will miss out on the Ancient Dragon Smithing Stone.",
+				"images": []
+			},
+			{
+				"step": "Gostoc the Stalker",
+				"description": "Once you pass the gate you will find Gostoc in certain locations behind you. The first time you interact with him after catching him he will give you  a Grace Mimic. He will appear in set locations after triggering and event by passic through specific trigger points. His stalking locations trigger points are:</br>1. Ruined Watchtower, behind the Stormveil Cliffside site of grace - walk up the side path and into the room with 2 servants sitting on the ground.</br>2. Inside the rampart tower</br>3. On the castle chapel roof, above Sorcerer Rogier",
+				"images": []
+			},
+			{
+				"step": "Using the Rusty Key",
+				"description": "Once you open a door using the Rusty Key, the door will close and you'll have to fight a Banished Knight.",
+				"images": []
+			},
+			{
+				"step": "Questline ending",
+				"description": "After defeating Godrick, Gostoc will move to the boss room and begin kicking Godrick's head, continuing to be a merchant and ending his questline.",
 				"images": []
 			}
 		]
