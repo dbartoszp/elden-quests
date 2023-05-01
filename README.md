@@ -33,6 +33,12 @@ Currently available NPCs with complete npc pages:
 -   Dung Eater
 -   Melina
 -   Ranni the Witch
+-   Alexander
+-   Blaidd
+-   Boc the Seamster
+-   Gostoc the Gatekeeper
+-   Kenneth Haight
+-   Knight Bernahl
 
 <!-- HOMEPAGE -->
 
