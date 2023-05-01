@@ -290,38 +290,127 @@
 		]
 	},
 	{
-		"todo": "true",
 		"id": "alexander",
 		"mainName": "Iron Fist Alexander",
 		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": [
+			"Liurnia",
+			"Caelid",
+			"Mt. Gelmir",
+			"Crumbling Farum Azula"
+		],
+		"alsoInvolved": ["none"],
+		"questLocations": [
+			"Limgrave",
+			"Liurnia",
+			"Caelid",
+			"Mt. Gelmir",
+			"Crumbling Farum Azula"
+		],
 		"mainImage": "/vendors/img/npc/limgrave/alexander.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": [
+			"Triumphant Delight Gesture",
+			"Exalted Flesh (2)",
+			"Alexander's Innards",
+			"Shard of Alexander",
+			"Warrior Jar Shard (if you kill him before Farum Azula)"
+		],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "NOTE",
+				"description": "If you kill him before Crumbling Farum Azula, he will not drop Shard of Alexander and Alexander's Innards - instead, he will drop the Warrior Jar Shard.",
 				"images": []
+			},
+			{
+				"step": "First encounter in Limgrave",
+				"description": "Help Alexander get out of a hole by hitting him a few times. Don't be scared to attack him, he will tell you to keep trying. He will reward you with Triumphant Delight Gesture and a piece of Exalted Flesh. He also will tell you where he's headed.",
+				"images": ["/vendors/img/questlines/alexander/step-1.jpg"],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164117"
+			},
+			{
+				"step": "Alexander's next location",
+				"description": "You can skip this step by already starting the Radahn Festival. The second time you can find Alexander is in Gael Tunnel. He will once again mention the festival in Redmane Castle.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165129"
+			},
+			{
+				"step": "The Radahn Festival",
+				"description": "You can find Alexander in Redmane Castle along other participants. You can summon him for the fight against Radahn. After defeating Radahn, you can find Alexander nearby the site of grace in Wailing Dunes and talk to him.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169067"
+			},
+			{
+				"step": "Alexander is stuck again",
+				"description": "His next location is in Liurnia, nearby the Carian Study Hall, stuck in a hole once again. This time, just attacking him will not result in success. You need to thorw an Oil Pot to make him slippery, and then get him out. He will thank you and reward you with an Exalted Flesh, saying that he's headed North to become an even stronger warrior.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168542"
+			},
+			{
+				"step": "Alexander at Mt. Gelmir",
+				"description": "This time, you will find Alexander in a lava lake just behind a Magma Wyrm. You will be able to safely talk to him once you walk on one of the stones in the lava pool. There, he will award you with the Jar and head to the forge of the giants. You will be able to summon him for the fight against the Fire Giant, just outisde of the arena.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167816"
+			},
+			{
+				"step": "Questline ending",
+				"description": "The last time you meet Alexander is in Crumbling Farum Azula. Here, he will request one final duel. Once you defeat him, he will reward you with Alexander's Innards and the Shard of Alexander.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170548"
 			}
 		]
 	},
 	{
-		"todo": "true",
 		"id": "blaidd",
 		"mainName": "Blaidd",
 		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": ["Liurnia", "Caelid", "Underground"],
+		"alsoInvolved": ["Ranni", "Preceptor Seluvis", "Sorceress Sellen"],
+		"questLocations": ["Limgrave", "Liurnia", "Caelid", "Underground"],
 		"mainImage": "/vendors/img/npc/limgrave/blaidd.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": [
+			"Finger Snap Gesture",
+			"Smithing Stone [2]",
+			"Royal Greatsword",
+			"Blaidd's Armor",
+			"Blaidd's Gauntlets",
+			"Blaidd's Greaves"
+		],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
+				"step": "First encounter in Mistwood",
+				"description": "In Mistwood, you can hear a wolf's howl. You can ask Merchant Kale about the howling, and the merchant will teach you the Finger Snap Gesture. Then, you can meet Blaidd on the tallest point in Mistwood Ruins. Once you use the Finger Snap Gesture below him, he will jump down. He will tell you he's hunting for a man called 'Darriwil'.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165206"
+			},
+			{
+				"step": "Fighting Darriwil",
+				"description": "In the Forlorn Hound Evergaol, you can fight Darriwil. Blaidd will be available as a summon, and you'll be able to talk to him after the fight had concluded. Exhaust his dialogue to get a Somber Smithing Stone [2] and he'll mention Iji. Doing this will unluck the Carian Filigreed Crest in the blacksmith's shop. If you've completed the Evergaol fight before meeting Blaidd, he will be standing there available to speak to.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163965"
+			},
+			{
+				"step": "Beginning of Ranni's Questline",
+				"description": "During Ranni's questline, you will be tasked with talking to Blaidd in Siofra River, who will then tell you to talk to Preceptor Seluvis, directing you to Sorceress Sellen. After talking to Sellen, he will request you find him at Redmane Castle.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167764"
+			},
+			{
+				"step": "The Radahn Festival",
+				"description": "You can skip to this step by using the Grand Lift of Dectus. Blaidd, among other warriors can be found in the courtyard of Redmane Castle. He will aid oyu in the fight against Radahn.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168093"
+			},
+			{
+				"step": "Blaidd trapped in an Evergaol",
+				"description": "This step is optional: after defeating Radahn, you can find BLaidd trapped inside the Forlorn Hound Evergaol. You can also talk with Iji about that for some additional dialogue.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163965"
+			},
+			{
+				"step": "After completing Ranni's questline",
+				"description": "After you complete Ranni's questline, return to Ranni's Rise to find hostile Blaidd. Defeat him to get his greatsword and his set, except for the helm, which can be found near Seluvis's Rise. This concludes Blaidd's questline.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168984"
 			}
 		]
 	},
