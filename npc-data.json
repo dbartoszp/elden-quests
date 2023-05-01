@@ -502,38 +502,99 @@
 		]
 	},
 	{
-		"todo": "true",
 		"id": "kenneth-haight",
 		"mainName": "Kenneth Haight",
 		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": ["None"],
+		"alsoInvolved": ["Nepheli Loux"],
+		"questLocations": ["Limgrave"],
 		"mainImage": "/vendors/img/npc/limgrave/kenneth-haight.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": [
+			"Ash of War: Bloody Slash",
+			"Erdsteel Dagger",
+			"Ancient Dragon Smithing Stone"
+		],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "NOTE",
+				"description": "This quest is tied to Nepheli Loux's quest, and thus the rewards are as well.",
+				"images": []
+			},
+			{
+				"step": "First encounter in Limgrave",
+				"description": "You can find Kenneth atop the ruins covering the roadway between the Mistwood Outskirts and Third Church of Marika site of grace. He will ask you to clear out Fort Haight.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164853"
+			},
+			{
+				"step": "Clearing out Fort Haight",
+				"description": "Defeat the Godrick Knight at Fort Haight and receive the Ash of War: Bloody Slash.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164497"
+			},
+			{
+				"step": "Becoming a knight... or not",
+				"description": "Come back to Kenneth and he will reward you with the Erdsteel Dagger. Talk to him again and accept to become his knight. Note: you must rest at the Fort Haight West site of grace for him to ask you to pledge your service.",
+				"images": []
+			},
+			{
+				"step": "Clearing out Fort Haight once again",
+				"description": "Clear out Demi-Humans occupying Fort Haight and talk to Kenneth. He will tell you that you can't become a knight yet, because he needs to find a stalwart Lord worthy of Limgrave.",
+				"images": []
+			},
+			{
+				"step": "Nepheli Loux and the Throne Room",
+				"description": "You need to defeat Morgott, the Omen King and give Nepheli Loux the Stormhawk King, and rest at the Godrick the Grafted site of Grace. Then, Kenneth, Nepeli Loux and Gatekeeper Gostoc will move to the Stormveil Castle Throne Room, where he will tell you that you will finally become a knight once he returns to his fort.",
 				"images": []
 			}
 		]
 	},
 	{
-		"todo": "true",
 		"id": "knight-bernahl",
 		"mainName": "Knight Bernahl",
 		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": ["Mt. Gelmir", "Leyndell", "Crumbling Farum Azula"],
+		"alsoInvolved": ["None directly"],
+		"questLocations": [
+			"Limgrave",
+			"Mt. Gelmir",
+			"Leyndell",
+			"Crumbling Farum Azula"
+		],
 		"mainImage": "/vendors/img/npc/limgrave/knight-bernahl.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": [
+			"Gelmir's Fury",
+			"Blasphemous Claw",
+			"Devourer's Scepter",
+			"Beast Champion set"
+		],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "NOTE",
+				"description": "This is less of a questline, rather a list of encounters.",
 				"images": []
+			},
+			{
+				"step": "First encounter in Stormhill",
+				"description": "You can initially find Bernahl in Stormhill at the Warmaster's Shack.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164058"
+			},
+			{
+				"step": "Second encounter in the Volcano Manor",
+				"description": "After you pledge your allegiance to Volcano Manor, Bernahl will move there and be known as Recusant Bernahl. After the second Volcano Manor request, he will give you Letter to Bernahl, which is a co-op invasion mission against Vargram the Raging Wolf and Errant Sorcerer Wilhelm in Leyndell, Royal Capital. NOTE: This step is skipped once you clear Crumbling Farum Azula.",
+				"images": []
+			},
+			{
+				"step": "NPC summon in Crumbling Farum Azula",
+				"description": "You can summon Bernahl for the fight against the Godskin Duo fight, by using his summon sign just by the fog gate near a narrow staircase.",
+				"images": []
+			},
+			{
+				"step": "After Rykard's defeat",
+				"description": "After Rykard has been defeated and the Volcano Manor emptied, you will find Bernahl in Crumbling Farum Azula guarding a chest. Defeating him rewards you with his armor set.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168392"
 			}
 		]
 	},
