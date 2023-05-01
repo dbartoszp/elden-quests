@@ -660,19 +660,55 @@
 		]
 	},
 	{
-		"todo": "true",
 		"id": "nepheli-loux",
 		"mainName": "Nepheli Loux",
 		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": ["Roundtable Hold", "Liurnia of the Lakes"],
+		"alsoInvolved": ["Gideon Ofnir", "Preceptor Seluvis", "Kenneth Haight"],
+		"questLocations": [
+			"Limgrave",
+			"Roundtable Hold",
+			"Liurnia of the Lakes"
+		],
 		"mainImage": "/vendors/img/npc/limgrave/nepheli-loux.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": ["Arsenal Charm", "Ancient Dragon Smithing Stone"],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "NOTE",
+				"description": "You can lock yourself out of completing this questline by speaking to Melina at the Forge of Giants before finishing Nepheli's dialogue and defeating Omenkiller at the Village of the Albinaurics. She then will disappear for good and you will be unable to finish her quest.",
+				"images": []
+			},
+			{
+				"step": "Optional: Stormveil Castle courtyard",
+				"description": "Initially you can find her north of the heavily guarded Stormevil Castle courtyard. Exhausting her dialogue and you'll be able to summon her for your fight with Godrick. Then, talk to Gideon Ofnir and rest at the Godrick the Grafted site of grace for her to appear in the Roundtable Hold and reward you with the Arsenal Charm.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164904"
+			},
+			{
+				"step": "Encounter at the Roundtable Hold",
+				"description": "Talk with Nepheli at the Roundtable Hold. You might offer her Seluvi's Potion if you have it and go back to talk to Preceptor Seluvis.",
+				"images": []
+			},
+			{
+				"step": "The Omenkiller",
+				"description": "Find Nepheli at the Village of the Albinaurics and exhaust her dialogue. Go and defeat the Omenkiller found on the other side of the bridge above her.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166240"
+			},
+			{
+				"step": "Once again at the Roundtable Hold",
+				"description": "Return to Roundtable Hold and talk to Nepheli downstairs. Then, go and speak to Gideon Ofnir and ask him about Nepheli. If you have Seluvis's Potion, he will give you a choice:</br>1. Give the potion to Gideon so he can dispose of it</br>2. Give the potion to Nepheli, so she becomes unresponsive and becomes Seluvis's puppet</br>3. Give the potion to Dung Eater and he will become a Dung Eater Puppet summon</br>If you do not have the potion, the quest will progress as if you didn't give it to her.",
+				"images": []
+			},
+			{
+				"step": "The Stormhawk King",
+				"description": "Retrieve the Stormhawk King found in the Chaptel of Anticipation and give it to Nepheli, who is in Roundtable Hold. Before you can give her the Stormhawk King Ashes, you need to progress Roderika's quest to the point where she can upgrade spirit ashes.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167207"
+			},
+			{
+				"step": "Kenneth Haight and defeating Morgott",
+				"description": "WARNING: Do not kill Gideon before this step, since it will kill Nepheli where she is at the time and leave her items behind.</br>In order to progress this questline you need to progress Kenneth Haight's to the point where he's in Fort Haight looking for a fitting lord to rule Limgrave. After defeating Morgott you can find Nepheli, Kenneth and Gostoc in the Stormveil Castle site of grace. You will be rewarded with an Ancient Dragon Smithing Stone and Gatekeeper Gostoc will sell another one for 20,000 Runes.",
 				"images": []
 			}
 		]

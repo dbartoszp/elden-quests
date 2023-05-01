@@ -36,9 +36,10 @@ Currently available NPCs with complete npc pages:
 -   Alexander
 -   Blaidd
 -   Boc the Seamster
--   Gostoc the Gatekeeper
+-   Gatekeeper Gostoc
 -   Kenneth Haight
 -   Knight Bernahl
+-   Nepheli Loux
 
 <!-- HOMEPAGE -->
 
