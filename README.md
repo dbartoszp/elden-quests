@@ -41,6 +41,7 @@ Currently available NPCs with complete npc pages:
 -   Knight Bernahl
 -   Nepheli Loux
 -   Three Fingers
+-   Patches
 <!-- HOMEPAGE -->
 
 ## Screenshots - homepage

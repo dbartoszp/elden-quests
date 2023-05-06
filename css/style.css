@@ -301,10 +301,10 @@ input::placeholder {
   padding: 1.2rem;
 }
 
-#region-atlus-plateau {
-  mask-image: url("/vendors/img/bgs/atlus-plateau-background.png");
+#region-altus-plateau {
+  mask-image: url("/vendors/img/bgs/altus-plateau-background.png");
   -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
-  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/atlus-plateau-background.png");
+  background-image: linear-gradient(to left, rgba(24, 31, 29, 0.8), rgba(24, 31, 29, 0.6), rgba(24, 31, 29, 0.8)), url("/vendors/img/bgs/altus-plateau-background.png");
 }
 
 #region-caelid {

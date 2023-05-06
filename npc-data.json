@@ -99,9 +99,9 @@
 		"id": "brother-corhyn",
 		"mainName": "Brother Corhyn",
 		"firstAppearance": "Roundtable Hold",
-		"laterAppearances": ["Atlus Plateau", "Leyndell"],
+		"laterAppearances": ["Altus Plateau", "Leyndell"],
 		"alsoInvolved": ["Goldmask"],
-		"questLocations": ["Roundtable Hold", "Atlus Plateau", "Leyndell"],
+		"questLocations": ["Roundtable Hold", "Altus Plateau", "Leyndell"],
 		"mainImage": "/vendors/img/npc/roundtable-hold/brother-corhyn.png",
 		"rewards": [
 			"Mending Rune of Perfect Order",
@@ -118,14 +118,14 @@
 				"images": []
 			},
 			{
-				"step": "First encounter at Atlus Plateau",
-				"description": "As soon as you reach Atlus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Atlus Plateau after resting.",
+				"step": "First encounter at Altus Plateau",
+				"description": "As soon as you reach Altus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Altus Plateau after resting.",
 				"images": [],
 				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
 			},
 			{
 				"step": "Finding the Goldmask",
-				"description": "After talking with Brother Corhyn nearby the Atlus Highway Junction site of Grace, you have to find Goldmask. He is standing on the north section of the Forest-Spanning Great Bridge, south of East Windmill Pasture. After you interact with Goldmask, you can go back to Corhyn and tell him Goldmask's whereabouts. After resting, he will move to where you found Goldmask.",
+				"description": "After talking with Brother Corhyn nearby the Altus Highway Junction site of Grace, you have to find Goldmask. He is standing on the north section of the Forest-Spanning Great Bridge, south of East Windmill Pasture. After you interact with Goldmask, you can go back to Corhyn and tell him Goldmask's whereabouts. After resting, he will move to where you found Goldmask.",
 				"images": []
 			},
 			{
@@ -174,8 +174,8 @@
 				"images": ["vendors/img/questlines/fia/step-1.jpg"]
 			},
 			{
-				"step": "After visiting Atlus Plateau",
-				"description": "After resting at a site of grace in Atlus Plateau, when you go back to Fia at the Roundtable Hold you will be able to be held by her for a second time, after which she will give you a Weathered Dagger. After receiving the dagger, go talk to D, Hunter of the Dead at the Roundtable Hold and give it to him.",
+				"step": "After visiting Altus Plateau",
+				"description": "After resting at a site of grace in Altus Plateau, when you go back to Fia at the Roundtable Hold you will be able to be held by her for a second time, after which she will give you a Weathered Dagger. After receiving the dagger, go talk to D, Hunter of the Dead at the Roundtable Hold and give it to him.",
 				"images": ["vendors/img/questlines/fia/step-2.png"]
 			},
 			{
@@ -244,9 +244,9 @@
 		"id": "dung-eater",
 		"mainName": "Dung Eater",
 		"firstAppearance": "Roundtable Hold",
-		"laterAppearances": ["Underground", "Atlus Plateau"],
+		"laterAppearances": ["Underground", "Altus Plateau"],
 		"alsoInvolved": ["Big Blackguard Boggart"],
-		"questLocations": ["Roundtable Hold", "Underground", "Atlus Plateau"],
+		"questLocations": ["Roundtable Hold", "Underground", "Altus Plateau"],
 		"mainImage": "/vendors/img/npc/roundtable-hold/dung-eater.png",
 		"rewards": ["Omen Set", "Sword of Milos"],
 		"questline": [
@@ -257,7 +257,7 @@
 			},
 			{
 				"step": "First encounter at Roundtable Hold",
-				"description": "The first time you can meet the Dung Eater is after gaining access to the Atlus Plateau. He can be found in a room past the twin maidens.",
+				"description": "The first time you can meet the Dung Eater is after gaining access to the Altus Plateau. He can be found in a room past the twin maidens.",
 				"images": []
 			},
 			{
@@ -420,14 +420,14 @@
 		"firstAppearance": "Limgrave",
 		"laterAppearances": [
 			"Liurnia of the Lakes",
-			"Atlus Plateau",
+			"Altus Plateau",
 			"Leyndell"
 		],
 		"alsoInvolved": ["Rennala"],
 		"questLocations": [
 			"Limgrave",
 			"Liurnia of the Lakes",
-			"Atlus Plateau",
+			"Altus Plateau",
 			"Leyndell"
 		],
 		"mainImage": "/vendors/img/npc/limgrave/boc-the-seamster.png",
@@ -453,7 +453,7 @@
 			},
 			{
 				"step": "Optional encounters",
-				"description": "You can find him in the East Raya Lucaria Gate site of grace and then to Atlus Highway Junction site of grace and finally next to the East Capital Ramparts site of grace. Those encounters are optional.",
+				"description": "You can find him in the East Raya Lucaria Gate site of grace and then to Altus Highway Junction site of grace and finally next to the East Capital Ramparts site of grace. Those encounters are optional.",
 				"images": []
 			},
 			{
@@ -714,19 +714,57 @@
 		]
 	},
 	{
-		"todo": "true",
 		"id": "patches",
 		"mainName": "Patches",
 		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
+		"laterAppearances": [
+			"Liurnia of the Lakes",
+			"Mt. Gelmir",
+			"Altus Plateau"
+		],
 		"alsoInvolved": ["PLACEHOLDER"],
 		"questLocations": ["PLACEHOLDER"],
 		"mainImage": "/vendors/img/npc/limgrave/patches.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": ["Magma Whip Candlestick", "Patches' Crouch"],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "First encounter in Limgrave",
+				"description": "Patches can first be found in the Murkwater Cave. In order to trigger his fight, you have to open a chest in the camp. During the fight, once he reaches half health he will surrender. Don't attack him if you want to accept his surrender, instead, just wait a couple of seconds. If you accept hsi surrender, he will become friendly and ask you to forgive him. This choice only affects his dialogue. Afterwards, he becomes a merchant in this same cave.</br>If he defeats you in combat, he will offer to spare you if you use the Extreme Repentance gesture before him. If you do, he will stop attacking you and become a merchant.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164504"
+			},
+			{
+				"step": "Opening his chest once again",
+				"description": "Once you come back to the cave after your fight with him, you will be able to ask him about a new chest there. If you open it you will be teleported to Mistwood Ruins.",
+				"images": []
+			},
+			{
+				"step": "Reaching Liurnia",
+				"description": "After you reach Liurnia, Patches will leave the cave and set up a camp at the Scenic Isle site of grace. There, he will recommend you get captured by an Abuctor Virgin to reach the base of the Erdtree. Once you let the Abductor Virgin located at the bottom of the waterwheel in Raya Lucaria capture you, you will instead be teleported to Volcano Manor.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166734"
+			},
+			{
+				"step": "Reaching Altus Plateau",
+				"description": "Once you reach Altus Plateau, Patches will move to Mt. Gelmir. There, near the first Mt. Gelmir campsite grace you will find Rainbow Stones. If you follow them, once you reach the edge of the cliff he will kick you down. Once you return to him, he will warn you about the Volcano Manor and teach you the Calm Down gesture.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169057"
+			},
+			{
+				"step": "After joining the Volcano Manor",
+				"description": "NOTE: This step must be done before defeating Rykard. After this, Patches will leave the Volcano Manor and you will not get the reward for killing Tragoth.</br> After you join the Volcano Manor, he will be found in the entrance hallway northwest of the Site of Grave. He will serve as a merchant. Once you complete one of Tanith's assassination requests, you can speak to Patches to receive the Letter to Patches. Now, after you kill Great Horned Tragoth, return to Patches who will tell you to report to Tanith. Reload the area and speak to Patches once again and he will reward you with the Magma Whip Candlestick.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=175962"
+			},
+			{
+				"step": "Shaded Castle encounter",
+				"description": "You will find Patches at the Shaded Castle in front of the boss room, where he will give you the Dancer's Castanets and tell you to give them to Tanith. The Castanets do not serve a purpose at this moment.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=175929"
+			},
+			{
+				"step": "Patches is back in Limgrave",
+				"description": "Your final encounter with Patches will be once again in the Murkwater Cave, again as a boss, however this time he will surrender immediately and give you the Patches' Crouch gesture, ending the quest. After reloading the area, he will become a merchant.",
 				"images": []
 			}
 		]
@@ -1241,11 +1279,11 @@
 		"todo": "true",
 		"id": "goldmask",
 		"mainName": "Goldmask",
-		"firstAppearance": "Atlus Plateau",
+		"firstAppearance": "Altus Plateau",
 		"laterAppearances": ["PLACEHOLDER"],
 		"alsoInvolved": ["PLACEHOLDER"],
 		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/atlus-plateau/goldmask.png",
+		"mainImage": "/vendors/img/npc/Altus-plateau/goldmask.png",
 		"rewards": ["PLACEHOLDER"],
 		"questline": [
 			{
