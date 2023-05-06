@@ -814,20 +814,66 @@
 		]
 	},
 	{
-		"todo": "true",
 		"id": "sellen",
 		"mainName": "Sellen",
 		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": ["Liurnia of the Lakes"],
+		"alsoInvolved": ["Primeval Sorcerer Azur", "Master Lusat"],
+		"questLocations": ["Limgrave", "Liurnia of the Lakes"],
 		"mainImage": "/vendors/img/npc/limgrave/sellen.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": [
+			"Comet Azur",
+			"Stars of Ruin",
+			"Sellen's Primal Glintstone",
+			"Witch's Glintstone Crown",
+			"Defeating Jerren: Eccentric armor set",
+			"Defeating Jerren: Glintstone Kris",
+			"Defeating Jerren: Azur's armor set",
+			"Defeating Jerren: Lusat's armor set",
+			"Defeating Sellen: Sellen's Bell bearing",
+			"Defeating Sellen: Ancient Dragon Smithing Stone"
+		],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "First encounter in Limgrave",
+				"description": "You can first find her at the Waypoint Ruins, after defeating the Mad Pumpkin Head miniboss guarding her room. Accept her offer to study under her, and you'll be able to learn sorceries and progress her questline.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164616"
+			},
+			{
+				"step": "Sorcerer Azur in Mt. Gelmir",
+				"description": "North of Hermit village on Mt. Gelmir you will find Sorcerer Azur, who will give you the Comet Azur Sorcery. After that, go back to Sellen to continue her questline.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170408"
+			},
+			{
+				"step": "Finding Master Lusat",
+				"description": "Sellen will ask you to find Master Lusat, who is locked away behind a special magic seal inside Sellia Hideaway in Caelid. She will give you an item that can break the seal. Once you interact with him, he will give you the Stars of Ruin sorcery. Return to Sellen and she will give you a Starlight Shard.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167197"
+			},
+			{
+				"step": "After defeating Radahn",
+				"description": "Return to Sellen after defeating Radahn. She will request you meet her at the Witchbane Ruins where she will give you Sellen's Primal Glintstone.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163983"
+			},
+			{
+				"step": "Witch-Hunter Jerren",
+				"description": "If you haven't speak to jerren in Redmane Castle. He can be found sitting in the throne room. Once you exhaust his dialogue, reload the area and return to Witchbane Ruins. There, you will find Jerren standing in the room with deceased Sellen. Exhaust his dialogue once again.",
 				"images": []
+			},
+			{
+				"step": "Journey to the Three Sisters area",
+				"description": "In the Three Sisters area, locate the ruins on the right sie of the approach up to Ranni's Rise. You nmmust locate an illusory floor that must be struck to reveal. In this dungeon, there will be an illusory wall to the left of the glowing message that says 'Seluvis's Puppet. Do not touch'. In the room behind the wall there will be a doll of duplicate Sellen, where you can insert the Primal Glintstone by interacting with it, resurrecting sellen. She will continue selling sorceries there until Rennala is defeated.",
+				"images": ["/vendors/img/questlines/sellen/step-6.jpg"],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170411"
+			},
+			{
+				"step": "After defeating Rennala",
+				"description": "After you defeat Rennala, go to the Raya Lucaria Grand Library site of grace. Right outside the entrance you will find two summon signs:</br></br>The gold summon sign will make you help Sellen defeat Witch Hunter Jerren. You will be rewarded with the Eccentric Set. After the fight you will find Sellen standing in place of Rennala in the Grand Library (with Rennala sitting off to the side of the room), where after exhausting her dialogue you will be rewarded with Glintstone Kris and have the Shard Spiral sorcery available for purchase. You will be also able to get Master Azur's and Lusat's armor sets laying on the ground in their previous locations. After you find Master Lusat's armor, Rennala will return to her original position and now Sellen will have moved to the side of the room, this time transformed into a School of Graven Mages. Next to her, you will find her Witch's Glintstone Crown. You will still be able to purchase sorceries from her.</br></br>The red summon sign makes you help Jerren against Sellen. Defeating her will reward you with the Witch's Glintstone Crown and Sellen's Bell bearing. Afterwards, you will find Jerren outside the entrance to the Grand Library, and speaking to him will reward you with an Ancient Dragon Smithing Stone. You can still kill Jerren to obtain his armor set. This option locks you out of obtaining Master Lusat's and Azur's armor sets until your next game cycle.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164426"
 			}
 		]
 	},

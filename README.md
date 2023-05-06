@@ -42,6 +42,8 @@ Currently available NPCs with complete npc pages:
 -   Nepheli Loux
 -   Three Fingers
 -   Patches
+-   Roderika
+-   Sorceress Sellen
 <!-- HOMEPAGE -->
 
 ## Screenshots - homepage
