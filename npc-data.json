@@ -722,8 +722,13 @@
 			"Mt. Gelmir",
 			"Altus Plateau"
 		],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"alsoInvolved": ["Tanith"],
+		"questLocations": [
+			"Limgrave",
+			"Liurnia of the Lakes",
+			"Mt. Gelmir",
+			"Altus Plateau"
+		],
 		"mainImage": "/vendors/img/npc/limgrave/patches.png",
 		"rewards": ["Magma Whip Candlestick", "Patches' Crouch"],
 		"questline": [
@@ -771,19 +776,39 @@
 	},
 
 	{
-		"todo": "true",
 		"id": "roderika",
 		"mainName": "Roderika",
 		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": ["Roundtable Hold"],
+		"alsoInvolved": ["Smithing Master Hewg"],
+		"questLocations": ["Limgrave", "Roundtable Hold"],
 		"mainImage": "/vendors/img/npc/limgrave/roderika.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": [
+			"Sitting Sideways pose",
+			"Spirit Jellyfish Ashes",
+			"Golden Seed",
+			"Curtsy Gesture"
+		],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "First encounter in Limgrave",
+				"description": "You can find Roderika in Stormhill Shack in Limgrave, and once you talk to her several times you will obtain Sitting Sideways pose and the Spirit Jellyfish Ashes. She will also give you a message to deliver, and once you return to her with a Chrystalids' Memento <a class='text-link' href='https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164740' target='_blank' >[Fextralife map link]</a> , which can be found on a pile of corpses within Rampart Tower, she still will be in the Shack.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163944"
+			},
+			{
+				"step": "Roderika at the ROundtable Hold",
+				"description": "NOTE: If you missed Roderika at the Stormhill Shack, choose the 'About Roderika' option from Smithing Master Hewg's dialogue and continue the quest as you normally would.</br>At the Roundtable Hold, you will find her standing next to the fireplace. Exhaust her dialogue and she will reward you with a Golden Seed. If you didn't give her the Chrysalid's Memento before meeting her at the Hold, go back to the Stormhill Shack and you will find the Golden Seed there.",
+				"images": []
+			},
+			{
+				"step": "Roderika becoming a Spirit Tuner",
+				"description": "In order for Roderika to become a Spirit Tuner, you need to speak to Hewg about Roderika, then talk to Roderika about what Hewg said, and then once again speak to Hewg. If you missed Roderika at the Stormhill Shack, choose the 'please' dialogue option to receive the Spirit Jellyfish Ashes. After those back and forth talks with Hewg and Roderika, after leaving the area and returning you will find Roderika in the same room where Hewg is, just opposite of him. Now, she will be able to upgrade your Spirit Ashes using Glovewort items.</br>Once you've leveled up any spirit ashes to +4, talking to her will trigger some extra dialogue and you will get the Curtsy gesture.",
+				"images": []
+			},
+			{
+				"step": "One last special interaction",
+				"description": "Once you burn the Erdtree, she will move to the fireplace you first found her at the Hold. She will ask you to speak to Hewg and convince him to leave the Hold.",
 				"images": []
 			}
 		]
