@@ -44,6 +44,7 @@ Currently available NPCs with complete npc pages:
 -   Patches
 -   Roderika
 -   Sorceress Sellen
+-   Sorcerer Rogier
 <!-- HOMEPAGE -->
 
 ## Screenshots - homepage

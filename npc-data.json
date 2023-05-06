@@ -878,19 +878,55 @@
 		]
 	},
 	{
-		"todo": "true",
 		"id": "sorcerer-rogier",
 		"mainName": "Sorcerer Rogier",
 		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
+		"laterAppearances": ["Roundtable Hold"],
+		"alsoInvolved": ["Fia", "Ranni"],
+		"questLocations": ["Limgrave", "Roundtable Hold"],
 		"mainImage": "/vendors/img/npc/limgrave/sorcerer-rogier.png",
-		"rewards": ["PLACEHOLDER"],
+		"rewards": [
+			"Rogier's Rapier +8",
+			"Rogier's Bell Bearing",
+			"Rogier's Set"
+		],
 		"questline": [
 			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
+				"step": "NOTE",
+				"description": "If you talk to Ranni at the Three Sisters before completing this questline, you will not be able to progress it.",
+				"images": []
+			},
+			{
+				"step": "First encounter before defeating Godrick",
+				"description": "The first time you can find Rogier is in Stormveil Castle, before defeating Godrick by the altar of a chapel.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164686"
+			},
+			{
+				"step": "After defeating Gordick",
+				"description": "After defeating Godrick, Rogier will move to Roundtable Hold and you will find him on the balcony that overlooks the entrance hall. He will give you Rogier's Rapier +8 with a Glintblade Phalanx Ash of War.",
+				"images": []
+			},
+			{
+				"step": "Defeating the Root Monster",
+				"description": "Underneath the Stormveil Castle, you will find a Lesser Ulcerated Tree Spirit. Continue on after defeating the monster until you find a rotting face. In front of it, there will be a bloodstain that you need to activate to view a memory. Once you do, return to Rogier at the Roundtable HOld and exhaust his dialogue about the face.",
+				"images": [],
+				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165164"
+			},
+			{
+				"step": "Learning about the Black Knifeprint",
+				"description": "After talking with Rogier, speak to Fia and allow her to hold you. Exhaust the dialogue options along the lines of 'Talk in secret', 'Did you know?' and 'About the Black Knifeprint' to get Knifeprint Clue that reveals the location of Black Knife Catacombs where the Black Knifeprint can be found.",
+				"images": [],
+				"maplink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164167"
+			},
+			{
+				"step": "Locating the Black Knifeprint",
+				"description": "The Black Knifeprint is hidden behind an illusory wall in the room before dropping down to a flooded pit with levers. Defeat the Black Knife Assassin to obtain it. Return the Black Knifeprint to Rogier. On reloading the area he will send you looking for Ranni, who can be found at the Three Sisters in the North West of Liurnia.",
+				"images": []
+			},
+			{
+				"step": "Asking Ranni for information",
+				"description": "Upon talking to Ranni, she will tell you to leave. Go back to Rogier and tell him about it, and he will recommend you become one of Ranni's Vassals to get more information from her. Go back to Ranni and become her vassal, beginning her questline.</br> Returning to Rogier will result in him warning you that he will fall into a deep slumber. Reloading the area makes him go to sleep.</br> After resting a couple times, and/or completing through the story, he will die and leave behind his Bell Bearing, set and a letter revealing the existence of D's younger brother.",
 				"images": []
 			}
 		]
