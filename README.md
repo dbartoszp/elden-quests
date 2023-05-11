@@ -25,26 +25,27 @@ You are able to search for, or browse all NPCs, sorted alphabetically and by loc
 
 Currently available NPCs with complete npc pages:
 
--   D, Hunter of the Dead
--   Diallos
--   Brother Corhyn
--   Fia
--   Gideon-Ofnir
--   Dung Eater
--   Melina
--   Ranni the Witch
--   Alexander
--   Blaidd
--   Boc the Seamster
--   Gatekeeper Gostoc
--   Kenneth Haight
--   Knight Bernahl
--   Nepheli Loux
--   Three Fingers
--   Patches
--   Roderika
--   Sorceress Sellen
--   Sorcerer Rogier
+- D, Hunter of the Dead
+- Diallos
+- Brother Corhyn
+- Fia
+- Gideon-Ofnir
+- Dung Eater
+- Melina
+- Ranni the Witch
+- Alexander
+- Blaidd
+- Boc the Seamster
+- Gatekeeper Gostoc
+- Kenneth Haight
+- Knight Bernahl
+- Nepheli Loux
+- Three Fingers
+- Patches
+- Roderika
+- Sorceress Sellen
+- Sorcerer Rogier
+- White Mask Varre
 <!-- HOMEPAGE -->
 
 ## Screenshots - homepage

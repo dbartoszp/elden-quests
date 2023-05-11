@@ -1,1494 +1,1495 @@
 [
-	{
-		"id": "d-hunter-of-the-dead",
-		"mainName": "D, Hunter of the Dead",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["Roundtable Hold", "Nokron"],
-		"alsoInvolved": [
-			"Gurranq",
-			"Sorcerer Rogier",
-			"Fia",
-			"D, Beholder of Death"
-		],
-		"questLocations": ["Limgrave", "Roundtable Hold", "Nokron"],
-		"mainImage": "/vendors/img/npc/roundtable-hold/d-hunter-of-the-dead.png",
-		"rewards": ["Twinned Set", "Inseparable Sword"],
-		"questline": [
-			{
-				"step": "First encounter at in Stormhill, Limgrave",
-				"description": "The first time the player can encounter D is east of Stormhill Shack in Limgrave. You can also find him in Roundtable Hold.",
-				"images": []
-			},
-			{
-				"step": "After defeating the Tibia Mariner",
-				"description": "After defeating the Tibia Mariner in Summonwater Village, return to D at the Roundtable Hold or rest at site of grace and find him by the southwestern entrance in the water of Summonwater Village. He will give you directions to Bestial Sanctum in Caelid, however you can get there by going to the 'Sending Gate' in East Limgrave. After talking with Gurranq and selecting 'yes' while talking to D, he will become a merchant and sell you incantations.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6112&lat=-175.796&lng=117.133&zoom=8&code=mapA"
-			},
-			{
-				"step": "Hints of D's brother",
-				"description": "During Rogier's questline, a letter left to you by Rogier mentions that D has a younger brother, and hints at his location. ",
-				"images": []
-			},
-			{
-				"step": "Owner of the Weathered Dagger",
-				"description": "During Fia's and Rogier's questline, you will be asked to find the owner of a particular Weathered Dagger. D is the owner. Give him the dagger and reload the area. Then, in a newly opened room in the back of the Roundtable Hold, you will find D's Bell Bearing and the Twinned Set.",
-				"images": []
-			},
-			{
-				"step": "D's twin brother",
-				"description": "You can find D's twin brother, 'D, Beholder of Death' in Nokron. Upon interacting with him, you will receive the Inner Order gesture. Unaltered D's armor can be given to his brother, and after reloading the area you will be able to summon him for the fight with Valiant Gargoyles. You can also kill D, Hunter of the Dead at his first location and then give his armor to his brother, but this will cause the brother to be aggressive and fight you.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=1593&lat=-173.328125&lng=132.316801&zoom=8"
-			}
-		]
-	},
-	{
-		"id": "diallos",
-		"mainName": "Diallos",
-		"firstAppearance": "Roundtable Hold",
-		"laterAppearances": ["Liurnia of the Lakes", "Mt. Gelmir"],
-		"alsoInvolved": ["Jar Bairn", "Iron Fist Alexander"],
-		"questLocations": [
-			"Roundtable Hold",
-			"Mt. Gelmir",
-			"Liurnia of the Lakes"
-		],
-		"mainImage": "/vendors/img/npc/roundtable-hold/diallos.png",
-		"rewards": ["Diallos's Mask", "Hoslow's Petal Whip", "Numen's Rune"],
-		"questline": [
-			{
-				"step": "First encounter at Roundtable Hold",
-				"description": "The first time the player can encounter Diallos is at Roundtable Hold. You need to exhaust his dialogue.",
-				"images": []
-			},
-			{
-				"step": "First encounter in Liurnia",
-				"description": "After talking with him at the Roundtable Hold, he will move to Liurnia and can be found atop a sunken roof West of the Academy Gate Town Site of Grace. IMPORTANT: completing the Volcano Manor legacy dungeon before this step prevents him from spawning there.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6128&lat=-143.0156&lng=68.55965&zoom=8&code=mapA"
-			},
-			{
-				"step": "Back at the Roundtable Hold",
-				"description": "Exhaust his dialogue at the Roundtable Hold.",
-				"images": []
-			},
-			{
-				"step": "Joining the Volcano Manor",
-				"description": "You will find him in the drawing room at the Volcano Manor. For each step of the Volcano Manor assassination sidequests, he gets new dialogue. After accepting the second letter from VOlcano Manor, he will relocate to Jarburg.",
-				"images": []
-			},
-			{
-				"step": "Jar-Bairn",
-				"description": "After progressing Jar-Bairn's questline, Diallos will appear in a shack tending to Jar-Bairn. You need to repeatedly talk to Jar-Bairn and rest at the Site of Grace in Jarburg until Jar-Bairn talks about poachers.  If you've gotten this questline to advance, Jar-Bairn will talk about a new Potentiate who's just arrived. Then, you need to let some time pass. Once enough time has passed, you need to exhaust Diallos' and Jar-Bairn's dialogue.",
-				"images": []
-			},
-			{
-				"step": "After defeating Radahn",
-				"description": "After defeating Radahn, exhaust Alexander's dialogue. He will be gathering corpses at the arena nearby the site of grace. Then, return to Jarburg. Find wounded Diallos and exhaust his and Jar-Bairn's dialogue. The choice of dialogue with Diallos does not matter. After reloading the area, you can find Jar-Bairn near Diallos. Exhaust his dialogue and reload the area. In the place of Diallos's body you will find Diallos's Mask.",
-				"images": []
-			},
-			{
-				"step": "After completing Alexander's questline",
-				"description": "Complete Alexander's questline and return to Jarburg. Give Jar-Bairn Alexander's Innards and reload the area. In place of Jar-Bairn you will find Companion Jar Talisman. You can also find Hoslow's Petal Whip and Numen's Rune in the middle of the town.",
-				"images": []
-			}
-		]
-	},
-	{
-		"id": "brother-corhyn",
-		"mainName": "Brother Corhyn",
-		"firstAppearance": "Roundtable Hold",
-		"laterAppearances": ["Altus Plateau", "Leyndell"],
-		"alsoInvolved": ["Goldmask"],
-		"questLocations": ["Roundtable Hold", "Altus Plateau", "Leyndell"],
-		"mainImage": "/vendors/img/npc/roundtable-hold/brother-corhyn.png",
-		"rewards": [
-			"Mending Rune of Perfect Order",
-			"Flail",
-			"Corhyn's Robe",
-			"Goldmask's Rags",
-			"Gold Bracelets",
-			"Gold Waistwrap"
-		],
-		"questline": [
-			{
-				"step": "First encounter at Roundtable Hold",
-				"description": "The first time the player can encounter Brother Corhyn is at Roundtable Hold.",
-				"images": []
-			},
-			{
-				"step": "First encounter at Altus Plateau",
-				"description": "As soon as you reach Altus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Altus Plateau after resting.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
-			},
-			{
-				"step": "Finding the Goldmask",
-				"description": "After talking with Brother Corhyn nearby the Altus Highway Junction site of Grace, you have to find Goldmask. He is standing on the north section of the Forest-Spanning Great Bridge, south of East Windmill Pasture. After you interact with Goldmask, you can go back to Corhyn and tell him Goldmask's whereabouts. After resting, he will move to where you found Goldmask.",
-				"images": []
-			},
-			{
-				"step": "The riddle",
-				"description": "In order to progress this questline, you need to obtain at least two Great Runes and have access to Leyndell. Both Goldmask and Corhyn will move to Leyndell, and can be found on a cliff up west of the colosseum. You need to exhaust Corhyn's dialogue. IMPORTANT: You need to solve this riddle before burning the Erdtree at Forge of the Giants - otherwise, Corhyn will vanish and leave behind his bell bearing, and Goldmask will not be present. The solution is as follows: First, you need to travel west of the Erdtree Sanctuary site of grace, down an elevator and a set of stairs. A white message on the ground facing the statue mentions 'Regression'. You must stand on the message, facing the statue, and cast the Law of Regression incantation to solve the riddle. Touch the new message that appears, and report the secret to Goldmask and then exhaust Corhyn's dialogue. ",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
-			},
-			{
-				"step": "Stargazer's Ruins",
-				"description": "After leaving Goldmask and Brother Corhyn (reloading the area will not work), they will move to the bridge south of Stargazer's Ruins right above the Ancient Snow Valley Ruins site of grace. You might give Corhyn Tonic of Forgetfulness, but he will refuse the potion. It will change the final outcome of the questline.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6136&lat=-70.273101&lng=156.515579&zoom=8&code=mapA"
-			},
-			{
-				"step": "Post Farum-Azula - Goldmask ending",
-				"description": "After completing Farum Azula (defeating Maliketh), you can find Goldmask in Leyndell, Ashen Capital. He moves to the bottom of the colosseum cliffs facing the west side of the Erdtree Sanctuary site of grace. He will give you the Mending Rune of Perfect Order. Reload the area to loot Goldmask's Set.",
-				"images": []
-			},
-			{
-				"step": "Post Farum-Azula - Corhyn ending",
-				"description": "Corhyn can be found in on of the possible two locations: First location - he should be at the base of the giant spiral spear. After you exhaust his dialogue and reload the area, you can find a Flail, Corhyn's Bell Bearing and his robe where he was sitting. Second possible location: if you offered him the Tonic of Forgetfulness, he will remain at the bridge south of the Stargazers' Ruins where you last saw him. Talk to him; he'll be unaware of Goldmask's absence. Reload the area and then collect all three of the above items where he was. If you don't complete the questline, you can find his bell bearing and robe ona cliff west of the colosseum in the Ashen Capital.",
-				"images": [],
-				"mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=7716&lat=-104&lng=116&zoom=8&code=mapC"
-			}
-		]
-	},
-	{
-		"id": "fia",
-		"mainName": "Fia",
-		"firstAppearance": "Roundtable Hold",
-		"laterAppearances": ["Underground"],
-		"alsoInvolved": [
-			"D, Hunter of the Dead",
-			"Ranni",
-			"Sorcerer Rogier",
-			"Lionel the Lionhearted"
-		],
-		"questLocations": ["Roundtable Hold", "Underground"],
-		"mainImage": "/vendors/img/npc/roundtable-hold/fia.png",
-		"rewards": ["Fia's Set", "Mending Rune of the Death-Prince"],
-		"questline": [
-			{
-				"step": "First encounter at Roundtable Hold",
-				"description": "Fia can be found at the Roundtable Hold, sitting on a bed. Allowing her to hold you rewards you with Baldachin's Blessing, which decreases your max HP by 5%, up until you consume it.",
-				"images": ["vendors/img/questlines/fia/step-1.jpg"]
-			},
-			{
-				"step": "After visiting Altus Plateau",
-				"description": "After resting at a site of grace in Altus Plateau, when you go back to Fia at the Roundtable Hold you will be able to be held by her for a second time, after which she will give you a Weathered Dagger. After receiving the dagger, go talk to D, Hunter of the Dead at the Roundtable Hold and give it to him.",
-				"images": ["vendors/img/questlines/fia/step-2.png"]
-			},
-			{
-				"step": "Black Knifeprint Location",
-				"description": "Speak with Rogier about the black knives. After you also speak to Fia, she will give you Knifeprint Clue, revealing location of a Black Knifeprint. After you reload the area you'll find Fia in a newly opened room near Hewg, and after this encounter she will disappear.",
-				"images": []
-			},
-			{
-				"step": "Deeproot Depths",
-				"description": "In Deeproot Depths, head to the Across the Roots site of grace and enter the boss arena to the north. There, you will fight Fia's Champions. Upon talking to her, tell her that you want to be hugged. She then will ask you to bring her the Cursemark of Death, which is found duriing Ranni's quest. If Fia is not there, and she has already killed D, you might have to follow a few extra steps. First, kill the Valiant Gargoyles and rest in the coffin in the arena. This will take you to Deeproot Depths, after which Fia might appear. Another possible route is by revealing 2 illusory walls after the encounter with the Three Fingers.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169059"
-			},
-			{
-				"step": "Cursemark of Death",
-				"description": "After you give the Cursemark of Death to Fia, she will give you Radiant Baldachin's Blessing. Exhaust her dialogue and reload the area. Interact with sleeping Fia and fight Lichdragon Fortissax.",
-				"images": []
-			}
-		]
-	},
-	{
-		"id": "gideon-ofnir",
-		"mainName": "Gideon Ofnir",
-		"firstAppearance": "Roundtable Hold",
-		"laterAppearances": ["Leyndell"],
-		"alsoInvolved": ["Nepheli Loux", "Perceptor Seluvis"],
-		"questLocations": ["Roundtable Hold", "Leyndell"],
-		"mainImage": "/vendors/img/npc/roundtable-hold/gideon-ofnir.png",
-		"rewards": [
-			"All-Knowing Set",
-			"Scepter of the All-Knowing",
-			"Fevor's Cookbook[3]",
-			"Law of Causality",
-			"Black Flame's Protection",
-			"Lord's Divine Fortification"
-		],
-		"questline": [
-			{
-				"step": "First and second encounter at the Roundtable Hold",
-				"description": "You can find him at the Roundtable Hold the first time you get there. Once you leave the Hold and return once more, he will have relocated to his room guarded by Ensha. Gideon will instruct you to kill Godrick the Grafted.",
-				"images": []
-			},
-			{
-				"step": "Defeating Godrick",
-				"description": "After defeating Godrick you'll have to speak to Enia at the Roundtable Hold in order for Gideon to reopen doors to his room.",
-				"images": []
-			},
-			{
-				"step": "Defeating another Shardbearer",
-				"description": "After defating a second Shardbearer, come back to Gideon. You'll be able to talk with him about Nepheli Loux. Around this time, while progressing Preceptor Seluvis' questline, you might give Seluvis' Potion to Gideon. This simply prevents you from giving the potion to other NPCs, which would end up ending that NPC's questline.",
-				"images": []
-			},
-			{
-				"step": "Defeating Morgott",
-				"description": "After defeating Morgott, return to Gideon. He will disclose locations of other Shardbearers and provide you with rewards after killing each one: reaching Mohgwyn Dynasty Mausoleum - [Fevor's Cookbook[3]], Defeating Mohg, Lord of Blood - [Law of Causality], reaching Miquella's Haligtree - [Black Flame's Protection], defeating Malenia, Blade of Miquella - [Lord's Divine Fortification]",
-				"images": []
-			},
-			{
-				"step": "Final encounter at the Ashen capital",
-				"description": "After defeating Maliketh and returning to Leyndell, head towards the Erdtree Sanctuary. There, you will find Gideon monologuing and attacking you. After the fight, you will obtain his armor set as well as his scepter, ending his questline.",
-				"images": []
-			}
-		]
-	},
-	{
-		"id": "dung-eater",
-		"mainName": "Dung Eater",
-		"firstAppearance": "Roundtable Hold",
-		"laterAppearances": ["Underground", "Altus Plateau"],
-		"alsoInvolved": ["Big Blackguard Boggart"],
-		"questLocations": ["Roundtable Hold", "Underground", "Altus Plateau"],
-		"mainImage": "/vendors/img/npc/roundtable-hold/dung-eater.png",
-		"rewards": ["Omen Set", "Sword of Milos"],
-		"questline": [
-			{
-				"step": "NOTE",
-				"description": "During Ranni's questline, if you give Ranni the Fingerslayer Blade you will not be able to give Dung Eater Seluvis's Potion.",
-				"images": []
-			},
-			{
-				"step": "First encounter at Roundtable Hold",
-				"description": "The first time you can meet the Dung Eater is after gaining access to the Altus Plateau. He can be found in a room past the twin maidens.",
-				"images": []
-			},
-			{
-				"step": "First Seedbed Curse",
-				"description": "After giving him at least one Seedbed Curse, he will give you the Sewer-Gaol Key, used to open his cell in the Subterranean Shunning-Grounds, which you can access by descending down a well in Leyndell.",
-				"images": ["vendors/img/questlines/dung-eater/step-3.jpg"],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=175943"
-			},
-			{
-				"step": "Freeing the Dung Eater",
-				"description": "He can be found in his cell in the sewers. Tell him he's been freed and return to Roundtable Hold. </br>To find his cell, follow these steps: </br>1. Spawn at the Underground Roadside grace. </br>2. Leave the room and take a left. </br>3. Head down the corridor and jump down the open gate. </br>4. Run northwest and go past the giant poison plants and climb the ladder. </br>5. Past the giant hand is the Sewer Gaol room with Dung Eater inside.",
-				"images": []
-			},
-			{
-				"step": "Message from the Dung Eater",
-				"description": "After returning to Roundtable Hold, you will not find Dung Eater, but his message for you to fight him at the 'outer moat'. If you're progressing Blackguard Big Boggart's questline, make sure to complete it before doing this step, or else he will not drop a Seedbed Curse.",
-				"images": ["vendors/img/questlines/dung-eater/step-5.jpg"],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169012"
-			},
-			{
-				"step": "Another encounter at the Roundtable Hold",
-				"description": "Upon defeat, he will return to the Roundtable Hold. From now on, you can give him Seluvis's Potion to end Dung Eater's questline, or Seedbed Curses to progress it.",
-				"images": []
-			},
-			{
-				"step": "5 Seedbed Curses",
-				"description": "After giving him 5th and final Seedbed Curse, his questline will be complete and you will be rewarded with the Mending Rune of the Fell Curse. You can also reload the area to find the Omen Set in his place.",
-				"images": []
-			}
-		]
-	},
-	{
-		"id": "alexander",
-		"mainName": "Iron Fist Alexander",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": [
-			"Liurnia",
-			"Caelid",
-			"Mt. Gelmir",
-			"Crumbling Farum Azula"
-		],
-		"alsoInvolved": ["none"],
-		"questLocations": [
-			"Limgrave",
-			"Liurnia",
-			"Caelid",
-			"Mt. Gelmir",
-			"Crumbling Farum Azula"
-		],
-		"mainImage": "/vendors/img/npc/limgrave/alexander.png",
-		"rewards": [
-			"Triumphant Delight Gesture",
-			"Exalted Flesh (2)",
-			"Alexander's Innards",
-			"Shard of Alexander",
-			"Warrior Jar Shard (if you kill him before Farum Azula)"
-		],
-		"questline": [
-			{
-				"step": "NOTE",
-				"description": "If you kill him before Crumbling Farum Azula, he will not drop Shard of Alexander and Alexander's Innards - instead, he will drop the Warrior Jar Shard.",
-				"images": []
-			},
-			{
-				"step": "First encounter in Limgrave",
-				"description": "Help Alexander get out of a hole by hitting him a few times. Don't be scared to attack him, he will tell you to keep trying. He will reward you with Triumphant Delight Gesture and a piece of Exalted Flesh. He also will tell you where he's headed.",
-				"images": ["/vendors/img/questlines/alexander/step-1.jpg"],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164117"
-			},
-			{
-				"step": "Alexander's next location",
-				"description": "You can skip this step by already starting the Radahn Festival. The second time you can find Alexander is in Gael Tunnel. He will once again mention the festival in Redmane Castle.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165129"
-			},
-			{
-				"step": "The Radahn Festival",
-				"description": "You can find Alexander in Redmane Castle along other participants. You can summon him for the fight against Radahn. After defeating Radahn, you can find Alexander nearby the site of grace in Wailing Dunes and talk to him.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169067"
-			},
-			{
-				"step": "Alexander is stuck again",
-				"description": "His next location is in Liurnia, nearby the Carian Study Hall, stuck in a hole once again. This time, just attacking him will not result in success. You need to thorw an Oil Pot to make him slippery, and then get him out. He will thank you and reward you with an Exalted Flesh, saying that he's headed North to become an even stronger warrior.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168542"
-			},
-			{
-				"step": "Alexander at Mt. Gelmir",
-				"description": "This time, you will find Alexander in a lava lake just behind a Magma Wyrm. You will be able to safely talk to him once you walk on one of the stones in the lava pool. There, he will award you with the Jar and head to the forge of the giants. You will be able to summon him for the fight against the Fire Giant, just outisde of the arena.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167816"
-			},
-			{
-				"step": "Questline ending",
-				"description": "The last time you meet Alexander is in Crumbling Farum Azula. Here, he will request one final duel. Once you defeat him, he will reward you with Alexander's Innards and the Shard of Alexander.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170548"
-			}
-		]
-	},
-	{
-		"id": "blaidd",
-		"mainName": "Blaidd",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["Liurnia", "Caelid", "Underground"],
-		"alsoInvolved": ["Ranni", "Preceptor Seluvis", "Sorceress Sellen"],
-		"questLocations": ["Limgrave", "Liurnia", "Caelid", "Underground"],
-		"mainImage": "/vendors/img/npc/limgrave/blaidd.png",
-		"rewards": [
-			"Finger Snap Gesture",
-			"Smithing Stone [2]",
-			"Royal Greatsword",
-			"Blaidd's Armor",
-			"Blaidd's Gauntlets",
-			"Blaidd's Greaves"
-		],
-		"questline": [
-			{
-				"step": "First encounter in Mistwood",
-				"description": "In Mistwood, you can hear a wolf's howl. You can ask Merchant Kale about the howling, and the merchant will teach you the Finger Snap Gesture. Then, you can meet Blaidd on the tallest point in Mistwood Ruins. Once you use the Finger Snap Gesture below him, he will jump down. He will tell you he's hunting for a man called 'Darriwil'.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165206"
-			},
-			{
-				"step": "Fighting Darriwil",
-				"description": "In the Forlorn Hound Evergaol, you can fight Darriwil. Blaidd will be available as a summon, and you'll be able to talk to him after the fight had concluded. Exhaust his dialogue to get a Somber Smithing Stone [2] and he'll mention Iji. Doing this will unluck the Carian Filigreed Crest in the blacksmith's shop. If you've completed the Evergaol fight before meeting Blaidd, he will be standing there available to speak to.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163965"
-			},
-			{
-				"step": "Beginning of Ranni's Questline",
-				"description": "During Ranni's questline, you will be tasked with talking to Blaidd in Siofra River, who will then tell you to talk to Preceptor Seluvis, directing you to Sorceress Sellen. After talking to Sellen, he will request you find him at Redmane Castle.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167764"
-			},
-			{
-				"step": "The Radahn Festival",
-				"description": "You can skip to this step by using the Grand Lift of Dectus. Blaidd, among other warriors can be found in the courtyard of Redmane Castle. He will aid oyu in the fight against Radahn.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168093"
-			},
-			{
-				"step": "Blaidd trapped in an Evergaol",
-				"description": "This step is optional: after defeating Radahn, you can find BLaidd trapped inside the Forlorn Hound Evergaol. You can also talk with Iji about that for some additional dialogue.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163965"
-			},
-			{
-				"step": "After completing Ranni's questline",
-				"description": "After you complete Ranni's questline, return to Ranni's Rise to find hostile Blaidd. Defeat him to get his greatsword and his set, except for the helm, which can be found near Seluvis's Rise. This concludes Blaidd's questline.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168984"
-			}
-		]
-	},
-	{
-		"id": "boc-the-seamster",
-		"mainName": "Boc the Seamster",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": [
-			"Liurnia of the Lakes",
-			"Altus Plateau",
-			"Leyndell"
-		],
-		"alsoInvolved": ["Rennala"],
-		"questLocations": [
-			"Limgrave",
-			"Liurnia of the Lakes",
-			"Altus Plateau",
-			"Leyndell"
-		],
-		"mainImage": "/vendors/img/npc/limgrave/boc-the-seamster.png",
-		"rewards": ["Mushrooms (10)"],
-		"questline": [
-			{
-				"step": "First encounter in Limgrave",
-				"description": "Boc can initially be found disguised as a tree calling for help. In order to see him, you have to attack the tree and he will return to his original form. He will tell you on how he was expelled from his caved and had everything he owned taken. He also says that he might sneak back into the cave to retrieve some of his belongings and bring them to you.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164089"
-			},
-			{
-				"step": "Coastal Cave encounter",
-				"description": "The next time you can meet Boc is at the Coastal Cave. He is lying on the floor near the entrance. You need to clear out the cave to help him. Defeating the boss rewards you with Tailoring Tools and Sewing Needle, which you need to give back to Boc.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165130"
-			},
-			{
-				"step": "Third encounter and altering garments",
-				"description": "Later you can find Boc at the Lake-Facing Cliffs site of grace in Liurnia. He will then offer to make adjustments to your garments for free. Now, you need to meet those three conditions:</br>1. Retrieve the Gold Sewing Needle from the Church of Vows in Liurnia</br>2. Buy at least one oiece of demigod armor from Finger Reader Enia at the Roundtable Hold.</br>3. Speak with Melina about Boc at the East Raya Lucaria Gate site of grace.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165682"
-			},
-			{
-				"step": "Optional encounters",
-				"description": "You can find him in the East Raya Lucaria Gate site of grace and then to Altus Highway Junction site of grace and finally next to the East Capital Ramparts site of grace. Those encounters are optional.",
-				"images": []
-			},
-			{
-				"step": "Giving Boc the Gold Sewing Needle and the choice",
-				"description": "After giving him the Gold Sewing Needle, you will have a choice between two options:</br>1. Give him a Larval Tear, after which he will move next to Rennala. He will be reborn and not respond, and after reloading the area, he will die.</br>2. Perform the 'You're Beautiful' Prattling Pate in from of him, then discuss it.</br>Either choice ends his questline.",
-				"images": []
-			}
-		]
-	},
-	{
-		"id": "gatekeeper-gostoc",
-		"mainName": "Gatekeeper Gostoc",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["None"],
-		"alsoInvolved": ["None directly"],
-		"questLocations": ["Limgrave"],
-		"mainImage": "/vendors/img/npc/limgrave/gatekeeper-gostoc.png",
-		"rewards": ["Grace Mimic"],
-		"questline": [
-			{
-				"step": "First encounter before entering the Stormveil Castle",
-				"description": "You will find Gostoc just before entering the Stormveil castle. He will advise you to enter the castle through the other way. You can accept or reject his suggestion:</br>If you accept, he will wish you luck and send you on your way further.</br>If you reject the offer, he will open the gate for you.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=179323"
-			},
-			{
-				"step": "Notes about Gostoc",
-				"description": "Once you have obatined the Rusty Key or Defeated Godrick, or caught him at one of the 3 location stalking you, he will provide merchant services.</br>He will stel 30% of your runes every time you die in the castle, regardless of your choice in the first step. Killing Gostoc does not lock you out of Nepheli Loux and Kenneth Haight's questline, however you will miss out on the Ancient Dragon Smithing Stone.",
-				"images": []
-			},
-			{
-				"step": "Gostoc the Stalker",
-				"description": "Once you pass the gate you will find Gostoc in certain locations behind you. The first time you interact with him after catching him he will give you  a Grace Mimic. He will appear in set locations after triggering and event by passic through specific trigger points. His stalking locations trigger points are:</br>1. Ruined Watchtower, behind the Stormveil Cliffside site of grace - walk up the side path and into the room with 2 servants sitting on the ground.</br>2. Inside the rampart tower</br>3. On the castle chapel roof, above Sorcerer Rogier",
-				"images": []
-			},
-			{
-				"step": "Using the Rusty Key",
-				"description": "Once you open a door using the Rusty Key, the door will close and you'll have to fight a Banished Knight.",
-				"images": []
-			},
-			{
-				"step": "Questline ending",
-				"description": "After defeating Godrick, Gostoc will move to the boss room and begin kicking Godrick's head, continuing to be a merchant and ending his questline.",
-				"images": []
-			}
-		]
-	},
-	{
-		"id": "kenneth-haight",
-		"mainName": "Kenneth Haight",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["None"],
-		"alsoInvolved": ["Nepheli Loux"],
-		"questLocations": ["Limgrave"],
-		"mainImage": "/vendors/img/npc/limgrave/kenneth-haight.png",
-		"rewards": [
-			"Ash of War: Bloody Slash",
-			"Erdsteel Dagger",
-			"Ancient Dragon Smithing Stone"
-		],
-		"questline": [
-			{
-				"step": "NOTE",
-				"description": "This quest is tied to Nepheli Loux's quest, and thus the rewards are as well.",
-				"images": []
-			},
-			{
-				"step": "First encounter in Limgrave",
-				"description": "You can find Kenneth atop the ruins covering the roadway between the Mistwood Outskirts and Third Church of Marika site of grace. He will ask you to clear out Fort Haight.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164853"
-			},
-			{
-				"step": "Clearing out Fort Haight",
-				"description": "Defeat the Godrick Knight at Fort Haight and receive the Ash of War: Bloody Slash.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164497"
-			},
-			{
-				"step": "Becoming a knight... or not",
-				"description": "Come back to Kenneth and he will reward you with the Erdsteel Dagger. Talk to him again and accept to become his knight. Note: you must rest at the Fort Haight West site of grace for him to ask you to pledge your service.",
-				"images": []
-			},
-			{
-				"step": "Clearing out Fort Haight once again",
-				"description": "Clear out Demi-Humans occupying Fort Haight and talk to Kenneth. He will tell you that you can't become a knight yet, because he needs to find a stalwart Lord worthy of Limgrave.",
-				"images": []
-			},
-			{
-				"step": "Nepheli Loux and the Throne Room",
-				"description": "You need to defeat Morgott, the Omen King and give Nepheli Loux the Stormhawk King, and rest at the Godrick the Grafted site of Grace. Then, Kenneth, Nepeli Loux and Gatekeeper Gostoc will move to the Stormveil Castle Throne Room, where he will tell you that you will finally become a knight once he returns to his fort.",
-				"images": []
-			}
-		]
-	},
-	{
-		"id": "knight-bernahl",
-		"mainName": "Knight Bernahl",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["Mt. Gelmir", "Leyndell", "Crumbling Farum Azula"],
-		"alsoInvolved": ["None directly"],
-		"questLocations": [
-			"Limgrave",
-			"Mt. Gelmir",
-			"Leyndell",
-			"Crumbling Farum Azula"
-		],
-		"mainImage": "/vendors/img/npc/limgrave/knight-bernahl.png",
-		"rewards": [
-			"Gelmir's Fury",
-			"Blasphemous Claw",
-			"Devourer's Scepter",
-			"Beast Champion set"
-		],
-		"questline": [
-			{
-				"step": "NOTE",
-				"description": "This is less of a questline, rather a list of encounters.",
-				"images": []
-			},
-			{
-				"step": "First encounter in Stormhill",
-				"description": "You can initially find Bernahl in Stormhill at the Warmaster's Shack.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164058"
-			},
-			{
-				"step": "Second encounter in the Volcano Manor",
-				"description": "After you pledge your allegiance to Volcano Manor, Bernahl will move there and be known as Recusant Bernahl. After the second Volcano Manor request, he will give you Letter to Bernahl, which is a co-op invasion mission against Vargram the Raging Wolf and Errant Sorcerer Wilhelm in Leyndell, Royal Capital. NOTE: This step is skipped once you clear Crumbling Farum Azula.",
-				"images": []
-			},
-			{
-				"step": "NPC summon in Crumbling Farum Azula",
-				"description": "You can summon Bernahl for the fight against the Godskin Duo fight, by using his summon sign just by the fog gate near a narrow staircase.",
-				"images": []
-			},
-			{
-				"step": "After Rykard's defeat",
-				"description": "After Rykard has been defeated and the Volcano Manor emptied, you will find Bernahl in Crumbling Farum Azula guarding a chest. Defeating him rewards you with his armor set.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168392"
-			}
-		]
-	},
-	{
-		"id": "melina",
-		"mainName": "Melina",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["Weeping Peninsula", "Leyndell"],
-		"alsoInvolved": ["None directly"],
-		"questLocations": ["Limgrave", "Weeping Peninsula", "Leyndell"],
-		"mainImage": "/vendors/img/npc/limgrave/melina.png",
-		"rewards": ["None directly"],
-		"questline": [
-			{
-				"step": "NOTE",
-				"description": "Melina is directly connected to the main quest. This page is more of a list of interactions with her throughout the main quest.",
-				"images": []
-			},
-			{
-				"step": "First encounter in Limgrave",
-				"description": "After resting at a site of grace oustide of the Church of Elleh, Melina will appear and begin a conversation. This interaction will allow you to level up, as well as reward you with the ability to summon Torrent.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163934"
-			},
-			{
-				"step": "Conversations with Melina",
-				"description": "At the next site of grace you rest at before entering Stormveil Castle, you will be able to talk to her again. She will tell you about a Shardbearer in the Stormveil Castle, as well as about golden lines guiding you through the game. At the next site of grace, you will be able to talk with her about her puprose.",
-				"images": []
-			},
-			{
-				"step": "Conversation at the Third Church of Marika",
-				"description": "At the Third Church of Marika, upon talking with her she will describe echoes of Queen Marika the Eternal.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164015"
-			},
-			{
-				"step": "Conversation at the Church of Pilgrimage",
-				"description": "Upon talking to Melina, she gives you the option to elucidate on the echoes.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163995"
-			},
-			{
-				"step": "Fight against Morgott",
-				"description": "You can summon her for the fight against Morgott, just outside the boss arena.",
-				"images": []
-			},
-			{
-				"step": "Trying to enter the Erdtree",
-				"description": "After failing to enter the Erdtree upon Morgott's defeat, rest at the Elden Throne site of Grace. She will then guide you to the Mountaintop of the Giants.",
-				"images": []
-			},
-			{
-				"step": "Extra encounters",
-				"description": "At some sites of grace, Melina will have additional dialogue reminding you of the goal at the Mountaintops.",
-				"images": []
-			},
-			{
-				"step": "Last encounter with Melina",
-				"description": "After defeating the Fire Giant and reaching the Forge of the Giants, talk with Melina at the grace. If you haven't inherited the Frenzied Flame, this will be the last time you see her. If you have, she will later appear after the ending of the game.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166544"
-			}
-		]
-	},
-	{
-		"id": "nepheli-loux",
-		"mainName": "Nepheli Loux",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["Roundtable Hold", "Liurnia of the Lakes"],
-		"alsoInvolved": ["Gideon Ofnir", "Preceptor Seluvis", "Kenneth Haight"],
-		"questLocations": [
-			"Limgrave",
-			"Roundtable Hold",
-			"Liurnia of the Lakes"
-		],
-		"mainImage": "/vendors/img/npc/limgrave/nepheli-loux.png",
-		"rewards": ["Arsenal Charm", "Ancient Dragon Smithing Stone"],
-		"questline": [
-			{
-				"step": "NOTE",
-				"description": "You can lock yourself out of completing this questline by speaking to Melina at the Forge of Giants before finishing Nepheli's dialogue and defeating Omenkiller at the Village of the Albinaurics. She then will disappear for good and you will be unable to finish her quest.",
-				"images": []
-			},
-			{
-				"step": "Optional: Stormveil Castle courtyard",
-				"description": "Initially you can find her north of the heavily guarded Stormevil Castle courtyard. Exhausting her dialogue and you'll be able to summon her for your fight with Godrick. Then, talk to Gideon Ofnir and rest at the Godrick the Grafted site of grace for her to appear in the Roundtable Hold and reward you with the Arsenal Charm.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164904"
-			},
-			{
-				"step": "Encounter at the Roundtable Hold",
-				"description": "Talk with Nepheli at the Roundtable Hold. You might offer her Seluvi's Potion if you have it and go back to talk to Preceptor Seluvis.",
-				"images": []
-			},
-			{
-				"step": "The Omenkiller",
-				"description": "Find Nepheli at the Village of the Albinaurics and exhaust her dialogue. Go and defeat the Omenkiller found on the other side of the bridge above her.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166240"
-			},
-			{
-				"step": "Once again at the Roundtable Hold",
-				"description": "Return to Roundtable Hold and talk to Nepheli downstairs. Then, go and speak to Gideon Ofnir and ask him about Nepheli. If you have Seluvis's Potion, he will give you a choice:</br>1. Give the potion to Gideon so he can dispose of it</br>2. Give the potion to Nepheli, so she becomes unresponsive and becomes Seluvis's puppet</br>3. Give the potion to Dung Eater and he will become a Dung Eater Puppet summon</br>If you do not have the potion, the quest will progress as if you didn't give it to her.",
-				"images": []
-			},
-			{
-				"step": "The Stormhawk King",
-				"description": "Retrieve the Stormhawk King found in the Chaptel of Anticipation and give it to Nepheli, who is in Roundtable Hold. Before you can give her the Stormhawk King Ashes, you need to progress Roderika's quest to the point where she can upgrade spirit ashes.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167207"
-			},
-			{
-				"step": "Kenneth Haight and defeating Morgott",
-				"description": "WARNING: Do not kill Gideon before this step, since it will kill Nepheli where she is at the time and leave her items behind.</br>In order to progress this questline you need to progress Kenneth Haight's to the point where he's in Fort Haight looking for a fitting lord to rule Limgrave. After defeating Morgott you can find Nepheli, Kenneth and Gostoc in the Stormveil Castle site of grace. You will be rewarded with an Ancient Dragon Smithing Stone and Gatekeeper Gostoc will sell another one for 20,000 Runes.",
-				"images": []
-			}
-		]
-	},
-	{
-		"id": "patches",
-		"mainName": "Patches",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": [
-			"Liurnia of the Lakes",
-			"Mt. Gelmir",
-			"Altus Plateau"
-		],
-		"alsoInvolved": ["Tanith"],
-		"questLocations": [
-			"Limgrave",
-			"Liurnia of the Lakes",
-			"Mt. Gelmir",
-			"Altus Plateau"
-		],
-		"mainImage": "/vendors/img/npc/limgrave/patches.png",
-		"rewards": ["Magma Whip Candlestick", "Patches' Crouch"],
-		"questline": [
-			{
-				"step": "First encounter in Limgrave",
-				"description": "Patches can first be found in the Murkwater Cave. In order to trigger his fight, you have to open a chest in the camp. During the fight, once he reaches half health he will surrender. Don't attack him if you want to accept his surrender, instead, just wait a couple of seconds. If you accept hsi surrender, he will become friendly and ask you to forgive him. This choice only affects his dialogue. Afterwards, he becomes a merchant in this same cave.</br>If he defeats you in combat, he will offer to spare you if you use the Extreme Repentance gesture before him. If you do, he will stop attacking you and become a merchant.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164504"
-			},
-			{
-				"step": "Opening his chest once again",
-				"description": "Once you come back to the cave after your fight with him, you will be able to ask him about a new chest there. If you open it you will be teleported to Mistwood Ruins.",
-				"images": []
-			},
-			{
-				"step": "Reaching Liurnia",
-				"description": "After you reach Liurnia, Patches will leave the cave and set up a camp at the Scenic Isle site of grace. There, he will recommend you get captured by an Abuctor Virgin to reach the base of the Erdtree. Once you let the Abductor Virgin located at the bottom of the waterwheel in Raya Lucaria capture you, you will instead be teleported to Volcano Manor.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166734"
-			},
-			{
-				"step": "Reaching Altus Plateau",
-				"description": "Once you reach Altus Plateau, Patches will move to Mt. Gelmir. There, near the first Mt. Gelmir campsite grace you will find Rainbow Stones. If you follow them, once you reach the edge of the cliff he will kick you down. Once you return to him, he will warn you about the Volcano Manor and teach you the Calm Down gesture.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169057"
-			},
-			{
-				"step": "After joining the Volcano Manor",
-				"description": "NOTE: This step must be done before defeating Rykard. After this, Patches will leave the Volcano Manor and you will not get the reward for killing Tragoth.</br> After you join the Volcano Manor, he will be found in the entrance hallway northwest of the Site of Grave. He will serve as a merchant. Once you complete one of Tanith's assassination requests, you can speak to Patches to receive the Letter to Patches. Now, after you kill Great Horned Tragoth, return to Patches who will tell you to report to Tanith. Reload the area and speak to Patches once again and he will reward you with the Magma Whip Candlestick.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=175962"
-			},
-			{
-				"step": "Shaded Castle encounter",
-				"description": "You will find Patches at the Shaded Castle in front of the boss room, where he will give you the Dancer's Castanets and tell you to give them to Tanith. The Castanets do not serve a purpose at this moment.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=175929"
-			},
-			{
-				"step": "Patches is back in Limgrave",
-				"description": "Your final encounter with Patches will be once again in the Murkwater Cave, again as a boss, however this time he will surrender immediately and give you the Patches' Crouch gesture, ending the quest. After reloading the area, he will become a merchant.",
-				"images": []
-			}
-		]
-	},
+  {
+    "id": "d-hunter-of-the-dead",
+    "mainName": "D, Hunter of the Dead",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["Roundtable Hold", "Nokron"],
+    "alsoInvolved": [
+      "Gurranq",
+      "Sorcerer Rogier",
+      "Fia",
+      "D, Beholder of Death"
+    ],
+    "questLocations": ["Limgrave", "Roundtable Hold", "Nokron"],
+    "mainImage": "/vendors/img/npc/roundtable-hold/d-hunter-of-the-dead.png",
+    "rewards": ["Twinned Set", "Inseparable Sword"],
+    "questline": [
+      {
+        "step": "First encounter at in Stormhill, Limgrave",
+        "description": "The first time the player can encounter D is east of Stormhill Shack in Limgrave. You can also find him in Roundtable Hold.",
+        "images": []
+      },
+      {
+        "step": "After defeating the Tibia Mariner",
+        "description": "After defeating the Tibia Mariner in Summonwater Village, return to D at the Roundtable Hold or rest at site of grace and find him by the southwestern entrance in the water of Summonwater Village. He will give you directions to Bestial Sanctum in Caelid, however you can get there by going to the 'Sending Gate' in East Limgrave. After talking with Gurranq and selecting 'yes' while talking to D, he will become a merchant and sell you incantations.",
+        "images": [],
+        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6112&lat=-175.796&lng=117.133&zoom=8&code=mapA"
+      },
+      {
+        "step": "Hints of D's brother",
+        "description": "During Rogier's questline, a letter left to you by Rogier mentions that D has a younger brother, and hints at his location. ",
+        "images": []
+      },
+      {
+        "step": "Owner of the Weathered Dagger",
+        "description": "During Fia's and Rogier's questline, you will be asked to find the owner of a particular Weathered Dagger. D is the owner. Give him the dagger and reload the area. Then, in a newly opened room in the back of the Roundtable Hold, you will find D's Bell Bearing and the Twinned Set.",
+        "images": []
+      },
+      {
+        "step": "D's twin brother",
+        "description": "You can find D's twin brother, 'D, Beholder of Death' in Nokron. Upon interacting with him, you will receive the Inner Order gesture. Unaltered D's armor can be given to his brother, and after reloading the area you will be able to summon him for the fight with Valiant Gargoyles. You can also kill D, Hunter of the Dead at his first location and then give his armor to his brother, but this will cause the brother to be aggressive and fight you.",
+        "images": [],
+        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=1593&lat=-173.328125&lng=132.316801&zoom=8"
+      }
+    ]
+  },
+  {
+    "id": "diallos",
+    "mainName": "Diallos",
+    "firstAppearance": "Roundtable Hold",
+    "laterAppearances": ["Liurnia of the Lakes", "Mt. Gelmir"],
+    "alsoInvolved": ["Jar Bairn", "Iron Fist Alexander"],
+    "questLocations": ["Roundtable Hold", "Mt. Gelmir", "Liurnia of the Lakes"],
+    "mainImage": "/vendors/img/npc/roundtable-hold/diallos.png",
+    "rewards": ["Diallos's Mask", "Hoslow's Petal Whip", "Numen's Rune"],
+    "questline": [
+      {
+        "step": "First encounter at Roundtable Hold",
+        "description": "The first time the player can encounter Diallos is at Roundtable Hold. You need to exhaust his dialogue.",
+        "images": []
+      },
+      {
+        "step": "First encounter in Liurnia",
+        "description": "After talking with him at the Roundtable Hold, he will move to Liurnia and can be found atop a sunken roof West of the Academy Gate Town Site of Grace. IMPORTANT: completing the Volcano Manor legacy dungeon before this step prevents him from spawning there.",
+        "images": [],
+        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6128&lat=-143.0156&lng=68.55965&zoom=8&code=mapA"
+      },
+      {
+        "step": "Back at the Roundtable Hold",
+        "description": "Exhaust his dialogue at the Roundtable Hold.",
+        "images": []
+      },
+      {
+        "step": "Joining the Volcano Manor",
+        "description": "You will find him in the drawing room at the Volcano Manor. For each step of the Volcano Manor assassination sidequests, he gets new dialogue. After accepting the second letter from VOlcano Manor, he will relocate to Jarburg.",
+        "images": []
+      },
+      {
+        "step": "Jar-Bairn",
+        "description": "After progressing Jar-Bairn's questline, Diallos will appear in a shack tending to Jar-Bairn. You need to repeatedly talk to Jar-Bairn and rest at the Site of Grace in Jarburg until Jar-Bairn talks about poachers.  If you've gotten this questline to advance, Jar-Bairn will talk about a new Potentiate who's just arrived. Then, you need to let some time pass. Once enough time has passed, you need to exhaust Diallos' and Jar-Bairn's dialogue.",
+        "images": []
+      },
+      {
+        "step": "After defeating Radahn",
+        "description": "After defeating Radahn, exhaust Alexander's dialogue. He will be gathering corpses at the arena nearby the site of grace. Then, return to Jarburg. Find wounded Diallos and exhaust his and Jar-Bairn's dialogue. The choice of dialogue with Diallos does not matter. After reloading the area, you can find Jar-Bairn near Diallos. Exhaust his dialogue and reload the area. In the place of Diallos's body you will find Diallos's Mask.",
+        "images": []
+      },
+      {
+        "step": "After completing Alexander's questline",
+        "description": "Complete Alexander's questline and return to Jarburg. Give Jar-Bairn Alexander's Innards and reload the area. In place of Jar-Bairn you will find Companion Jar Talisman. You can also find Hoslow's Petal Whip and Numen's Rune in the middle of the town.",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "brother-corhyn",
+    "mainName": "Brother Corhyn",
+    "firstAppearance": "Roundtable Hold",
+    "laterAppearances": ["Altus Plateau", "Leyndell"],
+    "alsoInvolved": ["Goldmask"],
+    "questLocations": ["Roundtable Hold", "Altus Plateau", "Leyndell"],
+    "mainImage": "/vendors/img/npc/roundtable-hold/brother-corhyn.png",
+    "rewards": [
+      "Mending Rune of Perfect Order",
+      "Flail",
+      "Corhyn's Robe",
+      "Goldmask's Rags",
+      "Gold Bracelets",
+      "Gold Waistwrap"
+    ],
+    "questline": [
+      {
+        "step": "First encounter at Roundtable Hold",
+        "description": "The first time the player can encounter Brother Corhyn is at Roundtable Hold.",
+        "images": []
+      },
+      {
+        "step": "First encounter at Altus Plateau",
+        "description": "As soon as you reach Altus Plateau, when speaking to Brother Corhyn, he will tell you he is heading onto a journey trying to find the Goldmask. He moves to Altus Plateau after resting.",
+        "images": [],
+        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
+      },
+      {
+        "step": "Finding the Goldmask",
+        "description": "After talking with Brother Corhyn nearby the Altus Highway Junction site of Grace, you have to find Goldmask. He is standing on the north section of the Forest-Spanning Great Bridge, south of East Windmill Pasture. After you interact with Goldmask, you can go back to Corhyn and tell him Goldmask's whereabouts. After resting, he will move to where you found Goldmask.",
+        "images": []
+      },
+      {
+        "step": "The riddle",
+        "description": "In order to progress this questline, you need to obtain at least two Great Runes and have access to Leyndell. Both Goldmask and Corhyn will move to Leyndell, and can be found on a cliff up west of the colosseum. You need to exhaust Corhyn's dialogue. IMPORTANT: You need to solve this riddle before burning the Erdtree at Forge of the Giants - otherwise, Corhyn will vanish and leave behind his bell bearing, and Goldmask will not be present. The solution is as follows: First, you need to travel west of the Erdtree Sanctuary site of grace, down an elevator and a set of stairs. A white message on the ground facing the statue mentions 'Regression'. You must stand on the message, facing the statue, and cast the Law of Regression incantation to solve the riddle. Touch the new message that appears, and report the secret to Goldmask and then exhaust Corhyn's dialogue. ",
+        "images": [],
+        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6135&lat=-108.015&lng=113.26228&zoom=8&code=mapA"
+      },
+      {
+        "step": "Stargazer's Ruins",
+        "description": "After leaving Goldmask and Brother Corhyn (reloading the area will not work), they will move to the bridge south of Stargazer's Ruins right above the Ancient Snow Valley Ruins site of grace. You might give Corhyn Tonic of Forgetfulness, but he will refuse the potion. It will change the final outcome of the questline.",
+        "images": [],
+        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6136&lat=-70.273101&lng=156.515579&zoom=8&code=mapA"
+      },
+      {
+        "step": "Post Farum-Azula - Goldmask ending",
+        "description": "After completing Farum Azula (defeating Maliketh), you can find Goldmask in Leyndell, Ashen Capital. He moves to the bottom of the colosseum cliffs facing the west side of the Erdtree Sanctuary site of grace. He will give you the Mending Rune of Perfect Order. Reload the area to loot Goldmask's Set.",
+        "images": []
+      },
+      {
+        "step": "Post Farum-Azula - Corhyn ending",
+        "description": "Corhyn can be found in on of the possible two locations: First location - he should be at the base of the giant spiral spear. After you exhaust his dialogue and reload the area, you can find a Flail, Corhyn's Bell Bearing and his robe where he was sitting. Second possible location: if you offered him the Tonic of Forgetfulness, he will remain at the bridge south of the Stargazers' Ruins where you last saw him. Talk to him; he'll be unaware of Goldmask's absence. Reload the area and then collect all three of the above items where he was. If you don't complete the questline, you can find his bell bearing and robe ona cliff west of the colosseum in the Ashen Capital.",
+        "images": [],
+        "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=7716&lat=-104&lng=116&zoom=8&code=mapC"
+      }
+    ]
+  },
+  {
+    "id": "fia",
+    "mainName": "Fia",
+    "firstAppearance": "Roundtable Hold",
+    "laterAppearances": ["Underground"],
+    "alsoInvolved": [
+      "D, Hunter of the Dead",
+      "Ranni",
+      "Sorcerer Rogier",
+      "Lionel the Lionhearted"
+    ],
+    "questLocations": ["Roundtable Hold", "Underground"],
+    "mainImage": "/vendors/img/npc/roundtable-hold/fia.png",
+    "rewards": ["Fia's Set", "Mending Rune of the Death-Prince"],
+    "questline": [
+      {
+        "step": "First encounter at Roundtable Hold",
+        "description": "Fia can be found at the Roundtable Hold, sitting on a bed. Allowing her to hold you rewards you with Baldachin's Blessing, which decreases your max HP by 5%, up until you consume it.",
+        "images": ["vendors/img/questlines/fia/step-1.jpg"]
+      },
+      {
+        "step": "After visiting Altus Plateau",
+        "description": "After resting at a site of grace in Altus Plateau, when you go back to Fia at the Roundtable Hold you will be able to be held by her for a second time, after which she will give you a Weathered Dagger. After receiving the dagger, go talk to D, Hunter of the Dead at the Roundtable Hold and give it to him.",
+        "images": ["vendors/img/questlines/fia/step-2.png"]
+      },
+      {
+        "step": "Black Knifeprint Location",
+        "description": "Speak with Rogier about the black knives. After you also speak to Fia, she will give you Knifeprint Clue, revealing location of a Black Knifeprint. After you reload the area you'll find Fia in a newly opened room near Hewg, and after this encounter she will disappear.",
+        "images": []
+      },
+      {
+        "step": "Deeproot Depths",
+        "description": "In Deeproot Depths, head to the Across the Roots site of grace and enter the boss arena to the north. There, you will fight Fia's Champions. Upon talking to her, tell her that you want to be hugged. She then will ask you to bring her the Cursemark of Death, which is found duriing Ranni's quest. If Fia is not there, and she has already killed D, you might have to follow a few extra steps. First, kill the Valiant Gargoyles and rest in the coffin in the arena. This will take you to Deeproot Depths, after which Fia might appear. Another possible route is by revealing 2 illusory walls after the encounter with the Three Fingers.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169059"
+      },
+      {
+        "step": "Cursemark of Death",
+        "description": "After you give the Cursemark of Death to Fia, she will give you Radiant Baldachin's Blessing. Exhaust her dialogue and reload the area. Interact with sleeping Fia and fight Lichdragon Fortissax.",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "gideon-ofnir",
+    "mainName": "Gideon Ofnir",
+    "firstAppearance": "Roundtable Hold",
+    "laterAppearances": ["Leyndell"],
+    "alsoInvolved": ["Nepheli Loux", "Perceptor Seluvis"],
+    "questLocations": ["Roundtable Hold", "Leyndell"],
+    "mainImage": "/vendors/img/npc/roundtable-hold/gideon-ofnir.png",
+    "rewards": [
+      "All-Knowing Set",
+      "Scepter of the All-Knowing",
+      "Fevor's Cookbook[3]",
+      "Law of Causality",
+      "Black Flame's Protection",
+      "Lord's Divine Fortification"
+    ],
+    "questline": [
+      {
+        "step": "First and second encounter at the Roundtable Hold",
+        "description": "You can find him at the Roundtable Hold the first time you get there. Once you leave the Hold and return once more, he will have relocated to his room guarded by Ensha. Gideon will instruct you to kill Godrick the Grafted.",
+        "images": []
+      },
+      {
+        "step": "Defeating Godrick",
+        "description": "After defeating Godrick you'll have to speak to Enia at the Roundtable Hold in order for Gideon to reopen doors to his room.",
+        "images": []
+      },
+      {
+        "step": "Defeating another Shardbearer",
+        "description": "After defating a second Shardbearer, come back to Gideon. You'll be able to talk with him about Nepheli Loux. Around this time, while progressing Preceptor Seluvis' questline, you might give Seluvis' Potion to Gideon. This simply prevents you from giving the potion to other NPCs, which would end up ending that NPC's questline.",
+        "images": []
+      },
+      {
+        "step": "Defeating Morgott",
+        "description": "After defeating Morgott, return to Gideon. He will disclose locations of other Shardbearers and provide you with rewards after killing each one: reaching Mohgwyn Dynasty Mausoleum - [Fevor's Cookbook[3]], Defeating Mohg, Lord of Blood - [Law of Causality], reaching Miquella's Haligtree - [Black Flame's Protection], defeating Malenia, Blade of Miquella - [Lord's Divine Fortification]",
+        "images": []
+      },
+      {
+        "step": "Final encounter at the Ashen capital",
+        "description": "After defeating Maliketh and returning to Leyndell, head towards the Erdtree Sanctuary. There, you will find Gideon monologuing and attacking you. After the fight, you will obtain his armor set as well as his scepter, ending his questline.",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "dung-eater",
+    "mainName": "Dung Eater",
+    "firstAppearance": "Roundtable Hold",
+    "laterAppearances": ["Underground", "Altus Plateau"],
+    "alsoInvolved": ["Big Blackguard Boggart"],
+    "questLocations": ["Roundtable Hold", "Underground", "Altus Plateau"],
+    "mainImage": "/vendors/img/npc/roundtable-hold/dung-eater.png",
+    "rewards": ["Omen Set", "Sword of Milos"],
+    "questline": [
+      {
+        "step": "NOTE",
+        "description": "During Ranni's questline, if you give Ranni the Fingerslayer Blade you will not be able to give Dung Eater Seluvis's Potion.",
+        "images": []
+      },
+      {
+        "step": "First encounter at Roundtable Hold",
+        "description": "The first time you can meet the Dung Eater is after gaining access to the Altus Plateau. He can be found in a room past the twin maidens.",
+        "images": []
+      },
+      {
+        "step": "First Seedbed Curse",
+        "description": "After giving him at least one Seedbed Curse, he will give you the Sewer-Gaol Key, used to open his cell in the Subterranean Shunning-Grounds, which you can access by descending down a well in Leyndell.",
+        "images": ["vendors/img/questlines/dung-eater/step-3.jpg"],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=175943"
+      },
+      {
+        "step": "Freeing the Dung Eater",
+        "description": "He can be found in his cell in the sewers. Tell him he's been freed and return to Roundtable Hold. </br>To find his cell, follow these steps: </br>1. Spawn at the Underground Roadside grace. </br>2. Leave the room and take a left. </br>3. Head down the corridor and jump down the open gate. </br>4. Run northwest and go past the giant poison plants and climb the ladder. </br>5. Past the giant hand is the Sewer Gaol room with Dung Eater inside.",
+        "images": []
+      },
+      {
+        "step": "Message from the Dung Eater",
+        "description": "After returning to Roundtable Hold, you will not find Dung Eater, but his message for you to fight him at the 'outer moat'. If you're progressing Blackguard Big Boggart's questline, make sure to complete it before doing this step, or else he will not drop a Seedbed Curse.",
+        "images": ["vendors/img/questlines/dung-eater/step-5.jpg"],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169012"
+      },
+      {
+        "step": "Another encounter at the Roundtable Hold",
+        "description": "Upon defeat, he will return to the Roundtable Hold. From now on, you can give him Seluvis's Potion to end Dung Eater's questline, or Seedbed Curses to progress it.",
+        "images": []
+      },
+      {
+        "step": "5 Seedbed Curses",
+        "description": "After giving him 5th and final Seedbed Curse, his questline will be complete and you will be rewarded with the Mending Rune of the Fell Curse. You can also reload the area to find the Omen Set in his place.",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "alexander",
+    "mainName": "Iron Fist Alexander",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": [
+      "Liurnia",
+      "Caelid",
+      "Mt. Gelmir",
+      "Crumbling Farum Azula"
+    ],
+    "alsoInvolved": ["none"],
+    "questLocations": [
+      "Limgrave",
+      "Liurnia",
+      "Caelid",
+      "Mt. Gelmir",
+      "Crumbling Farum Azula"
+    ],
+    "mainImage": "/vendors/img/npc/limgrave/alexander.png",
+    "rewards": [
+      "Triumphant Delight Gesture",
+      "Exalted Flesh (2)",
+      "Alexander's Innards",
+      "Shard of Alexander",
+      "Warrior Jar Shard (if you kill him before Farum Azula)"
+    ],
+    "questline": [
+      {
+        "step": "NOTE",
+        "description": "If you kill him before Crumbling Farum Azula, he will not drop Shard of Alexander and Alexander's Innards - instead, he will drop the Warrior Jar Shard.",
+        "images": []
+      },
+      {
+        "step": "First encounter in Limgrave",
+        "description": "Help Alexander get out of a hole by hitting him a few times. Don't be scared to attack him, he will tell you to keep trying. He will reward you with Triumphant Delight Gesture and a piece of Exalted Flesh. He also will tell you where he's headed.",
+        "images": ["/vendors/img/questlines/alexander/step-1.jpg"],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164117"
+      },
+      {
+        "step": "Alexander's next location",
+        "description": "You can skip this step by already starting the Radahn Festival. The second time you can find Alexander is in Gael Tunnel. He will once again mention the festival in Redmane Castle.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165129"
+      },
+      {
+        "step": "The Radahn Festival",
+        "description": "You can find Alexander in Redmane Castle along other participants. You can summon him for the fight against Radahn. After defeating Radahn, you can find Alexander nearby the site of grace in Wailing Dunes and talk to him.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169067"
+      },
+      {
+        "step": "Alexander is stuck again",
+        "description": "His next location is in Liurnia, nearby the Carian Study Hall, stuck in a hole once again. This time, just attacking him will not result in success. You need to thorw an Oil Pot to make him slippery, and then get him out. He will thank you and reward you with an Exalted Flesh, saying that he's headed North to become an even stronger warrior.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168542"
+      },
+      {
+        "step": "Alexander at Mt. Gelmir",
+        "description": "This time, you will find Alexander in a lava lake just behind a Magma Wyrm. You will be able to safely talk to him once you walk on one of the stones in the lava pool. There, he will award you with the Jar and head to the forge of the giants. You will be able to summon him for the fight against the Fire Giant, just outisde of the arena.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167816"
+      },
+      {
+        "step": "Questline ending",
+        "description": "The last time you meet Alexander is in Crumbling Farum Azula. Here, he will request one final duel. Once you defeat him, he will reward you with Alexander's Innards and the Shard of Alexander.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170548"
+      }
+    ]
+  },
+  {
+    "id": "blaidd",
+    "mainName": "Blaidd",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["Liurnia", "Caelid", "Underground"],
+    "alsoInvolved": ["Ranni", "Preceptor Seluvis", "Sorceress Sellen"],
+    "questLocations": ["Limgrave", "Liurnia", "Caelid", "Underground"],
+    "mainImage": "/vendors/img/npc/limgrave/blaidd.png",
+    "rewards": [
+      "Finger Snap Gesture",
+      "Smithing Stone [2]",
+      "Royal Greatsword",
+      "Blaidd's Armor",
+      "Blaidd's Gauntlets",
+      "Blaidd's Greaves"
+    ],
+    "questline": [
+      {
+        "step": "First encounter in Mistwood",
+        "description": "In Mistwood, you can hear a wolf's howl. You can ask Merchant Kale about the howling, and the merchant will teach you the Finger Snap Gesture. Then, you can meet Blaidd on the tallest point in Mistwood Ruins. Once you use the Finger Snap Gesture below him, he will jump down. He will tell you he's hunting for a man called 'Darriwil'.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165206"
+      },
+      {
+        "step": "Fighting Darriwil",
+        "description": "In the Forlorn Hound Evergaol, you can fight Darriwil. Blaidd will be available as a summon, and you'll be able to talk to him after the fight had concluded. Exhaust his dialogue to get a Somber Smithing Stone [2] and he'll mention Iji. Doing this will unluck the Carian Filigreed Crest in the blacksmith's shop. If you've completed the Evergaol fight before meeting Blaidd, he will be standing there available to speak to.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163965"
+      },
+      {
+        "step": "Beginning of Ranni's Questline",
+        "description": "During Ranni's questline, you will be tasked with talking to Blaidd in Siofra River, who will then tell you to talk to Preceptor Seluvis, directing you to Sorceress Sellen. After talking to Sellen, he will request you find him at Redmane Castle.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167764"
+      },
+      {
+        "step": "The Radahn Festival",
+        "description": "You can skip to this step by using the Grand Lift of Dectus. Blaidd, among other warriors can be found in the courtyard of Redmane Castle. He will aid oyu in the fight against Radahn.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168093"
+      },
+      {
+        "step": "Blaidd trapped in an Evergaol",
+        "description": "This step is optional: after defeating Radahn, you can find BLaidd trapped inside the Forlorn Hound Evergaol. You can also talk with Iji about that for some additional dialogue.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163965"
+      },
+      {
+        "step": "After completing Ranni's questline",
+        "description": "After you complete Ranni's questline, return to Ranni's Rise to find hostile Blaidd. Defeat him to get his greatsword and his set, except for the helm, which can be found near Seluvis's Rise. This concludes Blaidd's questline.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168984"
+      }
+    ]
+  },
+  {
+    "id": "boc-the-seamster",
+    "mainName": "Boc the Seamster",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["Liurnia of the Lakes", "Altus Plateau", "Leyndell"],
+    "alsoInvolved": ["Rennala"],
+    "questLocations": [
+      "Limgrave",
+      "Liurnia of the Lakes",
+      "Altus Plateau",
+      "Leyndell"
+    ],
+    "mainImage": "/vendors/img/npc/limgrave/boc-the-seamster.png",
+    "rewards": ["Mushrooms (10)"],
+    "questline": [
+      {
+        "step": "First encounter in Limgrave",
+        "description": "Boc can initially be found disguised as a tree calling for help. In order to see him, you have to attack the tree and he will return to his original form. He will tell you on how he was expelled from his caved and had everything he owned taken. He also says that he might sneak back into the cave to retrieve some of his belongings and bring them to you.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164089"
+      },
+      {
+        "step": "Coastal Cave encounter",
+        "description": "The next time you can meet Boc is at the Coastal Cave. He is lying on the floor near the entrance. You need to clear out the cave to help him. Defeating the boss rewards you with Tailoring Tools and Sewing Needle, which you need to give back to Boc.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165130"
+      },
+      {
+        "step": "Third encounter and altering garments",
+        "description": "Later you can find Boc at the Lake-Facing Cliffs site of grace in Liurnia. He will then offer to make adjustments to your garments for free. Now, you need to meet those three conditions:</br>1. Retrieve the Gold Sewing Needle from the Church of Vows in Liurnia</br>2. Buy at least one oiece of demigod armor from Finger Reader Enia at the Roundtable Hold.</br>3. Speak with Melina about Boc at the East Raya Lucaria Gate site of grace.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165682"
+      },
+      {
+        "step": "Optional encounters",
+        "description": "You can find him in the East Raya Lucaria Gate site of grace and then to Altus Highway Junction site of grace and finally next to the East Capital Ramparts site of grace. Those encounters are optional.",
+        "images": []
+      },
+      {
+        "step": "Giving Boc the Gold Sewing Needle and the choice",
+        "description": "After giving him the Gold Sewing Needle, you will have a choice between two options:</br>1. Give him a Larval Tear, after which he will move next to Rennala. He will be reborn and not respond, and after reloading the area, he will die.</br>2. Perform the 'You're Beautiful' Prattling Pate in from of him, then discuss it.</br>Either choice ends his questline.",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "gatekeeper-gostoc",
+    "mainName": "Gatekeeper Gostoc",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["None"],
+    "alsoInvolved": ["None directly"],
+    "questLocations": ["Limgrave"],
+    "mainImage": "/vendors/img/npc/limgrave/gatekeeper-gostoc.png",
+    "rewards": ["Grace Mimic"],
+    "questline": [
+      {
+        "step": "First encounter before entering the Stormveil Castle",
+        "description": "You will find Gostoc just before entering the Stormveil castle. He will advise you to enter the castle through the other way. You can accept or reject his suggestion:</br>If you accept, he will wish you luck and send you on your way further.</br>If you reject the offer, he will open the gate for you.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=179323"
+      },
+      {
+        "step": "Notes about Gostoc",
+        "description": "Once you have obatined the Rusty Key or Defeated Godrick, or caught him at one of the 3 location stalking you, he will provide merchant services.</br>He will stel 30% of your runes every time you die in the castle, regardless of your choice in the first step. Killing Gostoc does not lock you out of Nepheli Loux and Kenneth Haight's questline, however you will miss out on the Ancient Dragon Smithing Stone.",
+        "images": []
+      },
+      {
+        "step": "Gostoc the Stalker",
+        "description": "Once you pass the gate you will find Gostoc in certain locations behind you. The first time you interact with him after catching him he will give you  a Grace Mimic. He will appear in set locations after triggering and event by passic through specific trigger points. His stalking locations trigger points are:</br>1. Ruined Watchtower, behind the Stormveil Cliffside site of grace - walk up the side path and into the room with 2 servants sitting on the ground.</br>2. Inside the rampart tower</br>3. On the castle chapel roof, above Sorcerer Rogier",
+        "images": []
+      },
+      {
+        "step": "Using the Rusty Key",
+        "description": "Once you open a door using the Rusty Key, the door will close and you'll have to fight a Banished Knight.",
+        "images": []
+      },
+      {
+        "step": "Questline ending",
+        "description": "After defeating Godrick, Gostoc will move to the boss room and begin kicking Godrick's head, continuing to be a merchant and ending his questline.",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "kenneth-haight",
+    "mainName": "Kenneth Haight",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["None"],
+    "alsoInvolved": ["Nepheli Loux"],
+    "questLocations": ["Limgrave"],
+    "mainImage": "/vendors/img/npc/limgrave/kenneth-haight.png",
+    "rewards": [
+      "Ash of War: Bloody Slash",
+      "Erdsteel Dagger",
+      "Ancient Dragon Smithing Stone"
+    ],
+    "questline": [
+      {
+        "step": "NOTE",
+        "description": "This quest is tied to Nepheli Loux's quest, and thus the rewards are as well.",
+        "images": []
+      },
+      {
+        "step": "First encounter in Limgrave",
+        "description": "You can find Kenneth atop the ruins covering the roadway between the Mistwood Outskirts and Third Church of Marika site of grace. He will ask you to clear out Fort Haight.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164853"
+      },
+      {
+        "step": "Clearing out Fort Haight",
+        "description": "Defeat the Godrick Knight at Fort Haight and receive the Ash of War: Bloody Slash.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164497"
+      },
+      {
+        "step": "Becoming a knight... or not",
+        "description": "Come back to Kenneth and he will reward you with the Erdsteel Dagger. Talk to him again and accept to become his knight. Note: you must rest at the Fort Haight West site of grace for him to ask you to pledge your service.",
+        "images": []
+      },
+      {
+        "step": "Clearing out Fort Haight once again",
+        "description": "Clear out Demi-Humans occupying Fort Haight and talk to Kenneth. He will tell you that you can't become a knight yet, because he needs to find a stalwart Lord worthy of Limgrave.",
+        "images": []
+      },
+      {
+        "step": "Nepheli Loux and the Throne Room",
+        "description": "You need to defeat Morgott, the Omen King and give Nepheli Loux the Stormhawk King, and rest at the Godrick the Grafted site of Grace. Then, Kenneth, Nepeli Loux and Gatekeeper Gostoc will move to the Stormveil Castle Throne Room, where he will tell you that you will finally become a knight once he returns to his fort.",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "knight-bernahl",
+    "mainName": "Knight Bernahl",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["Mt. Gelmir", "Leyndell", "Crumbling Farum Azula"],
+    "alsoInvolved": ["None directly"],
+    "questLocations": [
+      "Limgrave",
+      "Mt. Gelmir",
+      "Leyndell",
+      "Crumbling Farum Azula"
+    ],
+    "mainImage": "/vendors/img/npc/limgrave/knight-bernahl.png",
+    "rewards": [
+      "Gelmir's Fury",
+      "Blasphemous Claw",
+      "Devourer's Scepter",
+      "Beast Champion set"
+    ],
+    "questline": [
+      {
+        "step": "NOTE",
+        "description": "This is less of a questline, rather a list of encounters.",
+        "images": []
+      },
+      {
+        "step": "First encounter in Stormhill",
+        "description": "You can initially find Bernahl in Stormhill at the Warmaster's Shack.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164058"
+      },
+      {
+        "step": "Second encounter in the Volcano Manor",
+        "description": "After you pledge your allegiance to Volcano Manor, Bernahl will move there and be known as Recusant Bernahl. After the second Volcano Manor request, he will give you Letter to Bernahl, which is a co-op invasion mission against Vargram the Raging Wolf and Errant Sorcerer Wilhelm in Leyndell, Royal Capital. NOTE: This step is skipped once you clear Crumbling Farum Azula.",
+        "images": []
+      },
+      {
+        "step": "NPC summon in Crumbling Farum Azula",
+        "description": "You can summon Bernahl for the fight against the Godskin Duo fight, by using his summon sign just by the fog gate near a narrow staircase.",
+        "images": []
+      },
+      {
+        "step": "After Rykard's defeat",
+        "description": "After Rykard has been defeated and the Volcano Manor emptied, you will find Bernahl in Crumbling Farum Azula guarding a chest. Defeating him rewards you with his armor set.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=168392"
+      }
+    ]
+  },
+  {
+    "id": "melina",
+    "mainName": "Melina",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["Weeping Peninsula", "Leyndell"],
+    "alsoInvolved": ["None directly"],
+    "questLocations": ["Limgrave", "Weeping Peninsula", "Leyndell"],
+    "mainImage": "/vendors/img/npc/limgrave/melina.png",
+    "rewards": ["None directly"],
+    "questline": [
+      {
+        "step": "NOTE",
+        "description": "Melina is directly connected to the main quest. This page is more of a list of interactions with her throughout the main quest.",
+        "images": []
+      },
+      {
+        "step": "First encounter in Limgrave",
+        "description": "After resting at a site of grace oustide of the Church of Elleh, Melina will appear and begin a conversation. This interaction will allow you to level up, as well as reward you with the ability to summon Torrent.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163934"
+      },
+      {
+        "step": "Conversations with Melina",
+        "description": "At the next site of grace you rest at before entering Stormveil Castle, you will be able to talk to her again. She will tell you about a Shardbearer in the Stormveil Castle, as well as about golden lines guiding you through the game. At the next site of grace, you will be able to talk with her about her puprose.",
+        "images": []
+      },
+      {
+        "step": "Conversation at the Third Church of Marika",
+        "description": "At the Third Church of Marika, upon talking with her she will describe echoes of Queen Marika the Eternal.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164015"
+      },
+      {
+        "step": "Conversation at the Church of Pilgrimage",
+        "description": "Upon talking to Melina, she gives you the option to elucidate on the echoes.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163995"
+      },
+      {
+        "step": "Fight against Morgott",
+        "description": "You can summon her for the fight against Morgott, just outside the boss arena.",
+        "images": []
+      },
+      {
+        "step": "Trying to enter the Erdtree",
+        "description": "After failing to enter the Erdtree upon Morgott's defeat, rest at the Elden Throne site of Grace. She will then guide you to the Mountaintop of the Giants.",
+        "images": []
+      },
+      {
+        "step": "Extra encounters",
+        "description": "At some sites of grace, Melina will have additional dialogue reminding you of the goal at the Mountaintops.",
+        "images": []
+      },
+      {
+        "step": "Last encounter with Melina",
+        "description": "After defeating the Fire Giant and reaching the Forge of the Giants, talk with Melina at the grace. If you haven't inherited the Frenzied Flame, this will be the last time you see her. If you have, she will later appear after the ending of the game.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166544"
+      }
+    ]
+  },
+  {
+    "id": "nepheli-loux",
+    "mainName": "Nepheli Loux",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["Roundtable Hold", "Liurnia of the Lakes"],
+    "alsoInvolved": ["Gideon Ofnir", "Preceptor Seluvis", "Kenneth Haight"],
+    "questLocations": ["Limgrave", "Roundtable Hold", "Liurnia of the Lakes"],
+    "mainImage": "/vendors/img/npc/limgrave/nepheli-loux.png",
+    "rewards": ["Arsenal Charm", "Ancient Dragon Smithing Stone"],
+    "questline": [
+      {
+        "step": "NOTE",
+        "description": "You can lock yourself out of completing this questline by speaking to Melina at the Forge of Giants before finishing Nepheli's dialogue and defeating Omenkiller at the Village of the Albinaurics. She then will disappear for good and you will be unable to finish her quest.",
+        "images": []
+      },
+      {
+        "step": "Optional: Stormveil Castle courtyard",
+        "description": "Initially you can find her north of the heavily guarded Stormevil Castle courtyard. Exhausting her dialogue and you'll be able to summon her for your fight with Godrick. Then, talk to Gideon Ofnir and rest at the Godrick the Grafted site of grace for her to appear in the Roundtable Hold and reward you with the Arsenal Charm.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164904"
+      },
+      {
+        "step": "Encounter at the Roundtable Hold",
+        "description": "Talk with Nepheli at the Roundtable Hold. You might offer her Seluvi's Potion if you have it and go back to talk to Preceptor Seluvis.",
+        "images": []
+      },
+      {
+        "step": "The Omenkiller",
+        "description": "Find Nepheli at the Village of the Albinaurics and exhaust her dialogue. Go and defeat the Omenkiller found on the other side of the bridge above her.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166240"
+      },
+      {
+        "step": "Once again at the Roundtable Hold",
+        "description": "Return to Roundtable Hold and talk to Nepheli downstairs. Then, go and speak to Gideon Ofnir and ask him about Nepheli. If you have Seluvis's Potion, he will give you a choice:</br>1. Give the potion to Gideon so he can dispose of it</br>2. Give the potion to Nepheli, so she becomes unresponsive and becomes Seluvis's puppet</br>3. Give the potion to Dung Eater and he will become a Dung Eater Puppet summon</br>If you do not have the potion, the quest will progress as if you didn't give it to her.",
+        "images": []
+      },
+      {
+        "step": "The Stormhawk King",
+        "description": "Retrieve the Stormhawk King found in the Chaptel of Anticipation and give it to Nepheli, who is in Roundtable Hold. Before you can give her the Stormhawk King Ashes, you need to progress Roderika's quest to the point where she can upgrade spirit ashes.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167207"
+      },
+      {
+        "step": "Kenneth Haight and defeating Morgott",
+        "description": "WARNING: Do not kill Gideon before this step, since it will kill Nepheli where she is at the time and leave her items behind.</br>In order to progress this questline you need to progress Kenneth Haight's to the point where he's in Fort Haight looking for a fitting lord to rule Limgrave. After defeating Morgott you can find Nepheli, Kenneth and Gostoc in the Stormveil Castle site of grace. You will be rewarded with an Ancient Dragon Smithing Stone and Gatekeeper Gostoc will sell another one for 20,000 Runes.",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "patches",
+    "mainName": "Patches",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["Liurnia of the Lakes", "Mt. Gelmir", "Altus Plateau"],
+    "alsoInvolved": ["Tanith"],
+    "questLocations": [
+      "Limgrave",
+      "Liurnia of the Lakes",
+      "Mt. Gelmir",
+      "Altus Plateau"
+    ],
+    "mainImage": "/vendors/img/npc/limgrave/patches.png",
+    "rewards": ["Magma Whip Candlestick", "Patches' Crouch"],
+    "questline": [
+      {
+        "step": "First encounter in Limgrave",
+        "description": "Patches can first be found in the Murkwater Cave. In order to trigger his fight, you have to open a chest in the camp. During the fight, once he reaches half health he will surrender. Don't attack him if you want to accept his surrender, instead, just wait a couple of seconds. If you accept hsi surrender, he will become friendly and ask you to forgive him. This choice only affects his dialogue. Afterwards, he becomes a merchant in this same cave.</br>If he defeats you in combat, he will offer to spare you if you use the Extreme Repentance gesture before him. If you do, he will stop attacking you and become a merchant.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164504"
+      },
+      {
+        "step": "Opening his chest once again",
+        "description": "Once you come back to the cave after your fight with him, you will be able to ask him about a new chest there. If you open it you will be teleported to Mistwood Ruins.",
+        "images": []
+      },
+      {
+        "step": "Reaching Liurnia",
+        "description": "After you reach Liurnia, Patches will leave the cave and set up a camp at the Scenic Isle site of grace. There, he will recommend you get captured by an Abuctor Virgin to reach the base of the Erdtree. Once you let the Abductor Virgin located at the bottom of the waterwheel in Raya Lucaria capture you, you will instead be teleported to Volcano Manor.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166734"
+      },
+      {
+        "step": "Reaching Altus Plateau",
+        "description": "Once you reach Altus Plateau, Patches will move to Mt. Gelmir. There, near the first Mt. Gelmir campsite grace you will find Rainbow Stones. If you follow them, once you reach the edge of the cliff he will kick you down. Once you return to him, he will warn you about the Volcano Manor and teach you the Calm Down gesture.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=169057"
+      },
+      {
+        "step": "After joining the Volcano Manor",
+        "description": "NOTE: This step must be done before defeating Rykard. After this, Patches will leave the Volcano Manor and you will not get the reward for killing Tragoth.</br> After you join the Volcano Manor, he will be found in the entrance hallway northwest of the Site of Grave. He will serve as a merchant. Once you complete one of Tanith's assassination requests, you can speak to Patches to receive the Letter to Patches. Now, after you kill Great Horned Tragoth, return to Patches who will tell you to report to Tanith. Reload the area and speak to Patches once again and he will reward you with the Magma Whip Candlestick.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=175962"
+      },
+      {
+        "step": "Shaded Castle encounter",
+        "description": "You will find Patches at the Shaded Castle in front of the boss room, where he will give you the Dancer's Castanets and tell you to give them to Tanith. The Castanets do not serve a purpose at this moment.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=175929"
+      },
+      {
+        "step": "Patches is back in Limgrave",
+        "description": "Your final encounter with Patches will be once again in the Murkwater Cave, again as a boss, however this time he will surrender immediately and give you the Patches' Crouch gesture, ending the quest. After reloading the area, he will become a merchant.",
+        "images": []
+      }
+    ]
+  },
 
-	{
-		"id": "roderika",
-		"mainName": "Roderika",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["Roundtable Hold"],
-		"alsoInvolved": ["Smithing Master Hewg"],
-		"questLocations": ["Limgrave", "Roundtable Hold"],
-		"mainImage": "/vendors/img/npc/limgrave/roderika.png",
-		"rewards": [
-			"Sitting Sideways pose",
-			"Spirit Jellyfish Ashes",
-			"Golden Seed",
-			"Curtsy Gesture"
-		],
-		"questline": [
-			{
-				"step": "First encounter in Limgrave",
-				"description": "You can find Roderika in Stormhill Shack in Limgrave, and once you talk to her several times you will obtain Sitting Sideways pose and the Spirit Jellyfish Ashes. She will also give you a message to deliver, and once you return to her with a Chrystalids' Memento <a class='text-link' href='https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164740' target='_blank' >[Fextralife map link]</a> , which can be found on a pile of corpses within Rampart Tower, she still will be in the Shack.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163944"
-			},
-			{
-				"step": "Roderika at the ROundtable Hold",
-				"description": "NOTE: If you missed Roderika at the Stormhill Shack, choose the 'About Roderika' option from Smithing Master Hewg's dialogue and continue the quest as you normally would.</br>At the Roundtable Hold, you will find her standing next to the fireplace. Exhaust her dialogue and she will reward you with a Golden Seed. If you didn't give her the Chrysalid's Memento before meeting her at the Hold, go back to the Stormhill Shack and you will find the Golden Seed there.",
-				"images": []
-			},
-			{
-				"step": "Roderika becoming a Spirit Tuner",
-				"description": "In order for Roderika to become a Spirit Tuner, you need to speak to Hewg about Roderika, then talk to Roderika about what Hewg said, and then once again speak to Hewg. If you missed Roderika at the Stormhill Shack, choose the 'please' dialogue option to receive the Spirit Jellyfish Ashes. After those back and forth talks with Hewg and Roderika, after leaving the area and returning you will find Roderika in the same room where Hewg is, just opposite of him. Now, she will be able to upgrade your Spirit Ashes using Glovewort items.</br>Once you've leveled up any spirit ashes to +4, talking to her will trigger some extra dialogue and you will get the Curtsy gesture.",
-				"images": []
-			},
-			{
-				"step": "One last special interaction",
-				"description": "Once you burn the Erdtree, she will move to the fireplace you first found her at the Hold. She will ask you to speak to Hewg and convince him to leave the Hold.",
-				"images": []
-			}
-		]
-	},
-	{
-		"id": "sellen",
-		"mainName": "Sellen",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["Liurnia of the Lakes"],
-		"alsoInvolved": ["Primeval Sorcerer Azur", "Master Lusat"],
-		"questLocations": ["Limgrave", "Liurnia of the Lakes"],
-		"mainImage": "/vendors/img/npc/limgrave/sellen.png",
-		"rewards": [
-			"Comet Azur",
-			"Stars of Ruin",
-			"Sellen's Primal Glintstone",
-			"Witch's Glintstone Crown",
-			"Defeating Jerren: Eccentric armor set",
-			"Defeating Jerren: Glintstone Kris",
-			"Defeating Jerren: Azur's armor set",
-			"Defeating Jerren: Lusat's armor set",
-			"Defeating Sellen: Sellen's Bell bearing",
-			"Defeating Sellen: Ancient Dragon Smithing Stone"
-		],
-		"questline": [
-			{
-				"step": "First encounter in Limgrave",
-				"description": "You can first find her at the Waypoint Ruins, after defeating the Mad Pumpkin Head miniboss guarding her room. Accept her offer to study under her, and you'll be able to learn sorceries and progress her questline.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164616"
-			},
-			{
-				"step": "Sorcerer Azur in Mt. Gelmir",
-				"description": "North of Hermit village on Mt. Gelmir you will find Sorcerer Azur, who will give you the Comet Azur Sorcery. After that, go back to Sellen to continue her questline.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170408"
-			},
-			{
-				"step": "Finding Master Lusat",
-				"description": "Sellen will ask you to find Master Lusat, who is locked away behind a special magic seal inside Sellia Hideaway in Caelid. She will give you an item that can break the seal. Once you interact with him, he will give you the Stars of Ruin sorcery. Return to Sellen and she will give you a Starlight Shard.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167197"
-			},
-			{
-				"step": "After defeating Radahn",
-				"description": "Return to Sellen after defeating Radahn. She will request you meet her at the Witchbane Ruins where she will give you Sellen's Primal Glintstone.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163983"
-			},
-			{
-				"step": "Witch-Hunter Jerren",
-				"description": "If you haven't speak to jerren in Redmane Castle. He can be found sitting in the throne room. Once you exhaust his dialogue, reload the area and return to Witchbane Ruins. There, you will find Jerren standing in the room with deceased Sellen. Exhaust his dialogue once again.",
-				"images": []
-			},
-			{
-				"step": "Journey to the Three Sisters area",
-				"description": "In the Three Sisters area, locate the ruins on the right sie of the approach up to Ranni's Rise. You nmmust locate an illusory floor that must be struck to reveal. In this dungeon, there will be an illusory wall to the left of the glowing message that says 'Seluvis's Puppet. Do not touch'. In the room behind the wall there will be a doll of duplicate Sellen, where you can insert the Primal Glintstone by interacting with it, resurrecting sellen. She will continue selling sorceries there until Rennala is defeated.",
-				"images": ["/vendors/img/questlines/sellen/step-6.jpg"],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170411"
-			},
-			{
-				"step": "After defeating Rennala",
-				"description": "After you defeat Rennala, go to the Raya Lucaria Grand Library site of grace. Right outside the entrance you will find two summon signs:</br></br>The gold summon sign will make you help Sellen defeat Witch Hunter Jerren. You will be rewarded with the Eccentric Set. After the fight you will find Sellen standing in place of Rennala in the Grand Library (with Rennala sitting off to the side of the room), where after exhausting her dialogue you will be rewarded with Glintstone Kris and have the Shard Spiral sorcery available for purchase. You will be also able to get Master Azur's and Lusat's armor sets laying on the ground in their previous locations. After you find Master Lusat's armor, Rennala will return to her original position and now Sellen will have moved to the side of the room, this time transformed into a School of Graven Mages. Next to her, you will find her Witch's Glintstone Crown. You will still be able to purchase sorceries from her.</br></br>The red summon sign makes you help Jerren against Sellen. Defeating her will reward you with the Witch's Glintstone Crown and Sellen's Bell bearing. Afterwards, you will find Jerren outside the entrance to the Grand Library, and speaking to him will reward you with an Ancient Dragon Smithing Stone. You can still kill Jerren to obtain his armor set. This option locks you out of obtaining Master Lusat's and Azur's armor sets until your next game cycle.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164426"
-			}
-		]
-	},
-	{
-		"id": "sorcerer-rogier",
-		"mainName": "Sorcerer Rogier",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["Roundtable Hold"],
-		"alsoInvolved": ["Fia", "Ranni"],
-		"questLocations": ["Limgrave", "Roundtable Hold"],
-		"mainImage": "/vendors/img/npc/limgrave/sorcerer-rogier.png",
-		"rewards": [
-			"Rogier's Rapier +8",
-			"Rogier's Bell Bearing",
-			"Rogier's Set"
-		],
-		"questline": [
-			{
-				"step": "NOTE",
-				"description": "If you talk to Ranni at the Three Sisters before completing this questline, you will not be able to progress it.",
-				"images": []
-			},
-			{
-				"step": "First encounter before defeating Godrick",
-				"description": "The first time you can find Rogier is in Stormveil Castle, before defeating Godrick by the altar of a chapel.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164686"
-			},
-			{
-				"step": "After defeating Gordick",
-				"description": "After defeating Godrick, Rogier will move to Roundtable Hold and you will find him on the balcony that overlooks the entrance hall. He will give you Rogier's Rapier +8 with a Glintblade Phalanx Ash of War.",
-				"images": []
-			},
-			{
-				"step": "Defeating the Root Monster",
-				"description": "Underneath the Stormveil Castle, you will find a Lesser Ulcerated Tree Spirit. Continue on after defeating the monster until you find a rotting face. In front of it, there will be a bloodstain that you need to activate to view a memory. Once you do, return to Rogier at the Roundtable HOld and exhaust his dialogue about the face.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165164"
-			},
-			{
-				"step": "Learning about the Black Knifeprint",
-				"description": "After talking with Rogier, speak to Fia and allow her to hold you. Exhaust the dialogue options along the lines of 'Talk in secret', 'Did you know?' and 'About the Black Knifeprint' to get Knifeprint Clue that reveals the location of Black Knife Catacombs where the Black Knifeprint can be found.",
-				"images": [],
-				"maplink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164167"
-			},
-			{
-				"step": "Locating the Black Knifeprint",
-				"description": "The Black Knifeprint is hidden behind an illusory wall in the room before dropping down to a flooded pit with levers. Defeat the Black Knife Assassin to obtain it. Return the Black Knifeprint to Rogier. On reloading the area he will send you looking for Ranni, who can be found at the Three Sisters in the North West of Liurnia.",
-				"images": []
-			},
-			{
-				"step": "Asking Ranni for information",
-				"description": "Upon talking to Ranni, she will tell you to leave. Go back to Rogier and tell him about it, and he will recommend you become one of Ranni's Vassals to get more information from her. Go back to Ranni and become her vassal, beginning her questline.</br> Returning to Rogier will result in him warning you that he will fall into a deep slumber. Reloading the area makes him go to sleep.</br> After resting a couple times, and/or completing through the story, he will die and leave behind his Bell Bearing, set and a letter revealing the existence of D's younger brother.",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "varre",
-		"mainName": "White Mask Varre",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/limgrave/varre.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "yura",
-		"mainName": "Yura",
-		"firstAppearance": "Limgrave",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/limgrave/yura.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "edgar",
-		"mainName": "Edgar",
-		"firstAppearance": "Weeping-peninsula",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/weeping-peninsula/edgar.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "albus",
-		"mainName": "Albus",
-		"firstAppearance": "Liurnia of the Lakes",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/liurnia/albus.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "boggart",
-		"mainName": "Blackguard Big Boggart",
-		"firstAppearance": "Liurnia of the Lakes",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/liurnia/boggart.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "hyetta",
-		"mainName": "Hyetta",
-		"firstAppearance": "Liurnia of the Lakes",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/liurnia/hyetta.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "iji",
-		"mainName": "Iji",
-		"firstAppearance": "Liurnia of the Lakes",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/liurnia/iji.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "jar-bairn",
-		"mainName": "Jar Bairn",
-		"firstAppearance": "Liurnia of the Lakes",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/liurnia/jar-bairn.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "latenna",
-		"mainName": "Latenna",
-		"firstAppearance": "Liurnia of the Lakes",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/liurnia/latenna.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "miriel",
-		"mainName": "Miriel",
-		"firstAppearance": "Liurnia of the Lakes",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/liurnia/miriel.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "pidia",
-		"mainName": "pidia",
-		"firstAppearance": "Liurnia of the Lakes",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/liurnia/pidia.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"id": "ranni",
-		"mainName": "Ranni the Witch/Renna",
-		"firstAppearance": "Liurnia of the Lakes",
-		"laterAppearances": ["Underground", "Leyndell"],
-		"alsoInvolved": [
-			"Blaid",
-			"Iji",
-			"Preceptor Seluvis",
-			"Sorcerer Rogier",
-			"Sorceress Sellen"
-		],
-		"questLocations": ["Liurnia of the Lakes", "Underground", "Leyndell"],
-		"mainImage": "/vendors/img/npc/liurnia/ranni.png",
-		"rewards": ["Snow Witch set", "Dark Moon Ring", "Dark Moon Greatsword"],
-		"questline": [
-			{
-				"step": "Renna",
-				"description": "Ranni is first encountered going by the name Renna, when the player teleports to the Church of Elleh, after meeting Melina and acquiring Torrent. Upon talking with Renna she gives the player the Spirit Calling Bell and the Lone Wolf Ashes. Not meeting Renna does not prevent the quest from being completed.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167799"
-			},
-			{
-				"step": "First meeting in Liurnia",
-				"description": "The first time the player encounters Ranni the Witch is at the top of Ranni's Rise, which requires Royal Knight Loretta to be defeated at the Caria Manor. If the Radahn Festival is happening, you will have to first defeat Radahn in order to find Ranni at Ranni's Rise.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165879"
-			},
-			{
-				"step": "Ranni's Rise",
-				"description": "At the top of Ranni's Rise she tasks the player with finding the hidden treasure of Nokron and asks you to speak with Iji, Blaidd and Preceptor Seluvis, who appear as ghostly projections in the tower. You have to talk with all three of them to leave the tower area. After talking with all three projections, talk to Ranni again and you'll be able to fast travel as normal. If you haven't found Ranni formerly known as Renna, you will have to talk to Rogier at the Roundtable Hold and speak with him to continue Ranni's questline as normal.",
-				"images": []
-			},
-			{
-				"step": "Encounter with Blaidd in Siofra River",
-				"description": "Blaidd will be waiting for you in Siofra River. He will instruct you to talk with Seluvis (who can be found in his tower near Ranni's Rise), who then tells you to find Sorceress Sellen.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167764"
-			},
-			{
-				"step": "Finding Sellen",
-				"description": "You'll find Sellen at the Waypoint Ruins. She will tell you that in order to reach Nokron you need to defeat Starscourge Radahn.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164001"
-			},
-			{
-				"step": "After Radahn's Defeat",
-				"description": "Defeating Radahn forces a star to struck Limgrave, south of Mistwood. You can talk to Iji about the fallen star. The impact has created a new entrance into Nokron, through which you'll be able to access the underground area.",
-				"images": []
-			},
-			{
-				"step": "The Fingerslayer Blade",
-				"description": "Once you reach Nokron Ancestral Woods site of grace, you need to jump across nearby ledge and reach the city. As you continue onward you will eventually find a chest containing the Fingerslayer Blade - the treasure Ranni seeks.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167496"
-			},
-			{
-				"step": "NOTE",
-				"description": "Giving Ranni the Fingerslayer Blade will make Preceptor Seluvis a lifeless puppet, which stops his questline.",
-				"images": []
-			},
-			{
-				"step": "Giving Ranni the blade",
-				"description": "Once you return to Ranni and give her the Fingerslayer Blade, she will reward you with the Carian Inverted Statue, which can be used at a pedestal at the entrance to the Carian Study Hall. Upon arriving at the top of the Divine Tower of Liurnia, you will be able to find the Cursemark of Death.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164410"
-			},
-			{
-				"step": "Renna's Rise and the miniature Ranni doll",
-				"description": "Upon giving Ranni the blade, you will gain acess to Renna's Rise. There, you can find the Snow Witch Set as well as a waygate able to transport you to Ainsel River Main, where you can find the miniature Ranni doll. Rest at the Ainsel River Main site of grace and talk to miniature Ranni three times. She will task you wi th defeating a Baleful Shadow found further into the area. Defeating the shadow rewards you with the Discarded Palace Key.",
-				"images": []
-			},
-			{
-				"step": "Dark Moon Ring and the Naturalborn of the Void",
-				"description": "Use the Discarded Key to access the chest found in the Raya Lucaria Grand Library next to Rennala, which contains the Dark Moon Ring. Go back to Lake of Rot and reach the Grand Cloister. There, you can interact with a stone coffin and prepare to fight Astel, Naturalborn of the void. Upon it's defeat, with the Ring you'll be able to pass a magic seal, which blocks the path to the Moonlight Altar.",
-				"images": [],
-				"mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167484"
-			},
-			{
-				"step": "Dark Moon Greatsword",
-				"description": "Collect 11 Starlight Shards scattered in the Cathedral of Manus Celes. Then, drop down the hole near the site of grace and continue through the tunnel. Interact with Ranni's doll body and place the Dark Moon Ring on ranni's Finger. She then confirms you as her consort nad drop the Dark Moon Greatsword.",
-				"images": []
-			},
-			{
-				"step": "The Age of Stars",
-				"description": "After defeating the Elden Beast, interact with a blue summon sign near Marika's broken remains to acquire the 'Age of Stars' ending.",
-				"images": []
-			}
-		]
-	},
+  {
+    "id": "roderika",
+    "mainName": "Roderika",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["Roundtable Hold"],
+    "alsoInvolved": ["Smithing Master Hewg"],
+    "questLocations": ["Limgrave", "Roundtable Hold"],
+    "mainImage": "/vendors/img/npc/limgrave/roderika.png",
+    "rewards": [
+      "Sitting Sideways pose",
+      "Spirit Jellyfish Ashes",
+      "Golden Seed",
+      "Curtsy Gesture"
+    ],
+    "questline": [
+      {
+        "step": "First encounter in Limgrave",
+        "description": "You can find Roderika in Stormhill Shack in Limgrave, and once you talk to her several times you will obtain Sitting Sideways pose and the Spirit Jellyfish Ashes. She will also give you a message to deliver, and once you return to her with a Chrystalids' Memento <a class='text-link' href='https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164740' target='_blank' >[Fextralife map link]</a> , which can be found on a pile of corpses within Rampart Tower, she still will be in the Shack.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163944"
+      },
+      {
+        "step": "Roderika at the ROundtable Hold",
+        "description": "NOTE: If you missed Roderika at the Stormhill Shack, choose the 'About Roderika' option from Smithing Master Hewg's dialogue and continue the quest as you normally would.</br>At the Roundtable Hold, you will find her standing next to the fireplace. Exhaust her dialogue and she will reward you with a Golden Seed. If you didn't give her the Chrysalid's Memento before meeting her at the Hold, go back to the Stormhill Shack and you will find the Golden Seed there.",
+        "images": []
+      },
+      {
+        "step": "Roderika becoming a Spirit Tuner",
+        "description": "In order for Roderika to become a Spirit Tuner, you need to speak to Hewg about Roderika, then talk to Roderika about what Hewg said, and then once again speak to Hewg. If you missed Roderika at the Stormhill Shack, choose the 'please' dialogue option to receive the Spirit Jellyfish Ashes. After those back and forth talks with Hewg and Roderika, after leaving the area and returning you will find Roderika in the same room where Hewg is, just opposite of him. Now, she will be able to upgrade your Spirit Ashes using Glovewort items.</br>Once you've leveled up any spirit ashes to +4, talking to her will trigger some extra dialogue and you will get the Curtsy gesture.",
+        "images": []
+      },
+      {
+        "step": "One last special interaction",
+        "description": "Once you burn the Erdtree, she will move to the fireplace you first found her at the Hold. She will ask you to speak to Hewg and convince him to leave the Hold.",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "sellen",
+    "mainName": "Sellen",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["Liurnia of the Lakes"],
+    "alsoInvolved": ["Primeval Sorcerer Azur", "Master Lusat"],
+    "questLocations": ["Limgrave", "Liurnia of the Lakes"],
+    "mainImage": "/vendors/img/npc/limgrave/sellen.png",
+    "rewards": [
+      "Comet Azur",
+      "Stars of Ruin",
+      "Sellen's Primal Glintstone",
+      "Witch's Glintstone Crown",
+      "Defeating Jerren: Eccentric armor set",
+      "Defeating Jerren: Glintstone Kris",
+      "Defeating Jerren: Azur's armor set",
+      "Defeating Jerren: Lusat's armor set",
+      "Defeating Sellen: Sellen's Bell bearing",
+      "Defeating Sellen: Ancient Dragon Smithing Stone"
+    ],
+    "questline": [
+      {
+        "step": "First encounter in Limgrave",
+        "description": "You can first find her at the Waypoint Ruins, after defeating the Mad Pumpkin Head miniboss guarding her room. Accept her offer to study under her, and you'll be able to learn sorceries and progress her questline.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164616"
+      },
+      {
+        "step": "Sorcerer Azur in Mt. Gelmir",
+        "description": "North of Hermit village on Mt. Gelmir you will find Sorcerer Azur, who will give you the Comet Azur Sorcery. After that, go back to Sellen to continue her questline.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170408"
+      },
+      {
+        "step": "Finding Master Lusat",
+        "description": "Sellen will ask you to find Master Lusat, who is locked away behind a special magic seal inside Sellia Hideaway in Caelid. She will give you an item that can break the seal. Once you interact with him, he will give you the Stars of Ruin sorcery. Return to Sellen and she will give you a Starlight Shard.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167197"
+      },
+      {
+        "step": "After defeating Radahn",
+        "description": "Return to Sellen after defeating Radahn. She will request you meet her at the Witchbane Ruins where she will give you Sellen's Primal Glintstone.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=163983"
+      },
+      {
+        "step": "Witch-Hunter Jerren",
+        "description": "If you haven't speak to jerren in Redmane Castle. He can be found sitting in the throne room. Once you exhaust his dialogue, reload the area and return to Witchbane Ruins. There, you will find Jerren standing in the room with deceased Sellen. Exhaust his dialogue once again.",
+        "images": []
+      },
+      {
+        "step": "Journey to the Three Sisters area",
+        "description": "In the Three Sisters area, locate the ruins on the right sie of the approach up to Ranni's Rise. You nmmust locate an illusory floor that must be struck to reveal. In this dungeon, there will be an illusory wall to the left of the glowing message that says 'Seluvis's Puppet. Do not touch'. In the room behind the wall there will be a doll of duplicate Sellen, where you can insert the Primal Glintstone by interacting with it, resurrecting sellen. She will continue selling sorceries there until Rennala is defeated.",
+        "images": ["/vendors/img/questlines/sellen/step-6.jpg"],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=170411"
+      },
+      {
+        "step": "After defeating Rennala",
+        "description": "After you defeat Rennala, go to the Raya Lucaria Grand Library site of grace. Right outside the entrance you will find two summon signs:</br></br>The gold summon sign will make you help Sellen defeat Witch Hunter Jerren. You will be rewarded with the Eccentric Set. After the fight you will find Sellen standing in place of Rennala in the Grand Library (with Rennala sitting off to the side of the room), where after exhausting her dialogue you will be rewarded with Glintstone Kris and have the Shard Spiral sorcery available for purchase. You will be also able to get Master Azur's and Lusat's armor sets laying on the ground in their previous locations. After you find Master Lusat's armor, Rennala will return to her original position and now Sellen will have moved to the side of the room, this time transformed into a School of Graven Mages. Next to her, you will find her Witch's Glintstone Crown. You will still be able to purchase sorceries from her.</br></br>The red summon sign makes you help Jerren against Sellen. Defeating her will reward you with the Witch's Glintstone Crown and Sellen's Bell bearing. Afterwards, you will find Jerren outside the entrance to the Grand Library, and speaking to him will reward you with an Ancient Dragon Smithing Stone. You can still kill Jerren to obtain his armor set. This option locks you out of obtaining Master Lusat's and Azur's armor sets until your next game cycle.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164426"
+      }
+    ]
+  },
+  {
+    "id": "sorcerer-rogier",
+    "mainName": "Sorcerer Rogier",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["Roundtable Hold"],
+    "alsoInvolved": ["Fia", "Ranni"],
+    "questLocations": ["Limgrave", "Roundtable Hold"],
+    "mainImage": "/vendors/img/npc/limgrave/sorcerer-rogier.png",
+    "rewards": ["Rogier's Rapier +8", "Rogier's Bell Bearing", "Rogier's Set"],
+    "questline": [
+      {
+        "step": "NOTE",
+        "description": "If you talk to Ranni at the Three Sisters before completing this questline, you will not be able to progress it.",
+        "images": []
+      },
+      {
+        "step": "First encounter before defeating Godrick",
+        "description": "The first time you can find Rogier is in Stormveil Castle, before defeating Godrick by the altar of a chapel.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164686"
+      },
+      {
+        "step": "After defeating Gordick",
+        "description": "After defeating Godrick, Rogier will move to Roundtable Hold and you will find him on the balcony that overlooks the entrance hall. He will give you Rogier's Rapier +8 with a Glintblade Phalanx Ash of War.",
+        "images": []
+      },
+      {
+        "step": "Defeating the Root Monster",
+        "description": "Underneath the Stormveil Castle, you will find a Lesser Ulcerated Tree Spirit. Continue on after defeating the monster until you find a rotting face. In front of it, there will be a bloodstain that you need to activate to view a memory. Once you do, return to Rogier at the Roundtable HOld and exhaust his dialogue about the face.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165164"
+      },
+      {
+        "step": "Learning about the Black Knifeprint",
+        "description": "After talking with Rogier, speak to Fia and allow her to hold you. Exhaust the dialogue options along the lines of 'Talk in secret', 'Did you know?' and 'About the Black Knifeprint' to get Knifeprint Clue that reveals the location of Black Knife Catacombs where the Black Knifeprint can be found.",
+        "images": [],
+        "maplink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164167"
+      },
+      {
+        "step": "Locating the Black Knifeprint",
+        "description": "The Black Knifeprint is hidden behind an illusory wall in the room before dropping down to a flooded pit with levers. Defeat the Black Knife Assassin to obtain it. Return the Black Knifeprint to Rogier. On reloading the area he will send you looking for Ranni, who can be found at the Three Sisters in the North West of Liurnia.",
+        "images": []
+      },
+      {
+        "step": "Asking Ranni for information",
+        "description": "Upon talking to Ranni, she will tell you to leave. Go back to Rogier and tell him about it, and he will recommend you become one of Ranni's Vassals to get more information from her. Go back to Ranni and become her vassal, beginning her questline.</br> Returning to Rogier will result in him warning you that he will fall into a deep slumber. Reloading the area makes him go to sleep.</br> After resting a couple times, and/or completing through the story, he will die and leave behind his Bell Bearing, set and a letter revealing the existence of D's younger brother.",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "varre",
+    "mainName": "White Mask Varre",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["Liurnia of the Lakes", "Underground"],
+    "alsoInvolved": ["None directly"],
+    "questLocations": ["Limgrave", "Liurnia of the Lakes", "Underground"],
+    "mainImage": "/vendors/img/npc/limgrave/varre.png",
+    "rewards": [
+      "Festering Bloody Fingers",
+      "Lord of Blood's Favor",
+      "Pureblood Knight's Medal",
+      "Varre's Bouquet"
+    ],
+    "questline": [
+      {
+        "step": "You are Maidenless indeed",
+        "description": "Varre is the first NPC you speak to at the beggining of the game, by the first step site of grace. He will tell you that you are maidenless.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164440"
+      },
+      {
+        "step": "After obtaining any of the Great Runes",
+        "description": "After you obtain any of the Great Runes and talking to Enia for the first time at the Roundtable Hold, Varre will move to Rose Church <a href='https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=166244' target='_blank'>[LINK]</a>. Here, he will reward you with 5 Festering Bloody Fingers. To progress the questline you can go one of two routes:</br></br>1. Find and defeat Magnus the Beast Claw <a href='https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=196316' target='_blank'>[LINK]</a> and come back do Varre.</br></br>2. Using the Festering Bloody Finger to invade other players three times. The outcome of the invasion does not matter. After invading players three times, return to Varre.",
+        "images": []
+      },
+      {
+        "step": "Blood of a maiden",
+        "description": "Upon completing one of the aforementioned tasks, Varre will ask you to join the order of the Bloody Lord. If you agree, he will give you the Lord of Blood's Favor and request you soak it in the blood of a maiden. There are three ways you can complete this step:</br></br>1. Interact with a maiden corpse in the Church of Inhibition <a href='https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165518' target='_blank'>[LINK]</a></br></br>2. Interact with the corpse at Chapel of Anticipation if you've unlocked the second belfry at the Four Belfries <a href='https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=175484' target='_blank'>[LINK]</a></br></br>3. Kill Irina, her location depending on your progress.</br></br>Upon giving Varre the blood-soaked Favor, he will reward you with a reusable Bloody Finger. Speak to him once again and he will give you the Pureblood Knight's Medal, which when used teleports you to the Mohgwyn Palace.",
+        "images": []
+      },
+      {
+        "step": "Mausoleum Dynasty Midpoint invasion sign",
+        "description": "Near the Mausoleum Dynasty Midpoint site of grace you can find an invasion sign allowing you to fight Varre. After defeating him when you look back into the corridor where you found his invasion sign, you will see Varre wounded. Exhaust his dialogue and you'll be rewarded with 6 Festering Bloody Fingers and Varre's Bouquet.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=174889"
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "yura",
+    "mainName": "Yura",
+    "firstAppearance": "Limgrave",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/limgrave/yura.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "edgar",
+    "mainName": "Edgar",
+    "firstAppearance": "Weeping-peninsula",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/weeping-peninsula/edgar.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "albus",
+    "mainName": "Albus",
+    "firstAppearance": "Liurnia of the Lakes",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/liurnia/albus.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "boggart",
+    "mainName": "Blackguard Big Boggart",
+    "firstAppearance": "Liurnia of the Lakes",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/liurnia/boggart.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "hyetta",
+    "mainName": "Hyetta",
+    "firstAppearance": "Liurnia of the Lakes",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/liurnia/hyetta.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "iji",
+    "mainName": "Iji",
+    "firstAppearance": "Liurnia of the Lakes",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/liurnia/iji.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "jar-bairn",
+    "mainName": "Jar Bairn",
+    "firstAppearance": "Liurnia of the Lakes",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/liurnia/jar-bairn.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "latenna",
+    "mainName": "Latenna",
+    "firstAppearance": "Liurnia of the Lakes",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/liurnia/latenna.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "miriel",
+    "mainName": "Miriel",
+    "firstAppearance": "Liurnia of the Lakes",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/liurnia/miriel.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "pidia",
+    "mainName": "pidia",
+    "firstAppearance": "Liurnia of the Lakes",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/liurnia/pidia.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "ranni",
+    "mainName": "Ranni the Witch/Renna",
+    "firstAppearance": "Liurnia of the Lakes",
+    "laterAppearances": ["Underground", "Leyndell"],
+    "alsoInvolved": [
+      "Blaid",
+      "Iji",
+      "Preceptor Seluvis",
+      "Sorcerer Rogier",
+      "Sorceress Sellen"
+    ],
+    "questLocations": ["Liurnia of the Lakes", "Underground", "Leyndell"],
+    "mainImage": "/vendors/img/npc/liurnia/ranni.png",
+    "rewards": ["Snow Witch set", "Dark Moon Ring", "Dark Moon Greatsword"],
+    "questline": [
+      {
+        "step": "Renna",
+        "description": "Ranni is first encountered going by the name Renna, when the player teleports to the Church of Elleh, after meeting Melina and acquiring Torrent. Upon talking with Renna she gives the player the Spirit Calling Bell and the Lone Wolf Ashes. Not meeting Renna does not prevent the quest from being completed.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167799"
+      },
+      {
+        "step": "First meeting in Liurnia",
+        "description": "The first time the player encounters Ranni the Witch is at the top of Ranni's Rise, which requires Royal Knight Loretta to be defeated at the Caria Manor. If the Radahn Festival is happening, you will have to first defeat Radahn in order to find Ranni at Ranni's Rise.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=165879"
+      },
+      {
+        "step": "Ranni's Rise",
+        "description": "At the top of Ranni's Rise she tasks the player with finding the hidden treasure of Nokron and asks you to speak with Iji, Blaidd and Preceptor Seluvis, who appear as ghostly projections in the tower. You have to talk with all three of them to leave the tower area. After talking with all three projections, talk to Ranni again and you'll be able to fast travel as normal. If you haven't found Ranni formerly known as Renna, you will have to talk to Rogier at the Roundtable Hold and speak with him to continue Ranni's questline as normal.",
+        "images": []
+      },
+      {
+        "step": "Encounter with Blaidd in Siofra River",
+        "description": "Blaidd will be waiting for you in Siofra River. He will instruct you to talk with Seluvis (who can be found in his tower near Ranni's Rise), who then tells you to find Sorceress Sellen.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167764"
+      },
+      {
+        "step": "Finding Sellen",
+        "description": "You'll find Sellen at the Waypoint Ruins. She will tell you that in order to reach Nokron you need to defeat Starscourge Radahn.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164001"
+      },
+      {
+        "step": "After Radahn's Defeat",
+        "description": "Defeating Radahn forces a star to struck Limgrave, south of Mistwood. You can talk to Iji about the fallen star. The impact has created a new entrance into Nokron, through which you'll be able to access the underground area.",
+        "images": []
+      },
+      {
+        "step": "The Fingerslayer Blade",
+        "description": "Once you reach Nokron Ancestral Woods site of grace, you need to jump across nearby ledge and reach the city. As you continue onward you will eventually find a chest containing the Fingerslayer Blade - the treasure Ranni seeks.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167496"
+      },
+      {
+        "step": "NOTE",
+        "description": "Giving Ranni the Fingerslayer Blade will make Preceptor Seluvis a lifeless puppet, which stops his questline.",
+        "images": []
+      },
+      {
+        "step": "Giving Ranni the blade",
+        "description": "Once you return to Ranni and give her the Fingerslayer Blade, she will reward you with the Carian Inverted Statue, which can be used at a pedestal at the entrance to the Carian Study Hall. Upon arriving at the top of the Divine Tower of Liurnia, you will be able to find the Cursemark of Death.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=164410"
+      },
+      {
+        "step": "Renna's Rise and the miniature Ranni doll",
+        "description": "Upon giving Ranni the blade, you will gain acess to Renna's Rise. There, you can find the Snow Witch Set as well as a waygate able to transport you to Ainsel River Main, where you can find the miniature Ranni doll. Rest at the Ainsel River Main site of grace and talk to miniature Ranni three times. She will task you wi th defeating a Baleful Shadow found further into the area. Defeating the shadow rewards you with the Discarded Palace Key.",
+        "images": []
+      },
+      {
+        "step": "Dark Moon Ring and the Naturalborn of the Void",
+        "description": "Use the Discarded Key to access the chest found in the Raya Lucaria Grand Library next to Rennala, which contains the Dark Moon Ring. Go back to Lake of Rot and reach the Grand Cloister. There, you can interact with a stone coffin and prepare to fight Astel, Naturalborn of the void. Upon it's defeat, with the Ring you'll be able to pass a magic seal, which blocks the path to the Moonlight Altar.",
+        "images": [],
+        "mapLink": "https://mapgenie.io/elden-ring/maps/the-lands-between?locationIds=167484"
+      },
+      {
+        "step": "Dark Moon Greatsword",
+        "description": "Collect 11 Starlight Shards scattered in the Cathedral of Manus Celes. Then, drop down the hole near the site of grace and continue through the tunnel. Interact with Ranni's doll body and place the Dark Moon Ring on ranni's Finger. She then confirms you as her consort nad drop the Dark Moon Greatsword.",
+        "images": []
+      },
+      {
+        "step": "The Age of Stars",
+        "description": "After defeating the Elden Beast, interact with a blue summon sign near Marika's broken remains to acquire the 'Age of Stars' ending.",
+        "images": []
+      }
+    ]
+  },
 
-	{
-		"todo": "true",
-		"id": "rya",
-		"mainName": "Rya",
-		"firstAppearance": "Liurnia of the Lakes",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/liurnia/rya.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "seluvis",
-		"mainName": "Seluvis",
-		"firstAppearance": "Liurnia of the Lakes",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/liurnia/seluvis.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "thops",
-		"mainName": "Thops",
-		"firstAppearance": "Liurnia of the Lakes",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/liurnia/thops.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "gowry",
-		"mainName": "Gowry",
-		"firstAppearance": "Caelid",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/caelid/gowry.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "great-jar",
-		"mainName": "Great Jar",
-		"firstAppearance": "Caelid",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/caelid/great-jar.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "gurranq",
-		"mainName": "Gurranq",
-		"firstAppearance": "Caelid",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/caelid/gurranq.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "jerren",
-		"mainName": "Jerren",
-		"firstAppearance": "Caelid",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/caelid/jerren.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "Master-lusat",
-		"mainName": "master-lusat",
-		"firstAppearance": "Caelid",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/caelid/master-lusat.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "Milicent",
-		"mainName": "milicent",
-		"firstAppearance": "Caelid",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/caelid/milicent.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "goldmask",
-		"mainName": "Goldmask",
-		"firstAppearance": "Altus Plateau",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/Altus-plateau/goldmask.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "primeval-sorcerer-azur",
-		"mainName": "Primeval Sorcerer Azur",
-		"firstAppearance": "Mt. Gelmir",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/mt-gelmir/primeval-sorcerer-azur.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "tanith",
-		"mainName": "Tanith",
-		"firstAppearance": "Mt. Gelmir",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/mt-gelmir/tanith.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"todo": "true",
-		"id": "d-beholder-of-death",
-		"mainName": "D, Beholder of Death",
-		"firstAppearance": "Underground",
-		"laterAppearances": ["PLACEHOLDER"],
-		"alsoInvolved": ["PLACEHOLDER"],
-		"questLocations": ["PLACEHOLDER"],
-		"mainImage": "/vendors/img/npc/underground/d-beholder-of-death.png",
-		"rewards": ["PLACEHOLDER"],
-		"questline": [
-			{
-				"step": "PLACEHOLDER",
-				"description": "PLACEHOLDER",
-				"images": []
-			}
-		]
-	},
-	{
-		"id": "three-fingers",
-		"mainName": "The Three Fingers",
-		"firstAppearance": "Underground",
-		"laterAppearances": ["None"],
-		"alsoInvolved": ["Hyetta"],
-		"questLocations": ["Underground"],
-		"mainImage": "/vendors/img/npc/underground/three-fingers.png",
-		"rewards": ["Flame of Frenzy"],
-		"questline": [
-			{
-				"step": "NOTE",
-				"description": "Meeting with the Three Fingers will lock you out of other ending choices, unless you use Miquella's Needle at Dragonlord Placidusax's arena. This permanently removes the Frenzied Flame.",
-				"images": []
-			},
-			{
-				"step": "The Subterranean Shunning-Grounds",
-				"description": "In order to access the Three Fingers, you will need to first reach the Subterranean Shunning-Grounds, accessed by descending down a well in Leyndell.",
-				"images": []
-			},
-			{
-				"step": "The Cathedral of the Forsaken",
-				"description": "Most of this step is well explained in this video: <a href='https://www.youtube.com/watch?v=BDS2vFgFhGw'>[LINK]</a> The entrance to the Cathedral will be guarded by Mohg, the Omen. Once you defeat him, attack the wall behind him to reveal an illusory wall.",
-				"images": []
-			},
-			{
-				"step": "The Descent",
-				"description": "Most of this step is well explained in this video: <a href='https://www.youtube.com/watch?v=fEf8azXCShY'>[LINK]</a> Now, you need to descend down the Cathedral of the Forsaken. Once you reach the bottom you will come across huge, stone gate. Unequip your armor to interact with it and a cutscene will play, with you inheriting the Frenzied Frame from the Three Fingers and unlocking the Lord of the Frenzied Flame ending.",
-				"images": []
-			},
-			{
-				"step": "Hyetta's Reward",
-				"description": "Once you inherit the Frenzied Flame and obtain the Flame of Frenzy, you can talk with Hyetta after completing her questline to be rewarded with the Frenzied Flame Seal.",
-				"images": []
-			}
-		]
-	}
+  {
+    "todo": "true",
+    "id": "rya",
+    "mainName": "Rya",
+    "firstAppearance": "Liurnia of the Lakes",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/liurnia/rya.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "seluvis",
+    "mainName": "Seluvis",
+    "firstAppearance": "Liurnia of the Lakes",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/liurnia/seluvis.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "thops",
+    "mainName": "Thops",
+    "firstAppearance": "Liurnia of the Lakes",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/liurnia/thops.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "gowry",
+    "mainName": "Gowry",
+    "firstAppearance": "Caelid",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/caelid/gowry.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "great-jar",
+    "mainName": "Great Jar",
+    "firstAppearance": "Caelid",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/caelid/great-jar.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "gurranq",
+    "mainName": "Gurranq",
+    "firstAppearance": "Caelid",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/caelid/gurranq.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "jerren",
+    "mainName": "Jerren",
+    "firstAppearance": "Caelid",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/caelid/jerren.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "Master-lusat",
+    "mainName": "master-lusat",
+    "firstAppearance": "Caelid",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/caelid/master-lusat.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "Milicent",
+    "mainName": "milicent",
+    "firstAppearance": "Caelid",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/caelid/milicent.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "goldmask",
+    "mainName": "Goldmask",
+    "firstAppearance": "Altus Plateau",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/Altus-plateau/goldmask.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "primeval-sorcerer-azur",
+    "mainName": "Primeval Sorcerer Azur",
+    "firstAppearance": "Mt. Gelmir",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/mt-gelmir/primeval-sorcerer-azur.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "tanith",
+    "mainName": "Tanith",
+    "firstAppearance": "Mt. Gelmir",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/mt-gelmir/tanith.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "todo": "true",
+    "id": "d-beholder-of-death",
+    "mainName": "D, Beholder of Death",
+    "firstAppearance": "Underground",
+    "laterAppearances": ["PLACEHOLDER"],
+    "alsoInvolved": ["PLACEHOLDER"],
+    "questLocations": ["PLACEHOLDER"],
+    "mainImage": "/vendors/img/npc/underground/d-beholder-of-death.png",
+    "rewards": ["PLACEHOLDER"],
+    "questline": [
+      {
+        "step": "PLACEHOLDER",
+        "description": "PLACEHOLDER",
+        "images": []
+      }
+    ]
+  },
+  {
+    "id": "three-fingers",
+    "mainName": "The Three Fingers",
+    "firstAppearance": "Underground",
+    "laterAppearances": ["None"],
+    "alsoInvolved": ["Hyetta"],
+    "questLocations": ["Underground"],
+    "mainImage": "/vendors/img/npc/underground/three-fingers.png",
+    "rewards": ["Flame of Frenzy"],
+    "questline": [
+      {
+        "step": "NOTE",
+        "description": "Meeting with the Three Fingers will lock you out of other ending choices, unless you use Miquella's Needle at Dragonlord Placidusax's arena. This permanently removes the Frenzied Flame.",
+        "images": []
+      },
+      {
+        "step": "The Subterranean Shunning-Grounds",
+        "description": "In order to access the Three Fingers, you will need to first reach the Subterranean Shunning-Grounds, accessed by descending down a well in Leyndell.",
+        "images": []
+      },
+      {
+        "step": "The Cathedral of the Forsaken",
+        "description": "Most of this step is well explained in this video: <a href='https://www.youtube.com/watch?v=BDS2vFgFhGw'>[LINK]</a> The entrance to the Cathedral will be guarded by Mohg, the Omen. Once you defeat him, attack the wall behind him to reveal an illusory wall.",
+        "images": []
+      },
+      {
+        "step": "The Descent",
+        "description": "Most of this step is well explained in this video: <a href='https://www.youtube.com/watch?v=fEf8azXCShY'>[LINK]</a> Now, you need to descend down the Cathedral of the Forsaken. Once you reach the bottom you will come across huge, stone gate. Unequip your armor to interact with it and a cutscene will play, with you inheriting the Frenzied Frame from the Three Fingers and unlocking the Lord of the Frenzied Flame ending.",
+        "images": []
+      },
+      {
+        "step": "Hyetta's Reward",
+        "description": "Once you inherit the Frenzied Flame and obtain the Flame of Frenzy, you can talk with Hyetta after completing her questline to be rewarded with the Frenzied Flame Seal.",
+        "images": []
+      }
+    ]
+  }
 ]

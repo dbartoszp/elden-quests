@@ -1,620 +1,623 @@
-@import 'utils/variables.scss';
-@import 'utils/mixins.scss';
+@import "utils/variables.scss";
+@import "utils/mixins.scss";
 
 @keyframes fade-in {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 // -----------------MAIN-COMPONENTS-------------------
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-	font-family: 'Noto Serif', 'Arial', serif;
-	font-size: 16px;
-	color: $color-beige;
-	text-rendering: optimizeLegibility;
-	background-color: $color-dark-green;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
-		url($url-elden-ring);
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-	scroll-behavior: smooth;
+  font-family: "Noto Serif", "Arial", serif;
+  font-size: 16px;
+  color: $color-beige;
+  text-rendering: optimizeLegibility;
+  background-color: $color-dark-green;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url($url-elden-ring);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  scroll-behavior: smooth;
 }
 
 // -----------------REUSABLE-COMPONENTS-------------------
 h2 {
-	font-size: 1.4rem;
-	font-weight: 400;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
 
 section {
-	padding: 5rem;
+  padding: 5rem;
 }
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 img {
-	@include center();
-	padding: 1rem;
-	height: 85%;
-	aspect-ratio: 1/1;
-	object-fit: cover;
-	object-position: top;
-	border-radius: 1.6rem;
+  @include center();
+  padding: 1rem;
+  height: 85%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 1.6rem;
 }
 
 .hidden {
-	display: none;
+  display: none;
 }
 
 .text-link {
-	font-size: 1.3rem;
-	text-decoration: none;
-	color: $color-beige;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: $color-beige;
 }
 
 .column-1-of-3 {
-	float: left;
-	width: 33.3%;
-	flex-basis: 33.3%;
+  float: left;
+  width: 33.3%;
+  flex-basis: 33.3%;
 }
 
 .column-1-of-2 {
-	float: left;
-	width: 47%;
-	flex-basis: 47%;
+  float: left;
+  width: 47%;
+  flex-basis: 47%;
 }
 
 .row:after {
-	content: '';
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 // -----------------HEADER-------------------
 
 h1 {
-	font-size: 2.3rem;
-	font-weight: 400;
+  font-size: 2.3rem;
+  font-weight: 400;
 }
 
 span.header-welcome-text {
-	border-bottom: 0.1rem $color-gold solid;
-	padding: 0 1rem 0.3rem 1rem;
-	animation: fade-in 2s linear forwards;
+  border-bottom: 0.1rem $color-gold solid;
+  padding: 0 1rem 0.3rem 1rem;
+  animation: fade-in 2s linear forwards;
 }
 
 .header-text-box {
-	@include center;
-	@include container-style;
-	width: 45rem;
-	letter-spacing: 1px;
-	word-spacing: 3px;
-	text-align: center;
-	padding: 4rem 2rem 4rem 2rem;
+  @include center;
+  @include container-style;
+  width: 45rem;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  text-align: center;
+  padding: 4rem 2rem 4rem 2rem;
 }
 
 // -----------------SEARCHBAR-------------------
 
 .search-result-text {
-	color: rgba($color: $color-beige, $alpha: 0.6);
+  color: rgba($color: $color-beige, $alpha: 0.6);
 }
 
 .header-searchbar-form {
-	@include center;
-	position: relative;
+  @include center;
+  position: relative;
 }
 .header-text-search {
-	@include center();
-	text-align: center;
-	margin-top: 3rem;
+  @include center();
+  text-align: center;
+  margin-top: 3rem;
 }
 
 input::placeholder {
-	font-family: 'Noto Serif', 'Arial', serif;
-	font-size: 1.2rem;
-	text-decoration: none;
-	color: rgba($color: $color-beige, $alpha: 0.6);
+  font-family: "Noto Serif", "Arial", serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgba($color: $color-beige, $alpha: 0.6);
 }
 
 .header-searchbar {
-	@include center;
-	@include container-style;
-	font-size: 1.2rem;
-	color: $color-light-olive;
-	width: 35rem;
-	padding: 1.2rem;
-	margin-top: 1.2rem;
-	transition: box-shadow 0.2s;
+  @include center;
+  @include container-style;
+  font-size: 1.2rem;
+  color: $color-light-olive;
+  width: 35rem;
+  padding: 1.2rem;
+  margin-top: 1.2rem;
+  transition: box-shadow 0.2s;
 }
 
 .header-searchbar:hover {
-	box-shadow: 0 0.3rem 1rem rgba($color: $color-light-olive, $alpha: 0.6);
+  box-shadow: 0 0.3rem 1rem rgba($color: $color-light-olive, $alpha: 0.6);
 }
 
 .header-searchbar:focus {
-	outline: solid rgba($color-gold, 0.4);
+  outline: solid rgba($color-gold, 0.4);
 }
 
 .npc-search-results-container {
-	z-index: 999;
-	@include container-style;
-	@include center;
-	display: none;
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 33.3rem;
-	ul {
-		cursor: pointer;
+  z-index: 999;
+  @include container-style;
+  @include center;
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 33.3rem;
+  ul {
+    cursor: pointer;
 
-		li {
-			background-color: rgba($color-dark-blue, 1);
-			a {
-				color: $color-beige;
-				text-decoration: none;
-			}
-			list-style: none;
-			padding-left: 1rem;
-			padding: 0.7rem;
-			&:hover {
-				background-color: lighten(
-					$color: rgba($color-dark-blue, 1),
-					$amount: 30%
-				);
-			}
-		}
-	}
+    li {
+      background-color: rgba($color-dark-blue, 1);
+      a {
+        color: $color-beige;
+        text-decoration: none;
+      }
+      list-style: none;
+      padding-left: 1rem;
+      padding: 0.7rem;
+      &:hover {
+        background-color: lighten(
+          $color: rgba($color-dark-blue, 1),
+          $amount: 30%
+        );
+      }
+    }
+  }
 }
 
 // -----------------REGION-SIDEBAR-------------------
 
 .region-sidebar {
-	position: fixed;
-	top: 0;
-	left: -12rem;
-	height: 100%;
-	width: 10rem;
-	transition: 0.5s;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -12rem;
+  height: 100%;
+  width: 10rem;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-	background-color: rgba($color-dark-blue, 0.2);
-	backdrop-filter: blur(4px);
-	border-right: 1px solid rgba($color-gold, 0.6);
+  background-color: rgba($color-dark-blue, 0.2);
+  backdrop-filter: blur(4px);
+  border-right: 1px solid rgba($color-gold, 0.6);
 
-	ul {
-		margin-top: 5rem;
-		text-align: center;
-		margin-right: 0.3rem;
-		li {
-			border-bottom: 0.1rem solid transparent;
-			&:nth-of-type(even) {
-				a {
-					display: inline-block;
-					color: rgba($color: $color-gold, $alpha: 1);
-				}
-			}
-			margin-bottom: 2rem;
-		}
-		li:hover {
-			border-bottom: 0.1rem $color-gold solid;
-			transition: border-bottom 0.3s;
-		}
-	}
+  ul {
+    margin-top: 5rem;
+    text-align: center;
+    margin-right: 0.3rem;
+    li {
+      border-bottom: 0.1rem solid transparent;
+      &:nth-of-type(even) {
+        a {
+          display: inline-block;
+          color: rgba($color: $color-gold, $alpha: 1);
+        }
+      }
+      margin-bottom: 2rem;
+    }
+    li:hover {
+      border-bottom: 0.1rem $color-gold solid;
+      transition: border-bottom 0.3s;
+    }
+  }
 }
 
 .btn-sidebar {
-	@include container-style();
-	display: block;
-	position: fixed;
-	cursor: pointer;
-	top: 1rem;
-	left: 1rem;
-	img {
-		height: 5rem;
-		width: 5rem;
-	}
+  @include container-style();
+  display: block;
+  position: fixed;
+  cursor: pointer;
+  top: 1rem;
+  left: 1rem;
+  img {
+    height: 5rem;
+    width: 5rem;
+  }
 }
 
 .btn-sidebar-open {
-	display: block;
+  display: block;
 }
 .btn-sidebar-close {
-	display: none;
+  display: none;
 }
 
 // -----------------NPC-TABLE-------------------
 
 .section-table-npcs {
-	margin-top: 0;
-	padding-top: 0;
+  margin-top: 0;
+  padding-top: 0;
 }
 .npcs-table-container {
-	@include container-style();
-	@include center;
-	padding: 2rem;
-	h2 {
-		text-align: center;
-	}
-	min-height: 15rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  @include container-style();
+  @include center;
+  padding: 2rem;
+  h2 {
+    text-align: center;
+  }
+  min-height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .npcs-table-region-name {
-	@include center();
-	@include border-top-bottom;
+  @include center();
+  @include border-top-bottom;
 
-	width: 95%;
-	margin-bottom: 3rem;
-	margin-top: 1rem;
+  width: 95%;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
 
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	background-clip: content-box;
-	mask-image: none;
-	-webkit-mask-image: linear-gradient(
-		to right,
-		transparent 0%,
-		black 10%,
-		black 90%,
-		transparent 100%
-	);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-clip: content-box;
+  mask-image: none;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
 }
 
 .npcs-table-region-name h2 {
-	font-size: 2.4rem;
-	letter-spacing: 0.6rem;
-	text-align: center;
-	text-transform: uppercase;
-	padding: 1.2rem;
+  font-size: 2.4rem;
+  letter-spacing: 0.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.2rem;
 }
 
 #region-altus-plateau {
-	@include name-background($url-altus-plateau);
+  @include name-background($url-altus-plateau);
 }
 #region-caelid {
-	@include name-background($url-caelid);
+  @include name-background($url-caelid);
 }
 #region-consecrated-snowfield {
-	@include name-background($url-consecrated-snowfield);
+  @include name-background($url-consecrated-snowfield);
 }
 #region-farum-azula {
-	@include name-background($url-farum-azula);
+  @include name-background($url-farum-azula);
 }
 #region-forbidden-lands {
-	@include name-background($url-forbidden-lands);
+  @include name-background($url-forbidden-lands);
 }
 #region-leyndell {
-	@include name-background($url-leyndell);
+  @include name-background($url-leyndell);
 }
 #region-limgrave {
-	@include name-background($url-limgrave);
+  @include name-background($url-limgrave);
 }
 #region-liurnia {
-	@include name-background($url-liurnia);
+  @include name-background($url-liurnia);
 }
 #region-mountaintop {
-	@include name-background($url-mountaintop);
+  @include name-background($url-mountaintop);
 }
 #region-mt-gelmir {
-	@include name-background($url-mt-gelmir);
+  @include name-background($url-mt-gelmir);
 }
 #region-roundtable-hold {
-	@include name-background($url-roundtable-hold);
+  @include name-background($url-roundtable-hold);
 }
 #region-underground {
-	@include name-background($url-underground);
+  @include name-background($url-underground);
 }
 #region-weeping-peninsula {
-	@include name-background($url-weeping-peninsula);
+  @include name-background($url-weeping-peninsula);
 }
 
 .npc-container {
-	height: 20rem;
-	margin-bottom: 2rem;
-	position: relative;
+  height: 20rem;
+  margin-bottom: 2rem;
+  position: relative;
 }
 
 .npc-container img,
 .npc-info-img {
-	filter: brightness(90%);
+  filter: brightness(90%);
 }
 
 .npc-container .text-link {
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding-bottom: 0.7rem;
-	margin-top: 1rem;
-	position: absolute;
-	width: 100%;
-	bottom: 0.05rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 0.7rem;
+  margin-top: 1rem;
+  position: absolute;
+  width: 100%;
+  bottom: 0.05rem;
 }
 
 .npc-container a:hover {
-	filter: brightness(115%);
-	transition: filter 0.1s;
+  filter: brightness(115%);
+  transition: filter 0.1s;
 }
 
 .npc-container:after {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	width: 50%;
-	transform: translateX(-50%);
-	height: 1px;
-	border-bottom: 0.1rem $color-gold solid;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50%;
+  transform: translateX(-50%);
+  height: 1px;
+  border-bottom: 0.1rem $color-gold solid;
 }
 
 // -----------------FOOTER-------------------
 .section-footer {
-	width: 100%;
-	color: $color-dark-olive;
-	text-align: center;
-	font-size: 1rem;
-	margin-top: 2rem;
-	padding-bottom: 2rem;
-	background: linear-gradient($color-dark-blue, $color-dark-green);
-	border-top: solid 1px rgba($color-gold, 0.6);
+  width: 100%;
+  color: $color-dark-olive;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  background: linear-gradient($color-dark-blue, $color-dark-green);
+  border-top: solid 1px rgba($color-gold, 0.6);
 
-	.text-link {
-		color: $color-dark-olive;
-		font-size: 1.2rem;
-		text-decoration: none;
-	}
+  .text-link {
+    color: $color-dark-olive;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
 }
 // -----------------NPC-PAGE-------------------
 
 // -----------------NPC-INFO-------------------
 
 .btn-home-container {
-	position: fixed;
-	left: 1rem;
-	top: 1rem;
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
 }
 .btn-home {
-	@include container-style;
-	padding: 0.2rem;
-	cursor: pointer;
-	img {
-		height: 5rem;
-		width: 5rem;
-	}
+  @include container-style;
+  padding: 0.2rem;
+  cursor: pointer;
+  img {
+    height: 5rem;
+    width: 5rem;
+  }
 }
 
 .npc-info-container {
-	@include center;
-	@include container-style;
-	width: 75%;
-	padding: 5rem;
-	h2 {
-		padding-top: 1rem;
-		text-align: center;
-	}
-	h3 {
-		color: rgba($color: $color-beige, $alpha: 0.7);
-		font-weight: 400;
-		text-align: center;
-	}
-	.column-1-of-2 {
-		margin-top: 3rem;
-		padding: 1rem;
-		&:first-child {
-			float: left;
-		}
-		&:last-child {
-			float: right;
-		}
-	}
-	a {
-		color: rgba($color-gold, 0.7);
-	}
-	a:hover {
-		filter: brightness(170%);
-	}
+  @include center;
+  @include container-style;
+  width: 75%;
+  padding: 5rem;
+  h2 {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  h3 {
+    color: rgba($color: $color-beige, $alpha: 0.7);
+    font-weight: 400;
+    text-align: center;
+    span {
+      font-size: larger;
+    }
+  }
+  .column-1-of-2 {
+    margin-top: 3rem;
+    padding: 1rem;
+    &:first-child {
+      float: left;
+    }
+    &:last-child {
+      float: right;
+    }
+  }
+  a {
+    color: rgba($color-gold, 0.7);
+  }
+  a:hover {
+    filter: brightness(170%);
+  }
 }
 
 .npc-info-name {
-	letter-spacing: 0.3rem;
+  letter-spacing: 0.3rem;
 
-	text-align: center;
-	background: linear-gradient(
-		to right,
-		rgba($color-dark-blue, 0.1),
-		rgba($color-dark-blue, 1),
-		rgba($color-dark-blue, 0.1)
-	);
-	padding: 1.5rem;
-	@include border-top-bottom;
-	h1 {
-		text-transform: uppercase;
-	}
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgba($color-dark-blue, 0.1),
+    rgba($color-dark-blue, 1),
+    rgba($color-dark-blue, 0.1)
+  );
+  padding: 1.5rem;
+  @include border-top-bottom;
+  h1 {
+    text-transform: uppercase;
+  }
 }
 .table-of-contents-container {
-	line-height: 2.3rem;
-	h2 {
-		padding-top: 0;
-		text-transform: uppercase;
-	}
-	.table-of-contents {
-		@include container-style;
-		padding: 1rem;
-	}
-	.rewards {
-		@include container-style;
-		margin-top: 2rem;
-		padding: 1rem;
-	}
+  line-height: 2.3rem;
+  h2 {
+    padding-top: 0;
+    text-transform: uppercase;
+  }
+  .table-of-contents {
+    @include container-style;
+    padding: 1rem;
+  }
+  .rewards {
+    @include container-style;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
 }
 
 .npc-info-general {
-	@include container-style;
-	text-align: center;
-	padding: 1rem;
-	line-height: 2.3rem;
-	color: rgba($color: $color-beige, $alpha: 0.8);
-	span {
-		font-size: 1.3rem;
-		text-transform: uppercase;
-		color: $color-beige;
-	}
+  @include container-style;
+  text-align: center;
+  padding: 1rem;
+  line-height: 2.3rem;
+  color: rgba($color: $color-beige, $alpha: 0.8);
+  span {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: $color-beige;
+  }
 }
 
 .npc-info-main {
-	@include border-top-bottom;
-	margin: 5rem;
+  @include border-top-bottom;
+  margin: 5rem;
 
-	h2 {
-		letter-spacing: 0.1rem;
-		padding: 1rem;
-		text-transform: uppercase;
-	}
-	h3 {
-		border-top: none;
-		margin-top: 3rem;
-		margin-bottom: 3rem;
-		padding-bottom: 1rem;
-		&:nth-child(odd) {
-			color: rgba($color: $color-beige, $alpha: 0.9);
-		}
-	}
-	img {
-		height: 15rem;
-		width: 20rem;
-	}
-	span {
-		text-transform: uppercase;
-		font-size: 1.2rem;
-	}
+  h2 {
+    letter-spacing: 0.1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+  }
+  h3 {
+    border-top: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    &:nth-child(odd) {
+      color: rgba($color: $color-beige, $alpha: 0.9);
+    }
+  }
+  img {
+    height: 15rem;
+    width: 20rem;
+  }
+  span {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
 }
 
 // -----------------NOT-FOUND-NPC-PAGE-------------------
 
 .error-not-found-container {
-	@include container-style;
-	@include center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-	position: relative;
-	top: 50%;
-	height: 45%;
-	width: 45%;
-	transform: translateY(-50%);
+  @include container-style;
+  @include center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  height: 45%;
+  width: 45%;
+  transform: translateY(-50%);
 }
 
 // -----------------MEDIA-QUERIES-------------------
 
 @media all and (max-width: 480px) {
-	.npc-info-container {
-		padding: 1rem;
-		max-width: 100%;
-		width: 100%;
-	}
+  .npc-info-container {
+    padding: 1rem;
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 //for mobile devices, iPads and tablets
 @media all and (max-width: 770px) {
-	* {
-		max-width: 100%;
-		overflow-x: hidden;
-	}
+  * {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
-	h1 {
-		font-size: 1.2rem;
-	}
+  h1 {
+    font-size: 1.2rem;
+  }
 
-	.column-1-of-3,
-	.column-1-of-2 {
-		width: auto;
-		float: none;
-	}
+  .column-1-of-3,
+  .column-1-of-2 {
+    width: auto;
+    float: none;
+  }
 
-	span.header-welcome-text {
-		display: flex;
-		justify-content: center;
-	}
+  span.header-welcome-text {
+    display: flex;
+    justify-content: center;
+  }
 
-	.btn-sidebar {
-		display: none;
-	}
+  .btn-sidebar {
+    display: none;
+  }
 
-	.npcs-table-container {
-		max-width: 100%;
-		width: 100%;
-	}
+  .npcs-table-container {
+    max-width: 100%;
+    width: 100%;
+  }
 
-	section {
-		padding: 2rem;
-	}
+  section {
+    padding: 2rem;
+  }
 
-	.npc-container a:hover {
-		scale: 1;
-	}
-	.npcs-table-region-name h2 {
-		font-size: 1.8rem;
-	}
-	.npcs-table-region-name {
-		width: 100%;
-	}
-	.table-of-contents {
-		width: 60rem;
-	}
-	.npc-info-main {
-		@include center;
-		width: 60rem;
-	}
-	.btn-home-npc-page {
-		display: none;
-	}
-	.btn-home-not-found {
-		display: none;
-	}
+  .npc-container a:hover {
+    scale: 1;
+  }
+  .npcs-table-region-name h2 {
+    font-size: 1.8rem;
+  }
+  .npcs-table-region-name {
+    width: 100%;
+  }
+  .table-of-contents {
+    width: 60rem;
+  }
+  .npc-info-main {
+    @include center;
+    width: 60rem;
+  }
+  .btn-home-npc-page {
+    display: none;
+  }
+  .btn-home-not-found {
+    display: none;
+  }
 }
 //for small screens
 @media all and (max-width: 1025px) {
-	* {
-		max-width: 100%;
-		overflow-x: hidden;
-	}
-	.header-searchbar-form {
-		height: 15rem;
-		width: 90%;
-		overflow-y: none;
-	}
-	.npcs-table-region-name h2 {
-		font-size: 1.8rem;
-	}
-	.npcs-table-region-name {
-		width: 90%;
-	}
-	.npc-info-container {
-		width: 95%;
-	}
-	.npc-info-main {
-		@include center;
-		width: 90%;
-	}
+  * {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .header-searchbar-form {
+    height: 15rem;
+    width: 90%;
+    overflow-y: none;
+  }
+  .npcs-table-region-name h2 {
+    font-size: 1.8rem;
+  }
+  .npcs-table-region-name {
+    width: 90%;
+  }
+  .npc-info-container {
+    width: 95%;
+  }
+  .npc-info-main {
+    @include center;
+    width: 90%;
+  }
 }
 //works well for the rest of resolutions
