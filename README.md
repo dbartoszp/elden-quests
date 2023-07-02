@@ -2,6 +2,9 @@
 
 ## Elden-Quests
 
+Current version of the site is deployed at:
+https://elden-quests.netlify.app/
+
 <!-- BUILT WITH -->
 
 ## Built with:
