@@ -5,22 +5,6 @@
 Current version of the site is deployed at:
 https://elden-quests.netlify.app/
 
-<!-- BUILT WITH -->
-
-## Built with:
-
-![html][HTML] ![sass][sass] ![js][JS]
-
-Project is made using HTML, SCSS and plain JS. Data for NPCs is stored in a JSON file.
-
-<!-- ABOUT THE PROJECT -->
-
-## About the project
-
-Passion project for Elden Ring, mostly done for fun but also in order to learn some more web development.
-
-Having struggled with questlines in Elden Ring I decided to make a webproject just for that - compiling every NPC with a questline and showing how to solve them step by step.
-You are able to search for, or browse all NPCs, sorted alphabetically and by location (first appearance).
 
 <!-- AVAILABLE NPCS -->
 
@@ -49,6 +33,24 @@ Currently available NPCs with complete npc pages:
 - Sorceress Sellen
 - Sorcerer Rogier
 - White Mask Varre
+
+<!-- BUILT WITH -->
+
+## Built with:
+
+![html][HTML] ![sass][sass] ![js][JS]
+
+Project is made using HTML, SCSS and plain JS. Data for NPCs is stored in a JSON file.
+
+<!-- ABOUT THE PROJECT -->
+
+## About the project
+
+Passion project for Elden Ring, mostly done for fun but also in order to learn some more web development.
+
+Having struggled with questlines in Elden Ring I decided to make a webproject just for that - compiling every NPC with a questline and showing how to solve them step by step.
+You are able to search for, or browse all NPCs, sorted alphabetically and by location (first appearance).
+
 <!-- HOMEPAGE -->
 
 ## Screenshots - homepage
